@@ -14,7 +14,7 @@ import {
   ChevronRight,
   Home,
   EyeOff,
-  LogIn, // 追加: 非表示・復帰用のアイコン
+  LogIn,
 } from "lucide-vue-next";
 
 // ==========================================
@@ -22,15 +22,13 @@ import {
 // ==========================================
 
 const APP_NAME = "FEScheduler";
-
-// イベントデータベース
 import { EVENTS_DB } from "./events";
 
 // ==========================================
 // ロジック
 // ==========================================
 
-// --- ルーティング管理 (簡易Hashルーター) ---
+// --- ルーティング管理 ---
 const currentHash = ref(window.location.hash);
 const eventId = computed(() => {
   const hash = currentHash.value.replace(/^#\//, "").replace(/^#/, "");
@@ -57,32 +55,56 @@ const timeToMinutes = (timeStr) => {
 
 // --- ステート管理 ---
 const favorites = ref([]);
-const hiddenStageIds = ref([]); // 追加: 非表示にしたステージIDリスト
+const hiddenStageIds = ref([]);
 const showOnlyFavorites = ref(false);
 const currentTime = ref(new Date());
 const copied = ref(false);
 const viewMode = ref("grid");
 
 const PIXELS_PER_MINUTE = 2.5;
-const START_HOUR = 10;
-const END_HOUR = 21;
-const START_MINUTES = START_HOUR * 60;
 
+// イベントデータを取得
 const eventData = computed(() => EVENTS_DB[eventId.value] || null);
 
-// --- Computed: ステージ表示制御 ---
-const visibleStages = computed(() => {
+// 時間設定をイベントデータから動的に取得 (デフォルト値も設定)
+const startHour = computed(() => eventData.value?.startHour ?? 10);
+const endHour = computed(() => eventData.value?.endHour ?? 21);
+const startMinutes = computed(() => startHour.value * 60);
+
+// --- Computed: ステージ表示・グルーピング制御 ---
+
+// 非表示になっていないステージのリスト
+const visibleStagesRaw = computed(() => {
   if (!eventData.value) return [];
   return eventData.value.stages.filter(
     (s) => !hiddenStageIds.value.includes(s.id),
   );
 });
 
+// 非表示中のステージリスト（復帰サイドバー用）
 const hiddenStages = computed(() => {
   if (!eventData.value) return [];
   return eventData.value.stages.filter((s) =>
     hiddenStageIds.value.includes(s.id),
   );
+});
+
+// 表示ステージをグループごとにまとめる
+const groupedVisibleStages = computed(() => {
+  const stages = visibleStagesRaw.value;
+  const result = [];
+  let currentGroup = null;
+
+  stages.forEach((stage) => {
+    const gName = stage.group || "";
+    if (!currentGroup || currentGroup.name !== gName) {
+      currentGroup = { name: gName, stages: [] };
+      result.push(currentGroup);
+    }
+    currentGroup.stages.push(stage);
+  });
+
+  return result;
 });
 
 // アクション: ステージの表示切り替え
@@ -94,7 +116,7 @@ const toggleStageVisibility = (stageId) => {
   }
 };
 
-// お気に入り復元 & 保存
+// --- お気に入り管理 ---
 const loadFavorites = () => {
   if (!eventData.value) return;
   const params = new URLSearchParams(window.location.href.split("?")[1]);
@@ -122,7 +144,7 @@ watch(
   eventId,
   () => {
     favorites.value = [];
-    hiddenStageIds.value = []; // イベントが変わったら非表示状態もリセット
+    hiddenStageIds.value = [];
     loadFavorites();
   },
   { immediate: true },
@@ -176,6 +198,7 @@ const handleTwitterShare = () => {
   window.open(twitterUrl, "_blank");
 };
 
+// --- データ算出 ---
 const favoriteEvents = computed(() => {
   if (!eventData.value) return [];
   return eventData.value.schedules.filter((e) =>
@@ -185,8 +208,6 @@ const favoriteEvents = computed(() => {
 
 const displayedEvents = computed(() => {
   if (!eventData.value) return [];
-  // hiddenStageIds に含まれるステージのイベントも非表示にする必要はない（列ごと消えるため）が、
-  // グリッド描画のロジック上は visibleStages でループするので自然に消える
   return showOnlyFavorites.value
     ? favoriteEvents.value
     : eventData.value.schedules;
@@ -200,9 +221,9 @@ const sortedFavorites = computed(() => {
 
 const timeSlots = computed(() => {
   const slots = [];
-  for (let h = START_HOUR; h <= END_HOUR; h++) {
+  for (let h = startHour.value; h <= endHour.value; h++) {
     slots.push(`${h}:00`);
-    if (h !== END_HOUR) slots.push(`${h}:30`);
+    if (h !== endHour.value) slots.push(`${h}:30`);
   }
   return slots;
 });
@@ -210,9 +231,12 @@ const timeSlots = computed(() => {
 const currentPos = computed(() => {
   const now = currentTime.value;
   const currentMinutes = now.getHours() * 60 + now.getMinutes();
-  if (currentMinutes < START_MINUTES || currentMinutes > END_HOUR * 60)
+  if (
+    currentMinutes < startMinutes.value ||
+    currentMinutes > endHour.value * 60
+  )
     return null;
-  return (currentMinutes - START_MINUTES) * PIXELS_PER_MINUTE;
+  return (currentMinutes - startMinutes.value) * PIXELS_PER_MINUTE;
 });
 
 const isBlocked = (targetEvent) => {
@@ -320,7 +344,6 @@ const getStageName = (id) => {
     <!--  タイムテーブル画面 -->
     <!-- ========================================== -->
     <template v-else>
-      <!-- Header -->
       <header
         class="flex-none bg-white border-b border-gray-200 shadow-sm z-30"
       >
@@ -344,7 +367,6 @@ const getStageName = (id) => {
           </div>
 
           <div class="flex items-center gap-2">
-            <!-- View Toggle -->
             <div class="flex bg-gray-100 rounded-lg p-1 mr-1 hidden sm:flex">
               <button
                 @click="viewMode = 'grid'"
@@ -360,7 +382,6 @@ const getStageName = (id) => {
               </button>
             </div>
 
-            <!-- Share Buttons -->
             <button
               @click="handleCopyLink"
               :class="`flex items-center justify-center w-9 h-9 rounded-full text-sm font-bold transition-all border ${copied ? 'bg-green-100 text-green-700 border-green-200' : 'bg-white text-gray-600 border-gray-200 hover:bg-gray-50'}`"
@@ -377,7 +398,6 @@ const getStageName = (id) => {
               <span class="hidden sm:inline">ポスト</span>
             </button>
 
-            <!-- Filter (Grid Only) -->
             <button
               v-if="viewMode === 'grid'"
               @click="showOnlyFavorites = !showOnlyFavorites"
@@ -467,10 +487,16 @@ const getStageName = (id) => {
               <div
                 class="h-10 border-b border-gray-200 bg-gray-100 sticky top-0 z-30"
               ></div>
+              <!-- グループヘッダー分の高さ調整 -->
+              <div
+                v-if="groupedVisibleStages.some((g) => g.name)"
+                class="h-6 bg-gray-50 border-b border-gray-200 sticky top-10 z-30"
+              ></div>
+
               <div
                 class="relative"
                 :style="{
-                  height: `${(END_HOUR - START_HOUR) * 60 * PIXELS_PER_MINUTE}px`,
+                  height: `${(endHour - startHour) * 60 * PIXELS_PER_MINUTE}px`,
                 }"
               >
                 <div
@@ -478,7 +504,7 @@ const getStageName = (id) => {
                   :key="time"
                   class="absolute w-full text-center text-[10px] text-gray-400 font-semibold border-t border-gray-200"
                   :style="{
-                    top: `${(timeToMinutes(time) - START_MINUTES) * PIXELS_PER_MINUTE}px`,
+                    top: `${(timeToMinutes(time) - startMinutes) * PIXELS_PER_MINUTE}px`,
                   }"
                 >
                   <span class="-top-2.5 relative bg-gray-50 px-1">{{
@@ -490,21 +516,44 @@ const getStageName = (id) => {
 
             <!-- Stage & Events Area -->
             <div class="flex-1 relative">
-              <!-- Sticky Header: Visible Stages Only -->
+              <!-- Sticky Header (2段構成) -->
               <div
-                class="flex sticky top-0 z-20 bg-gray-50/95 backdrop-blur shadow-sm h-10 border-b border-gray-200"
+                class="sticky top-0 z-20 bg-gray-50/95 backdrop-blur shadow-sm border-b border-gray-200 flex"
               >
+                <!-- グループごとのブロック -->
                 <div
-                  v-for="stage in visibleStages"
-                  :key="stage.id"
-                  @click="toggleStageVisibility(stage.id)"
-                  class="flex-1 min-w-[180px] flex items-center justify-center font-bold text-xs text-gray-600 border-r border-gray-200 cursor-pointer hover:bg-gray-100 group relative transition-colors select-none"
-                  title="クリックして非表示"
+                  v-for="group in groupedVisibleStages"
+                  :key="group.name + group.stages[0]?.id"
+                  class="flex flex-col border-r border-gray-200 last:border-r-0"
+                  :class="group.name ? 'border-r' : ''"
                 >
-                  {{ stage.name }}
-                  <EyeOff
-                    class="w-3.5 h-3.5 absolute right-2 text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity"
-                  />
+                  <!-- グループ名 (1段目) -->
+                  <div
+                    v-if="group.name"
+                    class="h-6 text-center text-xs font-bold text-gray-700 bg-gray-100/80 border-b border-gray-200 flex items-center justify-center w-full truncate px-1"
+                  >
+                    {{ group.name }}
+                  </div>
+                  <div
+                    v-else
+                    class="h-6 bg-gray-50/0 border-b border-gray-200"
+                  ></div>
+
+                  <!-- ステージ名 (2段目) -->
+                  <div class="flex h-10">
+                    <div
+                      v-for="stage in group.stages"
+                      :key="stage.id"
+                      @click="toggleStageVisibility(stage.id)"
+                      class="flex-1 min-w-[180px] flex items-center justify-center font-bold text-xs text-gray-600 border-r border-gray-200 last:border-r-0 cursor-pointer hover:bg-gray-100 group relative transition-colors select-none"
+                      title="クリックして非表示"
+                    >
+                      {{ stage.name }}
+                      <EyeOff
+                        class="w-3.5 h-3.5 absolute right-2 text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -512,7 +561,7 @@ const getStageName = (id) => {
               <div
                 class="relative flex"
                 :style="{
-                  height: `${(END_HOUR - START_HOUR) * 60 * PIXELS_PER_MINUTE}px`,
+                  height: `${(endHour - startHour) * 60 * PIXELS_PER_MINUTE}px`,
                 }"
               >
                 <!-- Grid Lines -->
@@ -522,7 +571,7 @@ const getStageName = (id) => {
                     :key="`grid-${time}`"
                     class="absolute w-full border-t border-gray-100 border-dashed"
                     :style="{
-                      top: `${(timeToMinutes(time) - START_MINUTES) * PIXELS_PER_MINUTE}px`,
+                      top: `${(timeToMinutes(time) - startMinutes) * PIXELS_PER_MINUTE}px`,
                     }"
                   ></div>
                 </div>
@@ -545,55 +594,61 @@ const getStageName = (id) => {
                     :key="`band-${fav.id}`"
                     class="absolute w-full bg-gray-600/10 pointer-events-none z-0 border-y border-gray-600/20 mix-blend-multiply"
                     :style="{
-                      top: `${(timeToMinutes(fav.startTime) - START_MINUTES) * PIXELS_PER_MINUTE}px`,
+                      top: `${(timeToMinutes(fav.startTime) - startMinutes) * PIXELS_PER_MINUTE}px`,
                       height: `${(timeToMinutes(fav.endTime) - timeToMinutes(fav.startTime)) * PIXELS_PER_MINUTE}px`,
                     }"
                   ></div>
                 </template>
 
-                <!-- Event Columns: Visible Stages Only -->
+                <!-- Event Columns: Group Loop -> Stage Loop -->
                 <div
-                  v-for="stage in visibleStages"
-                  :key="stage.id"
-                  class="flex-1 min-w-[180px] relative border-r border-gray-100 group"
+                  v-for="group in groupedVisibleStages"
+                  :key="group.name + group.stages[0]?.id"
+                  class="flex border-r border-gray-200 last:border-r-0"
                 >
                   <div
-                    v-for="event in displayedEvents.filter(
-                      (e) => e.stageId === stage.id,
-                    )"
-                    :key="event.id"
-                    @click="!isBlocked(event) && toggleFavorite(event.id)"
-                    :class="[
-                      'absolute inset-x-1 rounded-md p-2 text-xs flex flex-col justify-start transition-all overflow-hidden',
-                      event.color,
-                      favorites.includes(event.id)
-                        ? 'z-10 ring-2 ring-pink-500 shadow-md bg-pink-100 border-pink-500'
-                        : isBlocked(event)
-                          ? 'z-0 opacity-40 grayscale pointer-events-none bg-gray-200 border-gray-300'
-                          : 'shadow-sm border-l-4 opacity-90 hover:opacity-100 hover:z-20 cursor-pointer',
-                    ]"
-                    :style="{
-                      top: `${(timeToMinutes(event.startTime) - START_MINUTES) * PIXELS_PER_MINUTE}px`,
-                      height: `${(timeToMinutes(event.endTime) - timeToMinutes(event.startTime)) * PIXELS_PER_MINUTE - 2}px`,
-                    }"
+                    v-for="stage in group.stages"
+                    :key="stage.id"
+                    class="flex-1 min-w-[180px] relative border-r border-gray-100 group last:border-r-0"
                   >
                     <div
-                      class="flex justify-between items-start pointer-events-none font-bold leading-tight mb-0.5"
+                      v-for="event in displayedEvents.filter(
+                        (e) => e.stageId === stage.id,
+                      )"
+                      :key="event.id"
+                      @click="!isBlocked(event) && toggleFavorite(event.id)"
+                      :class="[
+                        'absolute inset-x-1 rounded-md p-2 text-xs flex flex-col justify-start transition-all overflow-hidden',
+                        event.color,
+                        favorites.includes(event.id)
+                          ? 'z-10 ring-2 ring-pink-500 shadow-md bg-pink-100 border-pink-500'
+                          : isBlocked(event)
+                            ? 'z-0 opacity-40 grayscale pointer-events-none bg-gray-200 border-gray-300'
+                            : 'shadow-sm border-l-4 opacity-90 hover:opacity-100 hover:z-20 cursor-pointer',
+                      ]"
+                      :style="{
+                        top: `${(timeToMinutes(event.startTime) - startMinutes) * PIXELS_PER_MINUTE}px`,
+                        height: `${(timeToMinutes(event.endTime) - timeToMinutes(event.startTime)) * PIXELS_PER_MINUTE - 2}px`,
+                      }"
                     >
-                      <span class="line-clamp-2">{{ event.title }}</span>
-                      <Heart
-                        v-if="favorites.includes(event.id)"
-                        class="w-3.5 h-3.5 fill-pink-500 text-pink-500 flex-shrink-0"
-                      />
-                    </div>
-                    <div class="truncate mb-0.5 pointer-events-none">
-                      {{ event.artist }}
-                    </div>
-                    <div
-                      class="mt-auto text-[10px] flex items-center gap-1 pointer-events-none text-gray-500"
-                    >
-                      <Clock class="w-3 h-3" />{{ event.startTime }} -
-                      {{ event.endTime }}
+                      <div
+                        class="flex justify-between items-start pointer-events-none font-bold leading-tight mb-0.5"
+                      >
+                        <span class="line-clamp-2">{{ event.title }}</span>
+                        <Heart
+                          v-if="favorites.includes(event.id)"
+                          class="w-3.5 h-3.5 fill-pink-500 text-pink-500 flex-shrink-0"
+                        />
+                      </div>
+                      <div class="truncate mb-0.5 pointer-events-none">
+                        {{ event.artist }}
+                      </div>
+                      <div
+                        class="mt-auto text-[10px] flex items-center gap-1 pointer-events-none text-gray-500"
+                      >
+                        <Clock class="w-3 h-3" />{{ event.startTime }} -
+                        {{ event.endTime }}
+                      </div>
                     </div>
                   </div>
                 </div>
