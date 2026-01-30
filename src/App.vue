@@ -15,6 +15,8 @@ import {
   Home,
   EyeOff,
   LogIn,
+  Menu, // 追加: ハンバーガーメニューアイコン
+  X, // 追加: 閉じるアイコン
 } from "lucide-vue-next";
 
 // ==========================================
@@ -60,20 +62,19 @@ const showOnlyFavorites = ref(false);
 const currentTime = ref(new Date());
 const copied = ref(false);
 const viewMode = ref("grid");
+const isMenuOpen = ref(false); // 追加: スマホメニューの開閉状態
 
 const PIXELS_PER_MINUTE = 2.5;
 
-// イベントデータを取得
 const eventData = computed(() => EVENTS_DB[eventId.value] || null);
 
-// 時間設定をイベントデータから動的に取得 (デフォルト値も設定)
+// 時間設定をイベントデータから動的に取得
 const startHour = computed(() => eventData.value?.startHour ?? 10);
 const endHour = computed(() => eventData.value?.endHour ?? 21);
 const startMinutes = computed(() => startHour.value * 60);
 
 // --- Computed: ステージ表示・グルーピング制御 ---
 
-// 非表示になっていないステージのリスト
 const visibleStagesRaw = computed(() => {
   if (!eventData.value) return [];
   return eventData.value.stages.filter(
@@ -81,7 +82,6 @@ const visibleStagesRaw = computed(() => {
   );
 });
 
-// 非表示中のステージリスト（復帰サイドバー用）
 const hiddenStages = computed(() => {
   if (!eventData.value) return [];
   return eventData.value.stages.filter((s) =>
@@ -89,7 +89,6 @@ const hiddenStages = computed(() => {
   );
 });
 
-// 表示ステージをグループごとにまとめる
 const groupedVisibleStages = computed(() => {
   const stages = visibleStagesRaw.value;
   const result = [];
@@ -107,7 +106,6 @@ const groupedVisibleStages = computed(() => {
   return result;
 });
 
-// アクション: ステージの表示切り替え
 const toggleStageVisibility = (stageId) => {
   if (hiddenStageIds.value.includes(stageId)) {
     hiddenStageIds.value = hiddenStageIds.value.filter((id) => id !== stageId);
@@ -145,6 +143,7 @@ watch(
   () => {
     favorites.value = [];
     hiddenStageIds.value = [];
+    isMenuOpen.value = false; // ページ遷移時にメニューを閉じる
     loadFavorites();
   },
   { immediate: true },
@@ -253,6 +252,12 @@ const isBlocked = (targetEvent) => {
 const getStageName = (id) => {
   return eventData.value?.stages.find((s) => s.id === id)?.name || id;
 };
+
+// メニュー操作用: クリックしたらメニューを閉じるラッパー
+const withCloseMenu = (fn) => {
+  fn();
+  isMenuOpen.value = false;
+};
 </script>
 
 <template>
@@ -350,7 +355,7 @@ const getStageName = (id) => {
         <div
           class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center gap-2"
         >
-          <div class="flex items-center gap-2">
+          <div class="flex items-center gap-2 flex-1 min-w-0">
             <a
               href="#/"
               class="p-1.5 -ml-2 rounded-full hover:bg-gray-100 text-gray-500 transition-colors"
@@ -362,21 +367,24 @@ const getStageName = (id) => {
               class="text-lg font-bold flex items-center gap-2 text-gray-900 truncate"
             >
               <Calendar class="w-5 h-5 text-indigo-600 flex-shrink-0" />
-              {{ eventData.title }}
+              <span class="truncate">{{ eventData.title }}</span>
             </h1>
           </div>
 
-          <div class="flex items-center gap-2">
-            <div class="flex bg-gray-100 rounded-lg p-1 mr-1 hidden sm:flex">
+          <!-- PC用メニュー (md以上で表示) -->
+          <div class="hidden md:flex items-center gap-2">
+            <div class="flex bg-gray-100 rounded-lg p-1 mr-1">
               <button
                 @click="viewMode = 'grid'"
                 :class="`p-1.5 rounded-md transition-all ${viewMode === 'grid' ? 'bg-white shadow-sm text-indigo-600' : 'text-gray-400'}`"
+                title="タイムテーブル表示"
               >
                 <Grid class="w-4 h-4" />
               </button>
               <button
                 @click="viewMode = 'list'"
                 :class="`p-1.5 rounded-md transition-all ${viewMode === 'list' ? 'bg-white shadow-sm text-indigo-600' : 'text-gray-400'}`"
+                title="リスト表示"
               >
                 <List class="w-4 h-4" />
               </button>
@@ -385,6 +393,7 @@ const getStageName = (id) => {
             <button
               @click="handleCopyLink"
               :class="`flex items-center justify-center w-9 h-9 rounded-full text-sm font-bold transition-all border ${copied ? 'bg-green-100 text-green-700 border-green-200' : 'bg-white text-gray-600 border-gray-200 hover:bg-gray-50'}`"
+              title="リンクをコピー"
             >
               <Check v-if="copied" class="w-4 h-4" />
               <LinkIcon v-else class="w-4 h-4" />
@@ -392,27 +401,184 @@ const getStageName = (id) => {
 
             <button
               @click="handleTwitterShare"
-              class="flex items-center justify-center w-9 h-9 sm:w-auto sm:px-3 sm:py-2 rounded-full text-sm font-bold transition-all bg-black text-white border border-black hover:bg-gray-800 shadow-sm"
+              class="flex items-center justify-center px-3 py-2 rounded-full text-sm font-bold transition-all bg-black text-white border border-black hover:bg-gray-800 shadow-sm gap-1.5"
+              title="X(Twitter)でポスト"
             >
-              <Twitter class="w-4 h-4 sm:mr-1.5" />
-              <span class="hidden sm:inline">ポスト</span>
+              <Twitter class="w-4 h-4" />
+              <span>ポスト</span>
             </button>
 
             <button
               v-if="viewMode === 'grid'"
               @click="showOnlyFavorites = !showOnlyFavorites"
-              :class="`flex items-center justify-center w-9 h-9 sm:w-auto sm:px-4 sm:py-2 rounded-full text-sm font-bold transition-all ${showOnlyFavorites ? 'bg-pink-500 text-white shadow-md' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`"
+              :class="`flex items-center justify-center px-4 py-2 rounded-full text-sm font-bold transition-all gap-2 ${showOnlyFavorites ? 'bg-pink-500 text-white shadow-md' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`"
+              title="フィルター切り替え"
             >
               <Heart
                 :class="`w-4 h-4 ${showOnlyFavorites ? 'fill-current' : ''}`"
               />
-              <span class="hidden sm:inline sm:ml-2">{{
-                showOnlyFavorites ? "Myのみ" : "全て"
-              }}</span>
+              <span>{{ showOnlyFavorites ? "Myのみ" : "全て" }}</span>
             </button>
           </div>
+
+          <!-- スマホ用メニューボタン (md未満で表示) -->
+          <button
+            class="md:hidden p-2 text-gray-600 hover:bg-gray-100 rounded-full"
+            @click="isMenuOpen = true"
+          >
+            <Menu class="w-6 h-6" />
+          </button>
         </div>
       </header>
+
+      <!-- スマホ用メニューモーダル -->
+      <transition
+        enter-active-class="transition duration-200 ease-out"
+        enter-from-class="opacity-0"
+        enter-to-class="opacity-100"
+        leave-active-class="transition duration-150 ease-in"
+        leave-from-class="opacity-100"
+        leave-to-class="opacity-0"
+      >
+        <div
+          v-if="isMenuOpen"
+          class="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm md:hidden"
+          @click="isMenuOpen = false"
+        >
+          <div
+            class="absolute right-0 top-0 bottom-0 w-72 bg-white shadow-2xl p-4 overflow-y-auto"
+            @click.stop
+          >
+            <div class="flex justify-between items-center mb-6">
+              <h2 class="text-lg font-bold text-gray-800">Menu</h2>
+              <button
+                @click="isMenuOpen = false"
+                class="p-2 text-gray-500 hover:bg-gray-100 rounded-full"
+              >
+                <X class="w-6 h-6" />
+              </button>
+            </div>
+
+            <div class="space-y-6">
+              <!-- セクション: 表示切り替え -->
+              <div>
+                <h3
+                  class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  表示モード
+                </h3>
+                <div class="flex bg-gray-100 rounded-lg p-1">
+                  <button
+                    @click="withCloseMenu(() => (viewMode = 'grid'))"
+                    class="flex-1 flex items-center justify-center gap-2 py-2 rounded-md text-sm font-bold transition-all"
+                    :class="
+                      viewMode === 'grid'
+                        ? 'bg-white shadow-sm text-indigo-600'
+                        : 'text-gray-500'
+                    "
+                  >
+                    <Grid class="w-4 h-4" />
+                    タイムテーブル
+                  </button>
+                  <button
+                    @click="withCloseMenu(() => (viewMode = 'list'))"
+                    class="flex-1 flex items-center justify-center gap-2 py-2 rounded-md text-sm font-bold transition-all"
+                    :class="
+                      viewMode === 'list'
+                        ? 'bg-white shadow-sm text-indigo-600'
+                        : 'text-gray-500'
+                    "
+                  >
+                    <List class="w-4 h-4" />
+                    リスト
+                  </button>
+                </div>
+              </div>
+
+              <!-- セクション: フィルター -->
+              <div v-if="viewMode === 'grid'">
+                <h3
+                  class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  フィルター
+                </h3>
+                <button
+                  @click="
+                    withCloseMenu(
+                      () => (showOnlyFavorites = !showOnlyFavorites),
+                    )
+                  "
+                  :class="`w-full flex items-center justify-between px-4 py-3 rounded-xl font-bold transition-all ${showOnlyFavorites ? 'bg-pink-500 text-white shadow-md' : 'bg-gray-100 text-gray-700'}`"
+                >
+                  <span class="flex items-center gap-2">
+                    <Heart
+                      :class="`w-5 h-5 ${showOnlyFavorites ? 'fill-current' : ''}`"
+                    />
+                    My予定のみ表示
+                  </span>
+                  <div
+                    class="w-10 h-6 bg-black/10 rounded-full relative transition-colors"
+                  >
+                    <div
+                      class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform"
+                      :class="showOnlyFavorites ? 'translate-x-4' : ''"
+                    ></div>
+                  </div>
+                </button>
+              </div>
+
+              <!-- セクション: シェア -->
+              <div>
+                <h3
+                  class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2"
+                >
+                  シェア・共有
+                </h3>
+                <div class="grid grid-cols-2 gap-3">
+                  <button
+                    @click="withCloseMenu(handleCopyLink)"
+                    class="flex flex-col items-center justify-center gap-2 p-3 bg-gray-50 border border-gray-200 rounded-xl hover:bg-gray-100 transition-colors"
+                  >
+                    <div
+                      class="w-10 h-10 bg-white rounded-full flex items-center justify-center shadow-sm text-gray-600"
+                    >
+                      <Check v-if="copied" class="w-5 h-5 text-green-500" />
+                      <LinkIcon v-else class="w-5 h-5" />
+                    </div>
+                    <span class="text-xs font-bold text-gray-600"
+                      >リンクコピー</span
+                    >
+                  </button>
+                  <button
+                    @click="withCloseMenu(handleTwitterShare)"
+                    class="flex flex-col items-center justify-center gap-2 p-3 bg-gray-50 border border-gray-200 rounded-xl hover:bg-gray-100 transition-colors"
+                  >
+                    <div
+                      class="w-10 h-10 bg-black text-white rounded-full flex items-center justify-center shadow-sm"
+                    >
+                      <Twitter class="w-5 h-5" />
+                    </div>
+                    <span class="text-xs font-bold text-gray-600"
+                      >Xでポスト</span
+                    >
+                  </button>
+                </div>
+              </div>
+
+              <!-- セクション: その他 -->
+              <div class="pt-4 border-t border-gray-100">
+                <a
+                  href="#/"
+                  class="flex items-center gap-3 p-3 text-gray-600 hover:bg-gray-50 rounded-lg transition-colors font-medium"
+                >
+                  <Home class="w-5 h-5" />
+                  イベント一覧に戻る
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </transition>
 
       <!-- Content Area -->
       <div
