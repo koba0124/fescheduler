@@ -18,7 +18,7 @@ import {
   Menu,
   X,
   Import,
-  LogOut, // 追加: 戻る用アイコン
+  LogOut,
 } from "lucide-vue-next";
 
 // ==========================================
@@ -62,11 +62,10 @@ const timeToMinutes = (timeStr) => {
 const favorites = ref([]);
 const hiddenStageIds = ref([]);
 const showOnlyFavorites = ref(false);
-const currentTime = ref(new Date());
 const copied = ref(false);
 const viewMode = ref("grid");
 const isMenuOpen = ref(false);
-const isSharedMode = ref(false); // 追加: 共有モード（リードオンリー）フラグ
+const isSharedMode = ref(false);
 
 const PIXELS_PER_MINUTE = 2.5;
 
@@ -132,7 +131,6 @@ const loadFavorites = () => {
   const sharedIds = params.get("ids");
 
   if (sharedIds) {
-    // URLにidsがある場合：共有モードとして読み込む
     try {
       const parsed = sharedIds
         .split(",")
@@ -140,15 +138,14 @@ const loadFavorites = () => {
         .filter((n) => !isNaN(n));
       if (parsed.length > 0) {
         favorites.value = parsed;
-        isSharedMode.value = true; // 共有モードON
-        return; // ローカルストレージ読み込みをスキップ
+        isSharedMode.value = true;
+        return;
       }
     } catch (e) {
       console.error(e);
     }
   }
 
-  // 通常モード
   isSharedMode.value = false;
   const key = `fescheduler_favs_${eventId.value}`;
   const stored = localStorage.getItem(key);
@@ -170,7 +167,6 @@ watch(
 watch(
   favorites,
   (newVal) => {
-    // 共有モードでない場合のみローカルストレージを更新
     if (eventData.value && !isSharedMode.value) {
       localStorage.setItem(
         `fescheduler_favs_${eventId.value}`,
@@ -181,7 +177,6 @@ watch(
   { deep: true },
 );
 
-// 共有スケジュールを取り込む機能
 const importSharedSchedule = () => {
   if (
     !confirm(
@@ -191,41 +186,28 @@ const importSharedSchedule = () => {
     return;
   }
 
-  // 共有モードを解除
   isSharedMode.value = false;
 
-  // 現在のfavoritesをローカルストレージに強制保存
   localStorage.setItem(
     `fescheduler_favs_${eventId.value}`,
     JSON.stringify(favorites.value),
   );
 
-  // URLからクエリパラメータを削除して履歴を更新
   const baseUrl = window.location.href.split("?")[0];
   window.history.replaceState(null, "", baseUrl);
 
   alert("スケジュールを保存しました。編集可能になります。");
 };
 
-// 追加: 共有モードを終了して通常モード（自分のローカルデータ）に戻る
 const exitSharedMode = () => {
-  // URLからクエリパラメータを削除して履歴を更新
   const baseUrl = window.location.href.split("?")[0];
   window.history.replaceState(null, "", baseUrl);
 
-  // 共有モードフラグをオフにして再読み込み
-  // loadFavorites内でURLパラメータがないことを検知してローカルストレージを読みに行く
   isSharedMode.value = false;
   loadFavorites();
 };
 
-onMounted(() => {
-  const timer = setInterval(() => (currentTime.value = new Date()), 60000);
-  onUnmounted(() => clearInterval(timer));
-});
-
 const toggleFavorite = (id) => {
-  // 共有モード中は変更不可
   if (isSharedMode.value) return;
 
   if (favorites.value.includes(id)) {
@@ -260,7 +242,6 @@ const handleTwitterShare = () => {
   const params =
     favorites.value.length > 0 ? `?ids=${favorites.value.join(",")}` : "";
   const url = `${baseUrl}${params}`;
-  // 修正: ハッシュタグをシンプルに、改行を追加
   const text = `${eventData.value.title}のマイタイムテーブルを作成しました！\n\n#${APP_NAME}`;
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
   window.open(twitterUrl, "_blank");
@@ -296,17 +277,6 @@ const timeSlots = computed(() => {
   return slots;
 });
 
-const currentPos = computed(() => {
-  const now = currentTime.value;
-  const currentMinutes = now.getHours() * 60 + now.getMinutes();
-  if (
-    currentMinutes < startMinutes.value ||
-    currentMinutes > endHour.value * 60
-  )
-    return null;
-  return (currentMinutes - startMinutes.value) * PIXELS_PER_MINUTE;
-});
-
 const isBlocked = (targetEvent) => {
   if (favorites.value.includes(targetEvent.id)) return false;
   const tStart = timeToMinutes(targetEvent.startTime);
@@ -322,7 +292,6 @@ const getStageName = (id) => {
   return eventData.value?.stages.find((s) => s.id === id)?.name || id;
 };
 
-// メニュー操作用: クリックしたらメニューを閉じるラッパー
 const withCloseMenu = (fn) => {
   fn();
   isMenuOpen.value = false;
@@ -862,17 +831,6 @@ const withCloseMenu = (fn) => {
                     :style="{
                       top: `${(timeToMinutes(time) - startMinutes) * PIXELS_PER_MINUTE}px`,
                     }"
-                  ></div>
-                </div>
-
-                <!-- Current Time -->
-                <div
-                  v-if="currentPos !== null"
-                  class="absolute z-10 w-full border-t-2 border-red-500 pointer-events-none opacity-70"
-                  :style="{ top: `${currentPos}px` }"
-                >
-                  <div
-                    class="absolute -ml-1 w-2 h-2 bg-red-500 rounded-full"
                   ></div>
                 </div>
 
