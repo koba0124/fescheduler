@@ -15,8 +15,10 @@ import {
   Home,
   EyeOff,
   LogIn,
-  Menu, // 追加: ハンバーガーメニューアイコン
-  X, // 追加: 閉じるアイコン
+  Menu,
+  X,
+  Import,
+  LogOut, // 追加: 戻る用アイコン
 } from "lucide-vue-next";
 
 // ==========================================
@@ -33,7 +35,8 @@ import { EVENTS_DB } from "./events";
 // --- ルーティング管理 ---
 const currentHash = ref(window.location.hash);
 const eventId = computed(() => {
-  const hash = currentHash.value.replace(/^#\//, "").replace(/^#/, "");
+  let hash = currentHash.value.replace(/^#\//, "").replace(/^#/, "");
+  hash = hash.split("?")[0];
   return hash.split("/")[0] || "";
 });
 
@@ -62,13 +65,13 @@ const showOnlyFavorites = ref(false);
 const currentTime = ref(new Date());
 const copied = ref(false);
 const viewMode = ref("grid");
-const isMenuOpen = ref(false); // 追加: スマホメニューの開閉状態
+const isMenuOpen = ref(false);
+const isSharedMode = ref(false); // 追加: 共有モード（リードオンリー）フラグ
 
 const PIXELS_PER_MINUTE = 2.5;
 
 const eventData = computed(() => EVENTS_DB[eventId.value] || null);
 
-// 時間設定をイベントデータから動的に取得
 const startHour = computed(() => eventData.value?.startHour ?? 10);
 const endHour = computed(() => eventData.value?.endHour ?? 21);
 const startMinutes = computed(() => startHour.value * 60);
@@ -117,25 +120,40 @@ const toggleStageVisibility = (stageId) => {
 // --- お気に入り管理 ---
 const loadFavorites = () => {
   if (!eventData.value) return;
-  const params = new URLSearchParams(window.location.href.split("?")[1]);
+
+  let queryString = "";
+  if (window.location.hash.includes("?")) {
+    queryString = window.location.hash.split("?")[1];
+  } else if (window.location.search) {
+    queryString = window.location.search.substring(1);
+  }
+
+  const params = new URLSearchParams(queryString);
   const sharedIds = params.get("ids");
 
   if (sharedIds) {
+    // URLにidsがある場合：共有モードとして読み込む
     try {
       const parsed = sharedIds
         .split(",")
         .map(Number)
         .filter((n) => !isNaN(n));
-      if (parsed.length > 0) favorites.value = parsed;
+      if (parsed.length > 0) {
+        favorites.value = parsed;
+        isSharedMode.value = true; // 共有モードON
+        return; // ローカルストレージ読み込みをスキップ
+      }
     } catch (e) {
       console.error(e);
     }
-  } else {
-    const key = `fescheduler_favs_${eventId.value}`;
-    const stored = localStorage.getItem(key);
-    if (stored) favorites.value = JSON.parse(stored);
-    else favorites.value = [];
   }
+
+  // 通常モード
+  isSharedMode.value = false;
+  const key = `fescheduler_favs_${eventId.value}`;
+  const stored = localStorage.getItem(key);
+  if (stored) favorites.value = JSON.parse(stored);
+  else favorites.value = [];
 };
 
 watch(
@@ -143,7 +161,7 @@ watch(
   () => {
     favorites.value = [];
     hiddenStageIds.value = [];
-    isMenuOpen.value = false; // ページ遷移時にメニューを閉じる
+    isMenuOpen.value = false;
     loadFavorites();
   },
   { immediate: true },
@@ -152,7 +170,8 @@ watch(
 watch(
   favorites,
   (newVal) => {
-    if (eventData.value) {
+    // 共有モードでない場合のみローカルストレージを更新
+    if (eventData.value && !isSharedMode.value) {
       localStorage.setItem(
         `fescheduler_favs_${eventId.value}`,
         JSON.stringify(newVal),
@@ -162,12 +181,53 @@ watch(
   { deep: true },
 );
 
+// 共有スケジュールを取り込む機能
+const importSharedSchedule = () => {
+  if (
+    !confirm(
+      "現在表示中のスケジュールを、自分のスケジュールとして保存（上書き）しますか？",
+    )
+  ) {
+    return;
+  }
+
+  // 共有モードを解除
+  isSharedMode.value = false;
+
+  // 現在のfavoritesをローカルストレージに強制保存
+  localStorage.setItem(
+    `fescheduler_favs_${eventId.value}`,
+    JSON.stringify(favorites.value),
+  );
+
+  // URLからクエリパラメータを削除して履歴を更新
+  const baseUrl = window.location.href.split("?")[0];
+  window.history.replaceState(null, "", baseUrl);
+
+  alert("スケジュールを保存しました。編集可能になります。");
+};
+
+// 追加: 共有モードを終了して通常モード（自分のローカルデータ）に戻る
+const exitSharedMode = () => {
+  // URLからクエリパラメータを削除して履歴を更新
+  const baseUrl = window.location.href.split("?")[0];
+  window.history.replaceState(null, "", baseUrl);
+
+  // 共有モードフラグをオフにして再読み込み
+  // loadFavorites内でURLパラメータがないことを検知してローカルストレージを読みに行く
+  isSharedMode.value = false;
+  loadFavorites();
+};
+
 onMounted(() => {
   const timer = setInterval(() => (currentTime.value = new Date()), 60000);
   onUnmounted(() => clearInterval(timer));
 });
 
 const toggleFavorite = (id) => {
+  // 共有モード中は変更不可
+  if (isSharedMode.value) return;
+
   if (favorites.value.includes(id)) {
     favorites.value = favorites.value.filter((i) => i !== id);
   } else {
@@ -176,7 +236,11 @@ const toggleFavorite = (id) => {
 };
 
 const handleCopyLink = () => {
-  const baseUrl = window.location.href.split("?")[0];
+  const currentUrl = window.location.href;
+  const baseUrl = currentUrl.includes("?")
+    ? currentUrl.split("?")[0]
+    : currentUrl;
+
   const params =
     favorites.value.length > 0 ? `?ids=${favorites.value.join(",")}` : "";
   const url = `${baseUrl}${params}`;
@@ -188,11 +252,16 @@ const handleCopyLink = () => {
 };
 
 const handleTwitterShare = () => {
-  const baseUrl = window.location.href.split("?")[0];
+  const currentUrl = window.location.href;
+  const baseUrl = currentUrl.includes("?")
+    ? currentUrl.split("?")[0]
+    : currentUrl;
+
   const params =
     favorites.value.length > 0 ? `?ids=${favorites.value.join(",")}` : "";
   const url = `${baseUrl}${params}`;
-  const text = `${eventData.value.title}のマイタイムテーブルを作成しました！\n#${eventData.value.title.replace(/\s+/g, "")} #${APP_NAME}`;
+  // 修正: ハッシュタグをシンプルに、改行を追加
+  const text = `${eventData.value.title}のマイタイムテーブルを作成しました！\n\n#${APP_NAME}`;
   const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
   window.open(twitterUrl, "_blank");
 };
@@ -349,6 +418,33 @@ const withCloseMenu = (fn) => {
     <!--  タイムテーブル画面 -->
     <!-- ========================================== -->
     <template v-else>
+      <!-- 共有モード時のインフォメーションバー -->
+      <div
+        v-if="isSharedMode"
+        class="flex-none bg-indigo-600 text-white px-4 py-2 flex flex-col sm:flex-row items-center justify-between gap-2 text-sm shadow-md z-40 relative"
+      >
+        <div class="flex items-center gap-2">
+          <AlertCircle class="w-4 h-4 text-indigo-200 flex-shrink-0" />
+          <span class="font-bold">共有されたスケジュールを表示中</span>
+        </div>
+        <div class="flex items-center gap-2 w-full sm:w-auto">
+          <button
+            @click="exitSharedMode"
+            class="flex-1 sm:flex-none text-indigo-100 px-3 py-1.5 rounded-full text-xs font-bold hover:bg-indigo-700 hover:text-white flex items-center justify-center gap-1 transition-all border border-indigo-400/50"
+          >
+            <LogOut class="w-3 h-3" />
+            通常モードに戻る
+          </button>
+          <button
+            @click="importSharedSchedule"
+            class="flex-1 sm:flex-none bg-white text-indigo-700 px-3 py-1.5 rounded-full text-xs font-bold hover:bg-indigo-50 flex items-center justify-center gap-1 shadow-sm transition-all"
+          >
+            <Import class="w-3 h-3" />
+            自分の予定として保存
+          </button>
+        </div>
+      </div>
+
       <header
         class="flex-none bg-white border-b border-gray-200 shadow-sm z-30"
       >
@@ -390,23 +486,26 @@ const withCloseMenu = (fn) => {
               </button>
             </div>
 
-            <button
-              @click="handleCopyLink"
-              :class="`flex items-center justify-center w-9 h-9 rounded-full text-sm font-bold transition-all border ${copied ? 'bg-green-100 text-green-700 border-green-200' : 'bg-white text-gray-600 border-gray-200 hover:bg-gray-50'}`"
-              title="リンクをコピー"
-            >
-              <Check v-if="copied" class="w-4 h-4" />
-              <LinkIcon v-else class="w-4 h-4" />
-            </button>
+            <!-- 共有モード時はシェアボタンなどを隠す（または無効化） -->
+            <template v-if="!isSharedMode">
+              <button
+                @click="handleCopyLink"
+                :class="`flex items-center justify-center w-9 h-9 rounded-full text-sm font-bold transition-all border ${copied ? 'bg-green-100 text-green-700 border-green-200' : 'bg-white text-gray-600 border-gray-200 hover:bg-gray-50'}`"
+                title="リンクをコピー"
+              >
+                <Check v-if="copied" class="w-4 h-4" />
+                <LinkIcon v-else class="w-4 h-4" />
+              </button>
 
-            <button
-              @click="handleTwitterShare"
-              class="flex items-center justify-center px-3 py-2 rounded-full text-sm font-bold transition-all bg-black text-white border border-black hover:bg-gray-800 shadow-sm gap-1.5"
-              title="X(Twitter)でポスト"
-            >
-              <Twitter class="w-4 h-4" />
-              <span>ポスト</span>
-            </button>
+              <button
+                @click="handleTwitterShare"
+                class="flex items-center justify-center px-3 py-2 rounded-full text-sm font-bold transition-all bg-black text-white border border-black hover:bg-gray-800 shadow-sm gap-1.5"
+                title="X(Twitter)でポスト"
+              >
+                <Twitter class="w-4 h-4" />
+                <span>ポスト</span>
+              </button>
+            </template>
 
             <button
               v-if="viewMode === 'grid'"
@@ -460,6 +559,29 @@ const withCloseMenu = (fn) => {
             </div>
 
             <div class="space-y-6">
+              <!-- 共有モード時のインポートボタン（スマホ用） -->
+              <div v-if="isSharedMode">
+                <div class="flex flex-col gap-2">
+                  <button
+                    @click="withCloseMenu(importSharedSchedule)"
+                    class="w-full bg-indigo-600 text-white px-4 py-3 rounded-xl font-bold hover:bg-indigo-700 flex items-center justify-center gap-2 shadow-md transition-all"
+                  >
+                    <Import class="w-5 h-5" />
+                    自分の予定として保存
+                  </button>
+                  <button
+                    @click="withCloseMenu(exitSharedMode)"
+                    class="w-full bg-white text-gray-700 border border-gray-300 px-4 py-3 rounded-xl font-bold hover:bg-gray-50 flex items-center justify-center gap-2 transition-all"
+                  >
+                    <LogOut class="w-5 h-5" />
+                    通常モードに戻る
+                  </button>
+                </div>
+                <p class="text-xs text-gray-500 mt-2 text-center">
+                  現在は共有モード（閲覧専用）です
+                </p>
+              </div>
+
               <!-- セクション: 表示切り替え -->
               <div>
                 <h3
@@ -528,7 +650,7 @@ const withCloseMenu = (fn) => {
               </div>
 
               <!-- セクション: シェア -->
-              <div>
+              <div v-if="!isSharedMode">
                 <h3
                   class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2"
                 >
@@ -630,6 +752,7 @@ const withCloseMenu = (fn) => {
               </h3>
               <p class="text-gray-600 text-sm">{{ event.artist }}</p>
               <button
+                v-if="!isSharedMode"
                 @click="toggleFavorite(event.id)"
                 class="absolute bottom-4 right-4 text-xs font-bold text-gray-400 hover:text-red-500 flex items-center gap-1"
               >
@@ -790,7 +913,9 @@ const withCloseMenu = (fn) => {
                           ? 'z-10 ring-2 ring-pink-500 shadow-md bg-pink-100 border-pink-500'
                           : isBlocked(event)
                             ? 'z-0 opacity-40 grayscale pointer-events-none bg-gray-200 border-gray-300'
-                            : 'shadow-sm border-l-4 opacity-90 hover:opacity-100 hover:z-20 cursor-pointer',
+                            : isSharedMode // 共有モード時はカーソルを変更
+                              ? 'shadow-sm border-l-4 opacity-90 cursor-default'
+                              : 'shadow-sm border-l-4 opacity-90 hover:opacity-100 hover:z-20 cursor-pointer',
                       ]"
                       :style="{
                         top: `${(timeToMinutes(event.startTime) - startMinutes) * PIXELS_PER_MINUTE}px`,
