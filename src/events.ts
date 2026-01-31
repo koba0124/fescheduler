@@ -482,7 +482,7 @@ export const EVENTS_DB = {
         title: "Jack's Party",
         artist: "ミステリージャック",
         startTime: "10:30",
-        endTime: "11:00",
+        endTime: "12:00",
         color: "bg-green-100 border-green-300",
       },
       {
@@ -2367,7 +2367,7 @@ export const EVENTS_DB = {
         title: "I WANNA BE FREE",
         artist: "Mの会",
         startTime: "11:00",
-        endTime: "11:30",
+        endTime: "12:30",
         color: "bg-green-100 border-green-300",
       },
       {
@@ -4823,7 +4823,7 @@ export const EVENTS_DB = {
         title: "I WANNA BE FREE",
         artist: "Mの会",
         startTime: "10:30",
-        endTime: "11:00",
+        endTime: "12:00",
         color: "bg-green-100 border-green-300",
       },
       {
