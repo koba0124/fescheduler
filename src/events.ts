@@ -146,7 +146,7 @@ export const EVENTS_DB = {
       {
         id: 104,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜Ex前売り切れ＞",
         artist: "WHTNU",
         startTime: "12:30",
         endTime: "13:00",
@@ -281,7 +281,7 @@ export const EVENTS_DB = {
       {
         id: 119,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜Ex前売り切れ＞",
         artist: "WHTNU",
         startTime: "19:30",
         endTime: "20:00",
@@ -4155,7 +4155,7 @@ export const EVENTS_DB = {
       {
         id: 2008,
         stageId: "booth4",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜Ex前売り切れ＞",
         artist: "ComeCozy",
         startTime: "18:30",
         endTime: "19:10",
@@ -4326,7 +4326,7 @@ export const EVENTS_DB = {
       {
         id: 2119,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜Ex前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "19:15",
         endTime: "19:35",
@@ -4487,7 +4487,7 @@ export const EVENTS_DB = {
       {
         id: 102,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜Ex前売り切れ＞",
         artist: "WHTNU",
         startTime: "11:10",
         endTime: "11:40",
@@ -4568,7 +4568,7 @@ export const EVENTS_DB = {
       {
         id: 111,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜Ex前売り切れ＞",
         artist: "WHTNU",
         startTime: "14:30",
         endTime: "15:00",
@@ -6172,8 +6172,8 @@ export const EVENTS_DB = {
         stageId: "booth4",
         title: "99枚の皿5",
         artist: "TKGデラックス",
-        startTime: "13:40",
-        endTime: "14:10",
+        startTime: "13:00",
+        endTime: "13:30",
         color: "bg-teal-100 border-teal-300",
       },
       {
