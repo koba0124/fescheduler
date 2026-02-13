@@ -128,7 +128,7 @@ export const EVENTS_DB = {
       {
         id: 102,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "11:10",
         endTime: "11:40",
@@ -137,7 +137,7 @@ export const EVENTS_DB = {
       {
         id: 103,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "11:50",
         endTime: "12:20",
@@ -155,7 +155,7 @@ export const EVENTS_DB = {
       {
         id: 105,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "13:10",
         endTime: "13:40",
@@ -173,7 +173,7 @@ export const EVENTS_DB = {
       {
         id: 107,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "14:10",
         endTime: "14:40",
@@ -182,7 +182,7 @@ export const EVENTS_DB = {
       {
         id: 108,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "14:30",
         endTime: "15:00",
@@ -191,7 +191,7 @@ export const EVENTS_DB = {
       {
         id: 109,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "14:50",
         endTime: "15:20",
@@ -200,7 +200,7 @@ export const EVENTS_DB = {
       {
         id: 110,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "15:10",
         endTime: "15:40",
@@ -218,7 +218,7 @@ export const EVENTS_DB = {
       {
         id: 112,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "15:50",
         endTime: "16:20",
@@ -236,7 +236,7 @@ export const EVENTS_DB = {
       {
         id: 114,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "16:30",
         endTime: "17:00",
@@ -245,7 +245,7 @@ export const EVENTS_DB = {
       {
         id: 115,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "16:50",
         endTime: "17:20",
@@ -254,7 +254,7 @@ export const EVENTS_DB = {
       {
         id: 116,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "17:30",
         endTime: "18:00",
@@ -263,7 +263,7 @@ export const EVENTS_DB = {
       {
         id: 117,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "18:10",
         endTime: "18:40",
@@ -344,7 +344,7 @@ export const EVENTS_DB = {
       {
         id: 206,
         stageId: "room2",
-        title: "ものだらけVI",
+        title: "ものだらけVI＜通常前売り切れ＞",
         artist: "TKGデラックス",
         startTime: "15:00",
         endTime: "15:40",
@@ -425,7 +425,7 @@ export const EVENTS_DB = {
       {
         id: 303,
         stageId: "room3",
-        title: "Rotates",
+        title: "Rotates＜通常前売り切れ＞",
         artist: "ハテナボックス",
         startTime: "12:30",
         endTime: "13:15",
@@ -632,7 +632,7 @@ export const EVENTS_DB = {
       {
         id: 702,
         stageId: "room6",
-        title: "EmoTE STructure",
+        title: "EmoTE STructure＜通常前売り切れ＞",
         artist: "空空-karakara-",
         startTime: "12:30",
         endTime: "14:05",
@@ -650,7 +650,7 @@ export const EVENTS_DB = {
       {
         id: 704,
         stageId: "room6",
-        title: "EmoTE STructure",
+        title: "EmoTE STructure＜通常前売り切れ＞",
         artist: "空空-karakara-",
         startTime: "16:30",
         endTime: "18:05",
@@ -677,7 +677,7 @@ export const EVENTS_DB = {
       {
         id: 802,
         stageId: "room7",
-        title: "The BOX",
+        title: "The BOX＜通常前売り切れ＞",
         artist: "Melt",
         startTime: "11:40",
         endTime: "12:40",
@@ -740,7 +740,7 @@ export const EVENTS_DB = {
       {
         id: 809,
         stageId: "room7",
-        title: "The BOX",
+        title: "The BOX＜通常前売り切れ＞",
         artist: "Melt",
         startTime: "19:50",
         endTime: "20:50",
@@ -749,7 +749,7 @@ export const EVENTS_DB = {
       {
         id: 901,
         stageId: "room8",
-        title: "タンクトップバトラー！！袖無",
+        title: "タンクトップバトラー！！袖無＜通常前売り切れ＞",
         artist: "ShareKOBE",
         startTime: "10:30",
         endTime: "11:30",
@@ -758,7 +758,7 @@ export const EVENTS_DB = {
       {
         id: 902,
         stageId: "room8",
-        title: "タンクトップバトラー！！袖無",
+        title: "タンクトップバトラー！！袖無＜通常前売り切れ＞",
         artist: "ShareKOBE",
         startTime: "12:00",
         endTime: "13:00",
@@ -767,7 +767,7 @@ export const EVENTS_DB = {
       {
         id: 903,
         stageId: "room8",
-        title: "タンクトップバトラー！！袖無",
+        title: "タンクトップバトラー！！袖無＜通常前売り切れ＞",
         artist: "ShareKOBE",
         startTime: "13:20",
         endTime: "14:20",
@@ -776,7 +776,7 @@ export const EVENTS_DB = {
       {
         id: 904,
         stageId: "room8",
-        title: "タンクトップバトラー！！袖無",
+        title: "タンクトップバトラー！！袖無＜通常前売り切れ＞",
         artist: "ShareKOBE",
         startTime: "14:40",
         endTime: "15:40",
@@ -785,7 +785,7 @@ export const EVENTS_DB = {
       {
         id: 905,
         stageId: "room8",
-        title: "タンクトップバトラー！！袖無",
+        title: "タンクトップバトラー！！袖無＜通常前売り切れ＞",
         artist: "ShareKOBE",
         startTime: "16:00",
         endTime: "17:00",
@@ -794,7 +794,7 @@ export const EVENTS_DB = {
       {
         id: 906,
         stageId: "room8",
-        title: "タンクトップバトラー！！袖無",
+        title: "タンクトップバトラー！！袖無＜通常前売り切れ＞",
         artist: "ShareKOBE",
         startTime: "17:20",
         endTime: "18:20",
@@ -803,7 +803,7 @@ export const EVENTS_DB = {
       {
         id: 907,
         stageId: "room8",
-        title: "タンクトップバトラー！！袖無",
+        title: "タンクトップバトラー！！袖無＜通常前売り切れ＞",
         artist: "ShareKOBE",
         startTime: "18:40",
         endTime: "19:40",
@@ -812,7 +812,7 @@ export const EVENTS_DB = {
       {
         id: 908,
         stageId: "room8",
-        title: "タンクトップバトラー！！袖無",
+        title: "タンクトップバトラー！！袖無＜通常前売り切れ＞",
         artist: "ShareKOBE",
         startTime: "20:00",
         endTime: "21:00",
@@ -866,7 +866,7 @@ export const EVENTS_DB = {
       {
         id: 1006,
         stageId: "room9",
-        title: "-ひらめき もーしょん-ひっつけ もじつく～る",
+        title: "-ひらめき もーしょん-ひっつけ もじつく～る＜通常前売り切れ＞",
         artist: "ナゾトキズナ",
         startTime: "18:20",
         endTime: "19:30",
@@ -974,7 +974,7 @@ export const EVENTS_DB = {
       {
         id: 1301,
         stageId: "room401",
-        title: "＋PLUS MINUSー",
+        title: "＋PLUS MINUSー＜通常前売り切れ＞",
         artist: "Leia",
         startTime: "9:00",
         endTime: "9:50",
@@ -1118,7 +1118,7 @@ export const EVENTS_DB = {
       {
         id: 1405,
         stageId: "room403",
-        title: "リドルステークス",
+        title: "リドルステークス＜通常前売り切れ＞",
         artist: "すぎやまいっぺい",
         startTime: "15:45",
         endTime: "16:45",
@@ -1136,7 +1136,7 @@ export const EVENTS_DB = {
       {
         id: 1407,
         stageId: "room403",
-        title: "リドルステークス",
+        title: "リドルステークス＜通常前売り切れ＞",
         artist: "すぎやまいっぺい",
         startTime: "18:30",
         endTime: "19:30",
@@ -1154,7 +1154,7 @@ export const EVENTS_DB = {
       {
         id: 1501,
         stageId: "room502",
-        title: "フラフラ　フラっとフラコイナゾ",
+        title: "フラフラ　フラっとフラコイナゾ＜通常前売り切れ＞",
         artist: "Flambeur’s Coin",
         startTime: "9:20",
         endTime: "10:05",
@@ -1172,7 +1172,7 @@ export const EVENTS_DB = {
       {
         id: 1503,
         stageId: "room502",
-        title: "フラフラ　フラっとフラコイナゾ",
+        title: "フラフラ　フラっとフラコイナゾ＜通常前売り切れ＞",
         artist: "Flambeur’s Coin",
         startTime: "11:15",
         endTime: "12:00",
@@ -1271,7 +1271,7 @@ export const EVENTS_DB = {
       {
         id: 1601,
         stageId: "room602-1",
-        title: "収集癖",
+        title: "収集癖＜通常前売り切れ＞",
         artist: "CDR",
         startTime: "9:20",
         endTime: "10:05",
@@ -1388,7 +1388,7 @@ export const EVENTS_DB = {
       {
         id: 1702,
         stageId: "room602-2",
-        title: "ダジャレを解くのは誰じゃ！？",
+        title: "ダジャレを解くのは誰じゃ！？＜通常前売り切れ＞",
         artist: "ミステリーケーキ",
         startTime: "10:30",
         endTime: "11:10",
@@ -1613,7 +1613,7 @@ export const EVENTS_DB = {
       {
         id: 2001,
         stageId: "booth1",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "10:30",
         endTime: "11:10",
@@ -1622,7 +1622,7 @@ export const EVENTS_DB = {
       {
         id: 2002,
         stageId: "booth1",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "11:30",
         endTime: "12:10",
@@ -1631,7 +1631,7 @@ export const EVENTS_DB = {
       {
         id: 2003,
         stageId: "booth1",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "12:30",
         endTime: "13:10",
@@ -1640,7 +1640,7 @@ export const EVENTS_DB = {
       {
         id: 2004,
         stageId: "booth1",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "14:30",
         endTime: "15:10",
@@ -1649,7 +1649,7 @@ export const EVENTS_DB = {
       {
         id: 2005,
         stageId: "booth1",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "15:30",
         endTime: "16:10",
@@ -1658,7 +1658,7 @@ export const EVENTS_DB = {
       {
         id: 2006,
         stageId: "booth1",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "16:30",
         endTime: "17:10",
@@ -1667,7 +1667,7 @@ export const EVENTS_DB = {
       {
         id: 2007,
         stageId: "booth1",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "17:30",
         endTime: "18:10",
@@ -1676,7 +1676,7 @@ export const EVENTS_DB = {
       {
         id: 2008,
         stageId: "booth1",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "18:30",
         endTime: "19:10",
@@ -1685,7 +1685,7 @@ export const EVENTS_DB = {
       {
         id: 2009,
         stageId: "booth1",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "19:30",
         endTime: "20:10",
@@ -1721,7 +1721,7 @@ export const EVENTS_DB = {
       {
         id: 2104,
         stageId: "booth2",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "11:45",
         endTime: "12:05",
@@ -1730,7 +1730,7 @@ export const EVENTS_DB = {
       {
         id: 2105,
         stageId: "booth2",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "12:10",
         endTime: "12:30",
@@ -1739,7 +1739,7 @@ export const EVENTS_DB = {
       {
         id: 2106,
         stageId: "booth2",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "13:00",
         endTime: "13:20",
@@ -1766,7 +1766,7 @@ export const EVENTS_DB = {
       {
         id: 2109,
         stageId: "booth2",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "14:15",
         endTime: "14:35",
@@ -1820,7 +1820,7 @@ export const EVENTS_DB = {
       {
         id: 2115,
         stageId: "booth2",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "17:10",
         endTime: "17:30",
@@ -1829,7 +1829,7 @@ export const EVENTS_DB = {
       {
         id: 2116,
         stageId: "booth2",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "18:00",
         endTime: "18:20",
@@ -1838,7 +1838,7 @@ export const EVENTS_DB = {
       {
         id: 2117,
         stageId: "booth2",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "18:25",
         endTime: "18:45",
@@ -2013,7 +2013,7 @@ export const EVENTS_DB = {
       {
         id: 101,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "10:30",
         endTime: "11:00",
@@ -2040,7 +2040,7 @@ export const EVENTS_DB = {
       {
         id: 104,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "12:30",
         endTime: "13:00",
@@ -2049,7 +2049,7 @@ export const EVENTS_DB = {
       {
         id: 105,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "13:10",
         endTime: "13:40",
@@ -2058,7 +2058,7 @@ export const EVENTS_DB = {
       {
         id: 106,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "13:50",
         endTime: "14:20",
@@ -2067,7 +2067,7 @@ export const EVENTS_DB = {
       {
         id: 107,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "14:10",
         endTime: "14:40",
@@ -2076,7 +2076,7 @@ export const EVENTS_DB = {
       {
         id: 108,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "14:30",
         endTime: "15:00",
@@ -2094,7 +2094,7 @@ export const EVENTS_DB = {
       {
         id: 110,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "15:10",
         endTime: "15:40",
@@ -2112,7 +2112,7 @@ export const EVENTS_DB = {
       {
         id: 112,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "15:50",
         endTime: "16:20",
@@ -2130,7 +2130,7 @@ export const EVENTS_DB = {
       {
         id: 114,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "16:30",
         endTime: "17:00",
@@ -2157,7 +2157,7 @@ export const EVENTS_DB = {
       {
         id: 117,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "18:10",
         endTime: "18:40",
@@ -2211,7 +2211,7 @@ export const EVENTS_DB = {
       {
         id: 203,
         stageId: "room2",
-        title: "Q■の■分リドルクッキング",
+        title: "Q■の■分リドルクッキング＜通常前売り切れ＞",
         artist: "Ereka",
         startTime: "12:50",
         endTime: "13:40",
@@ -2220,7 +2220,7 @@ export const EVENTS_DB = {
       {
         id: 204,
         stageId: "room2",
-        title: "Q■の■分リドルクッキング",
+        title: "Q■の■分リドルクッキング＜通常前売り切れ＞",
         artist: "Ereka",
         startTime: "14:00",
         endTime: "14:50",
@@ -2238,7 +2238,7 @@ export const EVENTS_DB = {
       {
         id: 206,
         stageId: "room2",
-        title: "Q■の■分リドルクッキング",
+        title: "Q■の■分リドルクッキング＜通常前売り切れ＞",
         artist: "Ereka",
         startTime: "16:20",
         endTime: "17:10",
@@ -2247,7 +2247,7 @@ export const EVENTS_DB = {
       {
         id: 207,
         stageId: "room2",
-        title: "Q■の■分リドルクッキング",
+        title: "Q■の■分リドルクッキング＜通常前売り切れ＞",
         artist: "Ereka",
         startTime: "17:30",
         endTime: "18:20",
@@ -2256,7 +2256,7 @@ export const EVENTS_DB = {
       {
         id: 208,
         stageId: "room2",
-        title: "Q■の■分リドルクッキング",
+        title: "Q■の■分リドルクッキング＜通常前売り切れ＞",
         artist: "Ereka",
         startTime: "18:40",
         endTime: "19:30",
@@ -2283,7 +2283,7 @@ export const EVENTS_DB = {
       {
         id: 302,
         stageId: "room3",
-        title: "韻すぴれーしょん",
+        title: "韻すぴれーしょん＜通常前売り切れ＞",
         artist: "CrazyLemon",
         startTime: "11:30",
         endTime: "12:20",
@@ -2292,7 +2292,7 @@ export const EVENTS_DB = {
       {
         id: 303,
         stageId: "room3",
-        title: "韻すぴれーしょん",
+        title: "韻すぴれーしょん＜通常前売り切れ＞",
         artist: "CrazyLemon",
         startTime: "12:30",
         endTime: "13:20",
@@ -2328,7 +2328,7 @@ export const EVENTS_DB = {
       {
         id: 307,
         stageId: "room3",
-        title: "韻すぴれーしょん",
+        title: "韻すぴれーしょん＜通常前売り切れ＞",
         artist: "CrazyLemon",
         startTime: "16:30",
         endTime: "17:20",
@@ -2337,7 +2337,7 @@ export const EVENTS_DB = {
       {
         id: 308,
         stageId: "room3",
-        title: "韻すぴれーしょん",
+        title: "韻すぴれーしょん＜通常前売り切れ＞",
         artist: "CrazyLemon",
         startTime: "17:30",
         endTime: "18:20",
@@ -2346,7 +2346,7 @@ export const EVENTS_DB = {
       {
         id: 309,
         stageId: "room3",
-        title: "韻すぴれーしょん",
+        title: "韻すぴれーしょん＜通常前売り切れ＞",
         artist: "CrazyLemon",
         startTime: "18:30",
         endTime: "19:20",
@@ -2625,7 +2625,7 @@ export const EVENTS_DB = {
       {
         id: 702,
         stageId: "room6",
-        title: "EmoTE STructure",
+        title: "EmoTE STructure＜通常前売り切れ＞",
         artist: "空空-karakara-",
         startTime: "12:30",
         endTime: "14:05",
@@ -2679,7 +2679,7 @@ export const EVENTS_DB = {
       {
         id: 803,
         stageId: "room7",
-        title: "The BOX",
+        title: "The BOX＜通常前売り切れ＞",
         artist: "Melt",
         startTime: "12:50",
         endTime: "13:50",
@@ -2715,7 +2715,7 @@ export const EVENTS_DB = {
       {
         id: 807,
         stageId: "room7",
-        title: "The BOX",
+        title: "The BOX＜通常前売り切れ＞",
         artist: "Melt",
         startTime: "17:30",
         endTime: "18:30",
@@ -2733,7 +2733,7 @@ export const EVENTS_DB = {
       {
         id: 809,
         stageId: "room7",
-        title: "The BOX",
+        title: "The BOX＜通常前売り切れ＞",
         artist: "Melt",
         startTime: "19:50",
         endTime: "20:50",
@@ -2742,7 +2742,7 @@ export const EVENTS_DB = {
       {
         id: 901,
         stageId: "room8",
-        title: "フィッシュボーンアンサー",
+        title: "フィッシュボーンアンサー＜通常前売り切れ＞",
         artist: "X LixiT",
         startTime: "10:30",
         endTime: "11:30",
@@ -2751,7 +2751,7 @@ export const EVENTS_DB = {
       {
         id: 902,
         stageId: "room8",
-        title: "フィッシュボーンアンサー",
+        title: "フィッシュボーンアンサー＜通常前売り切れ＞",
         artist: "X LixiT",
         startTime: "11:50",
         endTime: "12:50",
@@ -2760,7 +2760,7 @@ export const EVENTS_DB = {
       {
         id: 903,
         stageId: "room8",
-        title: "フィッシュボーンアンサー",
+        title: "フィッシュボーンアンサー＜通常前売り切れ＞",
         artist: "X LixiT",
         startTime: "13:10",
         endTime: "14:10",
@@ -2769,7 +2769,7 @@ export const EVENTS_DB = {
       {
         id: 904,
         stageId: "room8",
-        title: "フィッシュボーンアンサー",
+        title: "フィッシュボーンアンサー＜通常前売り切れ＞",
         artist: "X LixiT",
         startTime: "14:30",
         endTime: "15:30",
@@ -2787,7 +2787,7 @@ export const EVENTS_DB = {
       {
         id: 906,
         stageId: "room8",
-        title: "フィッシュボーンアンサー",
+        title: "フィッシュボーンアンサー＜通常前売り切れ＞",
         artist: "X LixiT",
         startTime: "17:10",
         endTime: "18:10",
@@ -2796,7 +2796,7 @@ export const EVENTS_DB = {
       {
         id: 907,
         stageId: "room8",
-        title: "フィッシュボーンアンサー",
+        title: "フィッシュボーンアンサー＜通常前売り切れ＞",
         artist: "X LixiT",
         startTime: "18:30",
         endTime: "19:30",
@@ -2841,7 +2841,7 @@ export const EVENTS_DB = {
       {
         id: 1005,
         stageId: "room9",
-        title: "謎めいた部屋からの脱出",
+        title: "謎めいた部屋からの脱出＜通常前売り切れ＞",
         artist: "トンプソン",
         startTime: "14:10",
         endTime: "14:55",
@@ -2850,7 +2850,7 @@ export const EVENTS_DB = {
       {
         id: 1006,
         stageId: "room9",
-        title: "謎めいた部屋からの脱出",
+        title: "謎めいた部屋からの脱出＜通常前売り切れ＞",
         artist: "トンプソン",
         startTime: "15:05",
         endTime: "15:50",
@@ -2895,7 +2895,7 @@ export const EVENTS_DB = {
       {
         id: 1011,
         stageId: "room9",
-        title: "謎めいた部屋からの脱出",
+        title: "謎めいた部屋からの脱出＜通常前売り切れ＞",
         artist: "トンプソン",
         startTime: "19:40",
         endTime: "20:25",
@@ -2949,7 +2949,7 @@ export const EVENTS_DB = {
       {
         id: 1201,
         stageId: "rental2",
-        title: "Escape from the Game in Game",
+        title: "Escape from the Game in Game＜通常前売り切れ＞",
         artist: "InTale",
         startTime: "9:20",
         endTime: "10:20",
@@ -2994,7 +2994,7 @@ export const EVENTS_DB = {
       {
         id: 1301,
         stageId: "room401",
-        title: "OPEN EXIT",
+        title: "OPEN EXIT＜通常前売り切れ＞",
         artist: "Leia",
         startTime: "9:00",
         endTime: "9:40",
@@ -3066,7 +3066,7 @@ export const EVENTS_DB = {
       {
         id: 1309,
         stageId: "room401",
-        title: "OPEN EXIT",
+        title: "OPEN EXIT＜通常前売り切れ＞",
         artist: "Leia",
         startTime: "18:20",
         endTime: "19:00",
@@ -3084,7 +3084,7 @@ export const EVENTS_DB = {
       {
         id: 1311,
         stageId: "room401",
-        title: "OPEN EXIT",
+        title: "OPEN EXIT＜通常前売り切れ＞",
         artist: "Leia",
         startTime: "21:00",
         endTime: "21:40",
@@ -3174,7 +3174,7 @@ export const EVENTS_DB = {
       {
         id: 1501,
         stageId: "room502",
-        title: "フラフラ　フラっとフラコイナゾ",
+        title: "フラフラ　フラっとフラコイナゾ＜通常前売り切れ＞",
         artist: "Flambeur’s Coin",
         startTime: "10:00",
         endTime: "10:45",
@@ -3219,7 +3219,7 @@ export const EVENTS_DB = {
       {
         id: 1506,
         stageId: "room502",
-        title: "フラフラ　フラっとフラコイナゾ",
+        title: "フラフラ　フラっとフラコイナゾ＜通常前売り切れ＞",
         artist: "Flambeur’s Coin",
         startTime: "15:05",
         endTime: "15:50",
@@ -3255,7 +3255,7 @@ export const EVENTS_DB = {
       {
         id: 1510,
         stageId: "room502",
-        title: "フラフラ　フラっとフラコイナゾ",
+        title: "フラフラ　フラっとフラコイナゾ＜通常前売り切れ＞",
         artist: "Flambeur’s Coin",
         startTime: "19:00",
         endTime: "19:45",
@@ -3264,7 +3264,7 @@ export const EVENTS_DB = {
       {
         id: 1601,
         stageId: "room602-1",
-        title: "収集癖",
+        title: "収集癖＜通常前売り切れ＞",
         artist: "CDR",
         startTime: "9:20",
         endTime: "10:05",
@@ -3372,7 +3372,7 @@ export const EVENTS_DB = {
       {
         id: 1701,
         stageId: "room602-2",
-        title: "ダジャレを解くのは誰じゃ！？",
+        title: "ダジャレを解くのは誰じゃ！？＜通常前売り切れ＞",
         artist: "ミステリーケーキ",
         startTime: "9:20",
         endTime: "10:00",
@@ -3462,7 +3462,7 @@ export const EVENTS_DB = {
       {
         id: 1711,
         stageId: "room602-2",
-        title: "ダジャレを解くのは誰じゃ！？",
+        title: "ダジャレを解くのは誰じゃ！？＜通常前売り切れ＞",
         artist: "ミステリーケーキ",
         startTime: "20:30",
         endTime: "21:10",
@@ -3480,7 +3480,7 @@ export const EVENTS_DB = {
       {
         id: 1801,
         stageId: "stand1",
-        title: "階段落ちからの脱出",
+        title: "階段落ちからの脱出＜通常前売り切れ＞",
         artist: "シングルズ",
         startTime: "10:30",
         endTime: "10:45",
@@ -3507,7 +3507,7 @@ export const EVENTS_DB = {
       {
         id: 1804,
         stageId: "stand1",
-        title: "階段落ちからの脱出",
+        title: "階段落ちからの脱出＜通常前売り切れ＞",
         artist: "シングルズ",
         startTime: "11:30",
         endTime: "11:45",
@@ -3525,7 +3525,7 @@ export const EVENTS_DB = {
       {
         id: 1806,
         stageId: "stand1",
-        title: "階段落ちからの脱出",
+        title: "階段落ちからの脱出＜通常前売り切れ＞",
         artist: "シングルズ",
         startTime: "12:10",
         endTime: "12:25",
@@ -3606,7 +3606,7 @@ export const EVENTS_DB = {
       {
         id: 1815,
         stageId: "stand1",
-        title: "階段落ちからの脱出",
+        title: "階段落ちからの脱出＜通常前売り切れ＞",
         artist: "シングルズ",
         startTime: "15:10",
         endTime: "15:25",
@@ -3624,7 +3624,7 @@ export const EVENTS_DB = {
       {
         id: 1817,
         stageId: "stand1",
-        title: "階段落ちからの脱出",
+        title: "階段落ちからの脱出＜通常前売り切れ＞",
         artist: "シングルズ",
         startTime: "15:50",
         endTime: "16:05",
@@ -3633,7 +3633,7 @@ export const EVENTS_DB = {
       {
         id: 1818,
         stageId: "stand1",
-        title: "階段落ちからの脱出",
+        title: "階段落ちからの脱出＜通常前売り切れ＞",
         artist: "シングルズ",
         startTime: "16:10",
         endTime: "16:25",
@@ -3651,7 +3651,7 @@ export const EVENTS_DB = {
       {
         id: 1820,
         stageId: "stand1",
-        title: "階段落ちからの脱出",
+        title: "階段落ちからの脱出＜通常前売り切れ＞",
         artist: "シングルズ",
         startTime: "16:50",
         endTime: "17:05",
@@ -3813,7 +3813,7 @@ export const EVENTS_DB = {
       {
         id: 2301,
         stageId: "booth1",
-        title: "イロハコネクト",
+        title: "イロハコネクト＜通常前売り切れ＞",
         artist: "J's C Labo",
         startTime: "10:30",
         endTime: "11:30",
@@ -3840,7 +3840,7 @@ export const EVENTS_DB = {
       {
         id: 2304,
         stageId: "booth1",
-        title: "イロハコネクト",
+        title: "イロハコネクト＜通常前売り切れ＞",
         artist: "J's C Labo",
         startTime: "15:00",
         endTime: "16:00",
@@ -3912,7 +3912,7 @@ export const EVENTS_DB = {
       {
         id: 2405,
         stageId: "booth2",
-        title: "笑うディーラーとポーカーフェイス",
+        title: "笑うディーラーとポーカーフェイス＜通常前売り切れ＞",
         artist: "CrossXOne",
         startTime: "15:10",
         endTime: "16:00",
@@ -3921,7 +3921,7 @@ export const EVENTS_DB = {
       {
         id: 2406,
         stageId: "booth2",
-        title: "笑うディーラーとポーカーフェイス",
+        title: "笑うディーラーとポーカーフェイス＜通常前売り切れ＞",
         artist: "CrossXOne",
         startTime: "16:20",
         endTime: "17:10",
@@ -3930,7 +3930,7 @@ export const EVENTS_DB = {
       {
         id: 2407,
         stageId: "booth2",
-        title: "笑うディーラーとポーカーフェイス",
+        title: "笑うディーラーとポーカーフェイス＜通常前売り切れ＞",
         artist: "CrossXOne",
         startTime: "17:30",
         endTime: "18:20",
@@ -3948,7 +3948,7 @@ export const EVENTS_DB = {
       {
         id: 2409,
         stageId: "booth2",
-        title: "笑うディーラーとポーカーフェイス",
+        title: "笑うディーラーとポーカーフェイス＜通常前売り切れ＞",
         artist: "CrossXOne",
         startTime: "19:50",
         endTime: "20:40",
@@ -4029,7 +4029,7 @@ export const EVENTS_DB = {
       {
         id: 2509,
         stageId: "booth3",
-        title: "ワードミュージアム2",
+        title: "ワードミュージアム2＜通常前売り切れ＞",
         artist: "TKGデラックス",
         startTime: "16:00",
         endTime: "16:30",
@@ -4092,7 +4092,7 @@ export const EVENTS_DB = {
       {
         id: 2001,
         stageId: "booth4",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "10:30",
         endTime: "11:10",
@@ -4101,7 +4101,7 @@ export const EVENTS_DB = {
       {
         id: 2002,
         stageId: "booth4",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "11:30",
         endTime: "12:10",
@@ -4110,7 +4110,7 @@ export const EVENTS_DB = {
       {
         id: 2003,
         stageId: "booth4",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "12:30",
         endTime: "13:10",
@@ -4119,7 +4119,7 @@ export const EVENTS_DB = {
       {
         id: 2004,
         stageId: "booth4",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "14:30",
         endTime: "15:10",
@@ -4128,7 +4128,7 @@ export const EVENTS_DB = {
       {
         id: 2005,
         stageId: "booth4",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "15:30",
         endTime: "16:10",
@@ -4137,7 +4137,7 @@ export const EVENTS_DB = {
       {
         id: 2006,
         stageId: "booth4",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "16:30",
         endTime: "17:10",
@@ -4146,7 +4146,7 @@ export const EVENTS_DB = {
       {
         id: 2007,
         stageId: "booth4",
-        title: "ハッタリハッタリ",
+        title: "ハッタリハッタリ＜通常前売り切れ＞",
         artist: "ComeCozy",
         startTime: "17:30",
         endTime: "18:10",
@@ -4182,7 +4182,7 @@ export const EVENTS_DB = {
       {
         id: 2103,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "11:20",
         endTime: "11:40",
@@ -4200,7 +4200,7 @@ export const EVENTS_DB = {
       {
         id: 2105,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "12:10",
         endTime: "12:30",
@@ -4245,7 +4245,7 @@ export const EVENTS_DB = {
       {
         id: 2110,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "14:40",
         endTime: "15:00",
@@ -4290,7 +4290,7 @@ export const EVENTS_DB = {
       {
         id: 2115,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "17:10",
         endTime: "17:30",
@@ -4299,7 +4299,7 @@ export const EVENTS_DB = {
       {
         id: 2116,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "18:00",
         endTime: "18:20",
@@ -4496,7 +4496,7 @@ export const EVENTS_DB = {
       {
         id: 103,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "11:50",
         endTime: "12:20",
@@ -4505,7 +4505,7 @@ export const EVENTS_DB = {
       {
         id: 104,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "12:10",
         endTime: "12:40",
@@ -4514,7 +4514,7 @@ export const EVENTS_DB = {
       {
         id: 105,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "12:30",
         endTime: "13:00",
@@ -4541,7 +4541,7 @@ export const EVENTS_DB = {
       {
         id: 108,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "13:30",
         endTime: "14:00",
@@ -4577,7 +4577,7 @@ export const EVENTS_DB = {
       {
         id: 112,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "14:50",
         endTime: "15:20",
@@ -4595,7 +4595,7 @@ export const EVENTS_DB = {
       {
         id: 114,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "15:30",
         endTime: "16:00",
@@ -4604,7 +4604,7 @@ export const EVENTS_DB = {
       {
         id: 115,
         stageId: "room1",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "15:50",
         endTime: "16:20",
@@ -4631,7 +4631,7 @@ export const EVENTS_DB = {
       {
         id: 118,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "16:50",
         endTime: "17:20",
@@ -4640,7 +4640,7 @@ export const EVENTS_DB = {
       {
         id: 119,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "17:30",
         endTime: "18:00",
@@ -4649,7 +4649,7 @@ export const EVENTS_DB = {
       {
         id: 120,
         stageId: "room1b",
-        title: "トクテン",
+        title: "トクテン＜通常前売り切れ＞",
         artist: "WHTNU",
         startTime: "18:10",
         endTime: "18:40",
@@ -4667,7 +4667,7 @@ export const EVENTS_DB = {
       {
         id: 202,
         stageId: "room2",
-        title: "Q■の■分リドルクッキング",
+        title: "Q■の■分リドルクッキング＜通常前売り切れ＞",
         artist: "Ereka",
         startTime: "11:40",
         endTime: "12:30",
@@ -4694,7 +4694,7 @@ export const EVENTS_DB = {
       {
         id: 205,
         stageId: "room2",
-        title: "Q■の■分リドルクッキング",
+        title: "Q■の■分リドルクッキング＜通常前売り切れ＞",
         artist: "Ereka",
         startTime: "15:10",
         endTime: "16:00",
@@ -4712,7 +4712,7 @@ export const EVENTS_DB = {
       {
         id: 207,
         stageId: "room2",
-        title: "Q■の■分リドルクッキング",
+        title: "Q■の■分リドルクッキング＜通常前売り切れ＞",
         artist: "Ereka",
         startTime: "17:30",
         endTime: "18:20",
@@ -4784,7 +4784,7 @@ export const EVENTS_DB = {
       {
         id: 306,
         stageId: "room3",
-        title: "韻すぴれーしょん",
+        title: "韻すぴれーしょん＜通常前売り切れ＞",
         artist: "CrazyLemon",
         startTime: "15:30",
         endTime: "16:20",
@@ -4910,7 +4910,7 @@ export const EVENTS_DB = {
       {
         id: 601,
         stageId: "japanese",
-        title: "Textbook Archive!",
+        title: "Textbook Archive!＜通常前売り切れ＞",
         artist: "BOX",
         startTime: "10:30",
         endTime: "11:10",
@@ -4919,7 +4919,7 @@ export const EVENTS_DB = {
       {
         id: 602,
         stageId: "japanese",
-        title: "Textbook Archive!",
+        title: "Textbook Archive!＜通常前売り切れ＞",
         artist: "BOX",
         startTime: "11:30",
         endTime: "12:10",
@@ -4946,7 +4946,7 @@ export const EVENTS_DB = {
       {
         id: 605,
         stageId: "japanese",
-        title: "Textbook Archive!",
+        title: "Textbook Archive!＜通常前売り切れ＞",
         artist: "BOX",
         startTime: "14:30",
         endTime: "15:10",
@@ -4964,7 +4964,7 @@ export const EVENTS_DB = {
       {
         id: 607,
         stageId: "japanese",
-        title: "Textbook Archive!",
+        title: "Textbook Archive!＜通常前売り切れ＞",
         artist: "BOX",
         startTime: "16:30",
         endTime: "17:10",
@@ -4982,7 +4982,7 @@ export const EVENTS_DB = {
       {
         id: 609,
         stageId: "japanese",
-        title: "Textbook Archive!",
+        title: "Textbook Archive!＜通常前売り切れ＞",
         artist: "BOX",
         startTime: "18:30",
         endTime: "19:10",
@@ -5036,7 +5036,7 @@ export const EVENTS_DB = {
       {
         id: 801,
         stageId: "room7",
-        title: "The BOX",
+        title: "The BOX＜通常前売り切れ＞",
         artist: "Melt",
         startTime: "10:30",
         endTime: "11:30",
@@ -5081,7 +5081,7 @@ export const EVENTS_DB = {
       {
         id: 806,
         stageId: "room7",
-        title: "The BOX",
+        title: "The BOX＜通常前売り切れ＞",
         artist: "Melt",
         startTime: "16:20",
         endTime: "17:20",
@@ -5117,7 +5117,7 @@ export const EVENTS_DB = {
       {
         id: 901,
         stageId: "room8",
-        title: "フィッシュボーンアンサー",
+        title: "フィッシュボーンアンサー＜通常前売り切れ＞",
         artist: "X LixiT",
         startTime: "10:30",
         endTime: "11:30",
@@ -5126,7 +5126,7 @@ export const EVENTS_DB = {
       {
         id: 902,
         stageId: "room8",
-        title: "フィッシュボーンアンサー",
+        title: "フィッシュボーンアンサー＜通常前売り切れ＞",
         artist: "X LixiT",
         startTime: "11:50",
         endTime: "12:50",
@@ -5144,7 +5144,7 @@ export const EVENTS_DB = {
       {
         id: 904,
         stageId: "room8",
-        title: "フィッシュボーンアンサー",
+        title: "フィッシュボーンアンサー＜通常前売り切れ＞",
         artist: "X LixiT",
         startTime: "14:30",
         endTime: "15:30",
@@ -5315,7 +5315,7 @@ export const EVENTS_DB = {
       {
         id: 1201,
         stageId: "rental2",
-        title: "Escape from the Game in Game",
+        title: "Escape from the Game in Game＜通常前売り切れ＞",
         artist: "InTale",
         startTime: "9:20",
         endTime: "10:20",
@@ -5414,7 +5414,7 @@ export const EVENTS_DB = {
       {
         id: 1307,
         stageId: "room401",
-        title: "OPEN EXIT",
+        title: "OPEN EXIT＜通常前売り切れ＞",
         artist: "Leia",
         startTime: "16:20",
         endTime: "17:00",
@@ -5459,7 +5459,7 @@ export const EVENTS_DB = {
       {
         id: 1401,
         stageId: "room403",
-        title: "リドルステークス",
+        title: "リドルステークス＜通常前売り切れ＞",
         artist: "すぎやまいっぺい",
         startTime: "10:30",
         endTime: "11:30",
@@ -5468,7 +5468,7 @@ export const EVENTS_DB = {
       {
         id: 1402,
         stageId: "room403",
-        title: "リドルステークス",
+        title: "リドルステークス＜通常前売り切れ＞",
         artist: "すぎやまいっぺい",
         startTime: "11:45",
         endTime: "12:45",
@@ -5531,7 +5531,7 @@ export const EVENTS_DB = {
       {
         id: 1501,
         stageId: "room502",
-        title: "ボクスチェンジ",
+        title: "ボクスチェンジ＜通常前売り切れ＞",
         artist: "teaparty",
         startTime: "9:20",
         endTime: "10:10",
@@ -5576,7 +5576,7 @@ export const EVENTS_DB = {
       {
         id: 1506,
         stageId: "room502",
-        title: "ボクスチェンジ",
+        title: "ボクスチェンジ＜通常前売り切れ＞",
         artist: "teaparty",
         startTime: "15:30",
         endTime: "16:20",
@@ -5936,7 +5936,7 @@ export const EVENTS_DB = {
       {
         id: 2310,
         stageId: "booth1",
-        title: "イチオク",
+        title: "イチオク＜通常前売り切れ＞",
         artist: "J's C Labo",
         startTime: "18:00",
         endTime: "18:30",
@@ -6071,7 +6071,7 @@ export const EVENTS_DB = {
       {
         id: 2402,
         stageId: "booth3",
-        title: "笑うディーラーとポーカーフェイス",
+        title: "笑うディーラーとポーカーフェイス＜通常前売り切れ＞",
         artist: "CrossXOne",
         startTime: "11:40",
         endTime: "12:30",
@@ -6125,7 +6125,7 @@ export const EVENTS_DB = {
       {
         id: 2408,
         stageId: "booth3",
-        title: "笑うディーラーとポーカーフェイス",
+        title: "笑うディーラーとポーカーフェイス＜通常前売り切れ＞",
         artist: "CrossXOne",
         startTime: "18:40",
         endTime: "19:30",
@@ -6251,7 +6251,7 @@ export const EVENTS_DB = {
       {
         id: 2513,
         stageId: "booth4",
-        title: "99枚の皿5",
+        title: "99枚の皿5＜通常前売り切れ＞",
         artist: "TKGデラックス",
         startTime: "19:40",
         endTime: "20:10",
@@ -6305,7 +6305,7 @@ export const EVENTS_DB = {
       {
         id: 2105,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "12:10",
         endTime: "12:30",
@@ -6350,7 +6350,7 @@ export const EVENTS_DB = {
       {
         id: 2110,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "14:40",
         endTime: "15:00",
@@ -6377,7 +6377,7 @@ export const EVENTS_DB = {
       {
         id: 2113,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "16:20",
         endTime: "16:40",
@@ -6395,7 +6395,7 @@ export const EVENTS_DB = {
       {
         id: 2115,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "17:10",
         endTime: "17:30",
@@ -6404,7 +6404,7 @@ export const EVENTS_DB = {
       {
         id: 2116,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "18:00",
         endTime: "18:20",
@@ -6431,7 +6431,7 @@ export const EVENTS_DB = {
       {
         id: 2119,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "19:15",
         endTime: "19:35",
@@ -6440,7 +6440,7 @@ export const EVENTS_DB = {
       {
         id: 2120,
         stageId: "booth5",
-        title: "まっきー1本 謎のもと",
+        title: "まっきー1本 謎のもと＜通常前売り切れ＞",
         artist: "すぎやまっきー",
         startTime: "19:40",
         endTime: "20:00",
