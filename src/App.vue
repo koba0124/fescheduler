@@ -19,6 +19,7 @@ import {
   X,
   Import,
   LogOut,
+  HelpCircle,
 } from "lucide-vue-next";
 
 // ==========================================
@@ -277,13 +278,17 @@ const timeSlots = computed(() => {
   return slots;
 });
 
+// イベント選択時に前後何分ぶんをブロックするか（EVENTS_DB に定義）
+const blockMargin = computed(() => eventData.value?.blockMargin ?? 0);
+
 const isBlocked = (targetEvent) => {
+  // すでにお気に入りになっているものは常に選択可能
   if (favorites.value.includes(targetEvent.id)) return false;
   const tStart = timeToMinutes(targetEvent.startTime);
   const tEnd = timeToMinutes(targetEvent.endTime);
   return favoriteEvents.value.some((f) => {
-    const fStart = timeToMinutes(f.startTime);
-    const fEnd = timeToMinutes(f.endTime);
+    const fStart = timeToMinutes(f.startTime) - blockMargin.value;
+    const fEnd = timeToMinutes(f.endTime) + blockMargin.value;
     return tStart < fEnd && tEnd > fStart;
   });
 };
@@ -309,11 +314,22 @@ const withCloseMenu = (fn) => {
       v-if="currentView === 'list'"
       class="min-h-screen bg-gray-50 flex flex-col w-full"
     >
-      <header class="bg-white border-b border-gray-200 py-4 px-6 shadow-sm">
-        <h1 class="text-2xl font-bold text-indigo-600 flex items-center gap-2">
+      <header
+        class="bg-white border-b border-gray-200 py-4 px-6 shadow-sm flex items-center justify-between"
+      >
+        <div class="flex items-center gap-2">
           <Calendar class="w-8 h-8" />
-          {{ APP_NAME }}
-        </h1>
+          <h1 class="text-2xl font-bold text-indigo-600">{{ APP_NAME }}</h1>
+        </div>
+        <a
+          href="https://note.com/asami_konno/n/naa04f372012a"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="ml-auto text-gray-400 hover:text-indigo-600 transition-colors"
+          title="ヘルプページを開く"
+        >
+          <HelpCircle class="w-7 h-7" />
+        </a>
       </header>
       <main class="flex-1 max-w-4xl mx-auto w-full p-6">
         <h2 class="text-xl font-bold text-gray-800 mb-6">イベント一覧</h2>
@@ -487,6 +503,15 @@ const withCloseMenu = (fn) => {
               />
               <span>{{ showOnlyFavorites ? "Myのみ" : "全て" }}</span>
             </button>
+            <a
+              href="https://note.com/asami_konno/n/naa04f372012a"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="ml-auto text-gray-400 hover:text-indigo-600 transition-colors"
+              title="ヘルプページを開く"
+            >
+              <HelpCircle class="w-7 h-7" />
+            </a>
           </div>
 
           <!-- スマホ用メニューボタン (md未満で表示) -->
@@ -519,6 +544,15 @@ const withCloseMenu = (fn) => {
           >
             <div class="flex justify-between items-center mb-6">
               <h2 class="text-lg font-bold text-gray-800">Menu</h2>
+              <a
+                href="https://note.com/asami_konno/n/naa04f372012a"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="ml-auto text-gray-400 hover:text-indigo-600 transition-colors"
+                title="ヘルプページを開く"
+              >
+                <HelpCircle class="w-7 h-7" />
+              </a>
               <button
                 @click="isMenuOpen = false"
                 class="p-2 text-gray-500 hover:bg-gray-100 rounded-full"
@@ -841,8 +875,8 @@ const withCloseMenu = (fn) => {
                     :key="`band-${fav.id}`"
                     class="absolute w-full bg-gray-600/10 pointer-events-none z-0 border-y border-gray-600/20 mix-blend-multiply"
                     :style="{
-                      top: `${(timeToMinutes(fav.startTime) - startMinutes) * PIXELS_PER_MINUTE}px`,
-                      height: `${(timeToMinutes(fav.endTime) - timeToMinutes(fav.startTime)) * PIXELS_PER_MINUTE}px`,
+                      top: `${Math.max(timeToMinutes(fav.startTime) - blockMargin - startMinutes, 0) * PIXELS_PER_MINUTE}px`,
+                      height: `${(timeToMinutes(fav.endTime) - timeToMinutes(fav.startTime) + blockMargin * 2) * PIXELS_PER_MINUTE}px`,
                     }"
                   ></div>
                 </template>
