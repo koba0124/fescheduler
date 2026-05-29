@@ -361,6 +361,20 @@ const withCloseMenu = (fn) => {
           このアプリは個人で作成されたものであり、イベントの主催者とは一切関係ありません。<br />
           ご自由にお使いいただけますが、掲載されているイベント情報が最新のものである保証はありません。<br />
           <b>最新の情報は、公式の発表やウェブサイトをご確認ください。</b><br />
+          <div class="border border-blue-400 p-4">
+            <ul>
+              <li>
+                大阪最宴祭15については、
+                <a
+                  href="https://nazotoki-timetable.github.io/saienfes15/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-indigo-600 hover:underline"
+                  >公式のタイムテーブル作成サイト</a
+                >があります。
+              </li>
+            </ul>
+          </div>
           <br />
           このアプリの利用により生じたいかなる損害についても、作者は一切の責任を負いかねますので、ご了承ください。<br />
           また、バグ報告・機能要望は歓迎いたしますが、対応をお約束するものではありません。
