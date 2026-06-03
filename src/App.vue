@@ -20,6 +20,8 @@ import {
   Import,
   LogOut,
   HelpCircle,
+  Minimize,
+  Maximize,
 } from "lucide-vue-next";
 
 // ==========================================
@@ -68,7 +70,21 @@ const viewMode = ref("grid");
 const isMenuOpen = ref(false);
 const isSharedMode = ref(false);
 
+// スリム幅モードのステート管理
+const isNarrowMode = ref(false);
 const PIXELS_PER_MINUTE = 2.5;
+
+onMounted(() => {
+  // 初期化時にローカルストレージから設定を読み込み
+  const storedNarrowMode = localStorage.getItem("fescheduler_narrow");
+  if (storedNarrowMode !== null) {
+    isNarrowMode.value = storedNarrowMode === "true";
+  }
+});
+
+watch(isNarrowMode, (newVal) => {
+  localStorage.setItem("fescheduler_narrow", String(newVal));
+});
 
 const eventData = computed(() => EVENTS_DB[eventId.value] || null);
 
@@ -256,6 +272,15 @@ const favoriteEvents = computed(() => {
   );
 });
 
+const blockedBandsEvents = computed(() => {
+  if (!eventData.value) return [];
+  return favoriteEvents.value.filter((fav) => {
+    const stageInfo = eventData.value.stages.find((s) => s.id === fav.stageId);
+    // allowOverlapが設定されているステージのイベントは帯を出さない
+    return !stageInfo?.allowOverlap;
+  });
+});
+
 const displayedEvents = computed(() => {
   if (!eventData.value) return [];
   return showOnlyFavorites.value
@@ -281,12 +306,41 @@ const timeSlots = computed(() => {
 // イベント選択時に前後何分ぶんをブロックするか（EVENTS_DB に定義）
 const blockMargin = computed(() => eventData.value?.blockMargin ?? 0);
 
+const isStageBlocked = (stageId) => {
+  const stageInfo = eventData.value?.stages.find((s) => s.id === stageId);
+  if (stageInfo?.allowMultiple) return false;
+  // allowOverlap が設定されているステージは縦の列のグレーアウトもしない
+  if (stageInfo?.allowOverlap) return false;
+  return favoriteEvents.value.some((f) => f.stageId === stageId);
+};
+
 const isBlocked = (targetEvent) => {
   // すでにお気に入りになっているものは常に選択可能
   if (favorites.value.includes(targetEvent.id)) return false;
+
+  // 同じ列（ステージ）のブロック設定をチェック
+  if (isStageBlocked(targetEvent.stageId)) {
+    return true;
+  }
+
+  const targetStageInfo = eventData.value?.stages.find(
+    (s) => s.id === targetEvent.stageId,
+  );
+  // 時間被りを許容する（横のブロックをしない）設定があればチェックをパス
+  if (targetStageInfo?.allowOverlap) {
+    return false;
+  }
+
+  // 時間かぶりのブロックチェック
   const tStart = timeToMinutes(targetEvent.startTime);
   const tEnd = timeToMinutes(targetEvent.endTime);
   return favoriteEvents.value.some((f) => {
+    const fStageInfo = eventData.value?.stages.find((s) => s.id === f.stageId);
+    // すでに登録されている予定が時間被り許容設定なら無視する
+    if (fStageInfo?.allowOverlap) {
+      return false;
+    }
+
     const fStart = timeToMinutes(f.startTime) - blockMargin.value;
     const fEnd = timeToMinutes(f.endTime) + blockMargin.value;
     return tStart < fEnd && tEnd > fStart;
@@ -506,22 +560,38 @@ const withCloseMenu = (fn) => {
               </button>
             </template>
 
-            <button
+            <!-- タイムテーブル時の表示切替フィルター -->
+            <div
               v-if="viewMode === 'grid'"
-              @click="showOnlyFavorites = !showOnlyFavorites"
-              :class="`flex items-center justify-center px-4 py-2 rounded-full text-sm font-bold transition-all gap-2 ${showOnlyFavorites ? 'bg-pink-500 text-white shadow-md' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`"
-              title="フィルター切り替え"
+              class="flex items-center gap-2 ml-1"
             >
-              <Heart
-                :class="`w-4 h-4 ${showOnlyFavorites ? 'fill-current' : ''}`"
-              />
-              <span>{{ showOnlyFavorites ? "Myのみ" : "全て" }}</span>
-            </button>
+              <button
+                @click="isNarrowMode = !isNarrowMode"
+                :class="`flex items-center justify-center px-3 py-2 rounded-full text-sm font-bold transition-all gap-1.5 ${isNarrowMode ? 'bg-indigo-100 text-indigo-700 shadow-inner' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`"
+                title="列幅の切り替え"
+              >
+                <Minimize v-if="!isNarrowMode" class="w-4 h-4" />
+                <Maximize v-else class="w-4 h-4" />
+                <span>{{ isNarrowMode ? "スリム幅" : "通常幅" }}</span>
+              </button>
+
+              <button
+                @click="showOnlyFavorites = !showOnlyFavorites"
+                :class="`flex items-center justify-center px-4 py-2 rounded-full text-sm font-bold transition-all gap-2 ${showOnlyFavorites ? 'bg-pink-500 text-white shadow-md' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`"
+                title="フィルター切り替え"
+              >
+                <Heart
+                  :class="`w-4 h-4 ${showOnlyFavorites ? 'fill-current' : ''}`"
+                />
+                <span>{{ showOnlyFavorites ? "Myのみ" : "全て" }}</span>
+              </button>
+            </div>
+
             <a
               href="https://note.com/asami_konno/n/naa04f372012a"
               target="_blank"
               rel="noopener noreferrer"
-              class="ml-auto text-gray-400 hover:text-indigo-600 transition-colors"
+              class="ml-auto pl-2 text-gray-400 hover:text-indigo-600 transition-colors"
               title="ヘルプページを開く"
             >
               <HelpCircle class="w-7 h-7" />
@@ -634,36 +704,56 @@ const withCloseMenu = (fn) => {
                 </div>
               </div>
 
-              <!-- セクション: フィルター -->
+              <!-- セクション: フィルター・表示設定 -->
               <div v-if="viewMode === 'grid'">
                 <h3
                   class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2"
                 >
-                  フィルター
+                  フィルター・表示
                 </h3>
-                <button
-                  @click="
-                    withCloseMenu(
-                      () => (showOnlyFavorites = !showOnlyFavorites),
-                    )
-                  "
-                  :class="`w-full flex items-center justify-between px-4 py-3 rounded-xl font-bold transition-all ${showOnlyFavorites ? 'bg-pink-500 text-white shadow-md' : 'bg-gray-100 text-gray-700'}`"
-                >
-                  <span class="flex items-center gap-2">
-                    <Heart
-                      :class="`w-5 h-5 ${showOnlyFavorites ? 'fill-current' : ''}`"
-                    />
-                    My予定のみ表示
-                  </span>
-                  <div
-                    class="w-10 h-6 bg-black/10 rounded-full relative transition-colors"
+                <div class="flex flex-col gap-2">
+                  <button
+                    @click="
+                      withCloseMenu(
+                        () => (showOnlyFavorites = !showOnlyFavorites),
+                      )
+                    "
+                    :class="`w-full flex items-center justify-between px-4 py-3 rounded-xl font-bold transition-all ${showOnlyFavorites ? 'bg-pink-500 text-white shadow-md' : 'bg-gray-100 text-gray-700'}`"
                   >
+                    <span class="flex items-center gap-2">
+                      <Heart
+                        :class="`w-5 h-5 ${showOnlyFavorites ? 'fill-current' : ''}`"
+                      />
+                      My予定のみ表示
+                    </span>
                     <div
-                      class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform"
-                      :class="showOnlyFavorites ? 'translate-x-4' : ''"
-                    ></div>
-                  </div>
-                </button>
+                      class="w-10 h-6 bg-black/10 rounded-full relative transition-colors"
+                    >
+                      <div
+                        class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform"
+                        :class="showOnlyFavorites ? 'translate-x-4' : ''"
+                      ></div>
+                    </div>
+                  </button>
+
+                  <button
+                    @click="withCloseMenu(() => (isNarrowMode = !isNarrowMode))"
+                    :class="`w-full flex items-center justify-between px-4 py-3 rounded-xl font-bold transition-all ${isNarrowMode ? 'bg-indigo-500 text-white shadow-md' : 'bg-gray-100 text-gray-700'}`"
+                  >
+                    <span class="flex items-center gap-2">
+                      <Minimize class="w-5 h-5" />
+                      スリム幅で表示
+                    </span>
+                    <div
+                      class="w-10 h-6 bg-black/10 rounded-full relative transition-colors"
+                    >
+                      <div
+                        class="absolute top-1 left-1 w-4 h-4 bg-white rounded-full transition-transform"
+                        :class="isNarrowMode ? 'translate-x-4' : ''"
+                      ></div>
+                    </div>
+                  </button>
+                </div>
               </div>
 
               <!-- セクション: シェア -->
@@ -851,12 +941,18 @@ const withCloseMenu = (fn) => {
                       v-for="stage in group.stages"
                       :key="stage.id"
                       @click="toggleStageVisibility(stage.id)"
-                      class="flex-1 min-w-[180px] flex items-center justify-center font-bold text-xs text-gray-600 border-r border-gray-200 last:border-r-0 cursor-pointer hover:bg-gray-100 group relative transition-colors select-none"
+                      :class="[
+                        'flex-1 flex items-center justify-center font-bold text-xs border-r border-gray-200 last:border-r-0 cursor-pointer group relative transition-colors select-none',
+                        isNarrowMode ? 'min-w-[100px]' : 'min-w-[180px]',
+                        isStageBlocked(stage.id) && !showOnlyFavorites
+                          ? 'bg-gray-200 text-gray-500 hover:bg-gray-300'
+                          : 'text-gray-600 hover:bg-gray-100',
+                      ]"
                       title="クリックして非表示"
                     >
-                      {{ stage.name }}
+                      <span class="truncate px-2">{{ stage.name }}</span>
                       <EyeOff
-                        class="w-3.5 h-3.5 absolute right-2 text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity"
+                        class="w-3.5 h-3.5 absolute right-2 text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity flex-shrink-0 bg-gray-100"
                       />
                     </div>
                   </div>
@@ -885,7 +981,7 @@ const withCloseMenu = (fn) => {
                 <!-- Blocked Bands -->
                 <template v-if="!showOnlyFavorites">
                   <div
-                    v-for="fav in favoriteEvents"
+                    v-for="fav in blockedBandsEvents"
                     :key="`band-${fav.id}`"
                     class="absolute w-full bg-gray-600/10 pointer-events-none z-0 border-y border-gray-600/20 mix-blend-multiply"
                     :style="{
@@ -904,7 +1000,13 @@ const withCloseMenu = (fn) => {
                   <div
                     v-for="stage in group.stages"
                     :key="stage.id"
-                    class="flex-1 min-w-[180px] relative border-r border-gray-100 group last:border-r-0"
+                    :class="[
+                      'flex-1 relative border-r border-gray-100 group last:border-r-0 transition-colors',
+                      isNarrowMode ? 'min-w-[100px]' : 'min-w-[180px]',
+                      isStageBlocked(stage.id) && !showOnlyFavorites
+                        ? 'bg-gray-500/10'
+                        : '',
+                    ]"
                   >
                     <div
                       v-for="event in displayedEvents.filter(
@@ -913,7 +1015,8 @@ const withCloseMenu = (fn) => {
                       :key="event.id"
                       @click="!isBlocked(event) && toggleFavorite(event.id)"
                       :class="[
-                        'absolute inset-x-1 rounded-md p-2 text-xs flex flex-col justify-start transition-all overflow-hidden',
+                        'absolute inset-x-1 rounded-md flex flex-col justify-start transition-all overflow-hidden',
+                        isNarrowMode ? 'p-1 text-[10px]' : 'p-2 text-xs',
                         event.color,
                         favorites.includes(event.id)
                           ? 'z-10 ring-2 ring-pink-500 shadow-md bg-pink-100 border-pink-500'
@@ -929,18 +1032,23 @@ const withCloseMenu = (fn) => {
                       }"
                     >
                       <div
-                        class="flex justify-between items-start pointer-events-none font-bold leading-tight mb-0.5"
+                        class="flex justify-between items-start pointer-events-none font-bold leading-tight"
+                        :class="isNarrowMode ? 'mb-0' : 'mb-0.5'"
                       >
                         <span class="line-clamp-2">{{ event.title }}</span>
                         <Heart
                           v-if="favorites.includes(event.id)"
-                          class="w-3.5 h-3.5 fill-pink-500 text-pink-500 flex-shrink-0"
+                          class="w-3.5 h-3.5 fill-pink-500 text-pink-500 flex-shrink-0 ml-0.5"
                         />
                       </div>
-                      <div class="truncate mb-0.5 pointer-events-none">
+                      <div
+                        class="truncate pointer-events-none"
+                        :class="isNarrowMode ? 'mb-0' : 'mb-0.5'"
+                      >
                         {{ event.artist }}
                       </div>
                       <div
+                        v-if="!isNarrowMode"
                         class="mt-auto text-[10px] flex items-center gap-1 pointer-events-none text-gray-500"
                       >
                         <Clock class="w-3 h-3" />{{ event.startTime }} -
