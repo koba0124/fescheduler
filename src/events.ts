@@ -2215,7 +2215,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "9:00",
-        endTime: "10:20",
+        endTime: "10:25",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -2224,7 +2224,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "10:50",
-        endTime: "12:10",
+        endTime: "12:15",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -2233,7 +2233,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "12:40",
-        endTime: "14:00",
+        endTime: "14:05",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -2242,7 +2242,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "14:40",
-        endTime: "16:00",
+        endTime: "16:05",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -2251,7 +2251,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "16:30",
-        endTime: "17:50",
+        endTime: "17:55",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -2260,7 +2260,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "18:20",
-        endTime: "19:40",
+        endTime: "19:45",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -2269,7 +2269,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "20:10",
-        endTime: "21:30",
+        endTime: "21:35",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -5271,7 +5271,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "9:00",
-        endTime: "10:20",
+        endTime: "10:25",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -5280,7 +5280,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "10:50",
-        endTime: "12:10",
+        endTime: "12:15",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -5289,7 +5289,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "12:40",
-        endTime: "14:00",
+        endTime: "14:05",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -5298,7 +5298,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "14:40",
-        endTime: "16:00",
+        endTime: "16:05",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -5307,7 +5307,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "16:30",
-        endTime: "17:50",
+        endTime: "17:55",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -5316,7 +5316,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "18:20",
-        endTime: "19:40",
+        endTime: "19:45",
         color: "bg-pink-100 border-pink-300",
       },
       {
@@ -5325,7 +5325,7 @@ export const EVENTS_DB = {
         title: "人生一発逆転ゲームからの脱出",
         artist: "ミステリージャック",
         startTime: "20:10",
-        endTime: "21:30",
+        endTime: "21:35",
         color: "bg-pink-100 border-pink-300",
       },
       {
