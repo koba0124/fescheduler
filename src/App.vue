@@ -272,6 +272,22 @@ const favoriteEvents = computed(() => {
   );
 });
 
+// Myタイムテーブルに追加されたイベントの合計参加費を計算
+const totalFee = computed(() => {
+  return favoriteEvents.value.reduce((sum, event) => {
+    const fee = Number(event.fee);
+    if (
+      !isNaN(fee) &&
+      event.fee !== null &&
+      event.fee !== undefined &&
+      event.fee !== ""
+    ) {
+      return sum + fee;
+    }
+    return sum;
+  }, 0);
+});
+
 const blockedBandsEvents = computed(() => {
   if (!eventData.value) return [];
   return favoriteEvents.value.filter((fav) => {
@@ -815,12 +831,25 @@ const withCloseMenu = (fn) => {
         class="flex-1 overflow-y-auto bg-gray-50 p-4"
       >
         <div class="max-w-2xl mx-auto">
-          <h2
-            class="text-xl font-bold mb-6 flex items-center gap-2 text-gray-800"
-          >
-            <Heart class="w-6 h-6 fill-pink-500 text-pink-500" />My
-            タイムテーブル
-          </h2>
+          <div class="flex justify-between items-end mb-6">
+            <h2
+              class="text-xl font-bold flex items-center gap-2 text-gray-800 mb-0"
+            >
+              <Heart class="w-6 h-6 fill-pink-500 text-pink-500" />My
+              タイムテーブル
+            </h2>
+
+            <!-- 合計参加費の表示 -->
+            <div
+              v-if="totalFee > 0"
+              class="text-right bg-white px-3 py-1.5 rounded-lg border border-gray-200 shadow-sm"
+            >
+              <span class="text-xs text-gray-500 font-medium">合計参加費</span>
+              <span class="ml-2 text-lg font-extrabold text-gray-800"
+                >¥{{ totalFee.toLocaleString() }}</span
+              >
+            </div>
+          </div>
 
           <div
             v-if="sortedFavorites.length === 0"
@@ -857,7 +886,22 @@ const withCloseMenu = (fn) => {
               <h3 class="text-lg font-bold text-gray-800 mb-1">
                 {{ event.title }}
               </h3>
-              <p class="text-gray-600 text-sm">{{ event.artist }}</p>
+
+              <div class="flex flex-col gap-1.5">
+                <p class="text-gray-600 text-sm">{{ event.artist }}</p>
+                <!-- 参加費が設定されている場合のみ表示 -->
+                <span
+                  v-if="
+                    event.fee !== null &&
+                    event.fee !== undefined &&
+                    event.fee !== ''
+                  "
+                  class="inline-flex items-center px-2 py-1 rounded text-xs font-bold bg-emerald-50 text-emerald-700 w-max mb-1"
+                >
+                  💰 ¥{{ Number(event.fee).toLocaleString() }}
+                </span>
+              </div>
+
               <button
                 v-if="!isSharedMode"
                 @click="toggleFavorite(event.id)"

@@ -246,6 +246,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-gray-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 2,
@@ -255,6 +256,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-gray-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 3,
@@ -264,6 +266,7 @@ export const EVENTS_DB = {
         startTime: "13:20",
         endTime: "14:20",
         color: "bg-gray-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 4,
@@ -273,6 +276,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:40",
         color: "bg-gray-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 5,
@@ -282,6 +286,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "17:00",
         color: "bg-gray-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 6,
@@ -291,6 +296,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:20",
         color: "bg-red-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 12,
@@ -300,6 +306,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:05",
         color: "bg-gray-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 13,
@@ -309,6 +316,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "14:05",
         color: "bg-gray-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 14,
@@ -318,6 +326,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "16:05",
         color: "bg-gray-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 15,
@@ -327,6 +336,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "18:05",
         color: "bg-gray-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 16,
@@ -336,6 +346,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "20:05",
         color: "bg-gray-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 22,
@@ -345,6 +356,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 23,
@@ -354,6 +366,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 24,
@@ -363,6 +376,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:20",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 25,
@@ -372,6 +386,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 26,
@@ -381,6 +396,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "13:40",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 27,
@@ -390,6 +406,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:20",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 28,
@@ -399,6 +416,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:30",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 29,
@@ -408,6 +426,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:10",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 30,
@@ -417,6 +436,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "16:50",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 31,
@@ -426,6 +446,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 32,
@@ -435,6 +456,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:10",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 33,
@@ -444,6 +466,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "18:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 34,
@@ -453,6 +476,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 35,
@@ -462,6 +486,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:10",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 36,
@@ -471,6 +496,7 @@ export const EVENTS_DB = {
         startTime: "20:20",
         endTime: "20:50",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 51,
@@ -480,6 +506,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-green-100 border-green-300",
+        fee: "2500",
       },
       {
         id: 52,
@@ -489,6 +516,7 @@ export const EVENTS_DB = {
         startTime: "12:45",
         endTime: "14:15",
         color: "bg-green-100 border-green-300",
+        fee: "2500",
       },
       {
         id: 53,
@@ -498,6 +526,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:30",
         color: "bg-green-100 border-green-300",
+        fee: "2500",
       },
       {
         id: 54,
@@ -507,6 +536,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "18:30",
         color: "bg-green-100 border-green-300",
+        fee: "2500",
       },
       {
         id: 55,
@@ -516,6 +546,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "20:30",
         color: "bg-green-100 border-green-300",
+        fee: "2500",
       },
       {
         id: 56,
@@ -525,6 +556,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-green-100 border-green-300",
+        fee: "2500",
       },
       {
         id: 65,
@@ -534,6 +566,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "3000",
       },
       {
         id: 66,
@@ -543,6 +576,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "14:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "3000",
       },
       {
         id: 67,
@@ -552,6 +586,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "16:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "3000",
       },
       {
         id: 68,
@@ -561,6 +596,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "18:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "3000",
       },
       {
         id: 72,
@@ -570,6 +606,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "3000",
       },
       {
         id: 73,
@@ -579,6 +616,7 @@ export const EVENTS_DB = {
         startTime: "12:15",
         endTime: "13:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "3000",
       },
       {
         id: 74,
@@ -588,6 +626,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "3000",
       },
       {
         id: 75,
@@ -597,6 +636,7 @@ export const EVENTS_DB = {
         startTime: "15:45",
         endTime: "17:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "3000",
       },
       {
         id: 76,
@@ -606,6 +646,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "19:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "3000",
       },
       {
         id: 77,
@@ -615,6 +656,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "20:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "3000",
       },
       {
         id: 100,
@@ -624,6 +666,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 101,
@@ -633,6 +676,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:45",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 102,
@@ -642,6 +686,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "14:00",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 103,
@@ -651,6 +696,7 @@ export const EVENTS_DB = {
         startTime: "14:15",
         endTime: "15:15",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 104,
@@ -660,6 +706,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:30",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 105,
@@ -669,6 +716,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:45",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 106,
@@ -678,6 +726,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:00",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 107,
@@ -687,6 +736,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "20:15",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 120,
@@ -696,6 +746,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 121,
@@ -705,6 +756,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 122,
@@ -714,6 +766,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 123,
@@ -723,6 +776,7 @@ export const EVENTS_DB = {
         startTime: "14:15",
         endTime: "15:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 124,
@@ -732,6 +786,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:15",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 125,
@@ -741,6 +796,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 126,
@@ -750,6 +806,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 127,
@@ -759,6 +816,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "20:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 136,
@@ -768,6 +826,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "12:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "3500",
       },
       {
         id: 137,
@@ -777,6 +836,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "15:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "3500",
       },
       {
         id: 138,
@@ -786,6 +846,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "17:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "3500",
       },
       {
         id: 139,
@@ -795,6 +856,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "20:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "3500",
       },
       {
         id: 144,
@@ -804,6 +866,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 145,
@@ -813,6 +876,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 146,
@@ -822,6 +886,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 147,
@@ -831,6 +896,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 148,
@@ -840,6 +906,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:30",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 149,
@@ -849,6 +916,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:30",
         color: "bg-gray-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 150,
@@ -858,6 +926,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:30",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 151,
@@ -867,6 +936,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:40",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 152,
@@ -876,6 +946,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:40",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 153,
@@ -885,6 +956,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "20:40",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 161,
@@ -894,6 +966,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 162,
@@ -903,6 +976,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 163,
@@ -912,6 +986,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "11:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 164,
@@ -921,6 +996,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:25",
         color: "bg-gray-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 165,
@@ -930,6 +1006,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 166,
@@ -939,6 +1016,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "13:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 167,
@@ -948,6 +1026,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 168,
@@ -957,6 +1036,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "14:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 169,
@@ -966,6 +1046,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 170,
@@ -975,6 +1056,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 171,
@@ -984,6 +1066,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "16:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 172,
@@ -993,6 +1076,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 173,
@@ -1002,6 +1086,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "17:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 174,
@@ -1011,6 +1096,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "18:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 175,
@@ -1020,6 +1106,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 176,
@@ -1029,6 +1116,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "19:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 177,
@@ -1038,6 +1126,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "20:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 178,
@@ -1047,6 +1136,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "20:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 191,
@@ -1056,6 +1146,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:05",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 192,
@@ -1065,6 +1156,7 @@ export const EVENTS_DB = {
         startTime: "11:15",
         endTime: "11:50",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 193,
@@ -1074,6 +1166,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:45",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 194,
@@ -1083,6 +1176,7 @@ export const EVENTS_DB = {
         startTime: "12:55",
         endTime: "13:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 195,
@@ -1092,6 +1186,7 @@ export const EVENTS_DB = {
         startTime: "13:40",
         endTime: "14:15",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 196,
@@ -1101,6 +1196,7 @@ export const EVENTS_DB = {
         startTime: "14:25",
         endTime: "15:00",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 197,
@@ -1110,6 +1206,7 @@ export const EVENTS_DB = {
         startTime: "15:15",
         endTime: "15:50",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 198,
@@ -1119,6 +1216,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:35",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 199,
@@ -1128,6 +1226,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 200,
@@ -1137,6 +1236,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:05",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 201,
@@ -1146,6 +1246,7 @@ export const EVENTS_DB = {
         startTime: "18:15",
         endTime: "18:50",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 202,
@@ -1155,6 +1256,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:35",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 203,
@@ -1164,6 +1266,7 @@ export const EVENTS_DB = {
         startTime: "19:45",
         endTime: "20:20",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 204,
@@ -1173,6 +1276,7 @@ export const EVENTS_DB = {
         startTime: "20:25",
         endTime: "21:00",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 206,
@@ -1182,6 +1286,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 207,
@@ -1191,6 +1296,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:15",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 208,
@@ -1200,6 +1306,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:15",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 209,
@@ -1209,6 +1316,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:15",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 210,
@@ -1218,6 +1326,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:15",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 211,
@@ -1227,6 +1336,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:15",
         color: "bg-gray-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 212,
@@ -1236,6 +1346,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:15",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 213,
@@ -1245,6 +1356,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:15",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 219,
@@ -1254,6 +1366,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 220,
@@ -1263,6 +1376,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 221,
@@ -1272,6 +1386,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 222,
@@ -1281,6 +1396,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 223,
@@ -1290,6 +1406,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 224,
@@ -1299,6 +1416,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 225,
@@ -1308,6 +1426,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 226,
@@ -1317,6 +1436,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 227,
@@ -1326,6 +1446,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 228,
@@ -1335,6 +1456,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "20:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 238,
@@ -1344,6 +1466,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 239,
@@ -1353,6 +1476,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "11:55",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 240,
@@ -1362,6 +1486,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 241,
@@ -1371,6 +1496,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:35",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 242,
@@ -1380,6 +1506,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 243,
@@ -1389,6 +1516,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 244,
@@ -1398,6 +1526,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 245,
@@ -1407,6 +1536,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "16:55",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 246,
@@ -1416,6 +1546,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "17:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 247,
@@ -1425,6 +1556,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:35",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 248,
@@ -1434,6 +1566,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 249,
@@ -1443,6 +1576,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 250,
@@ -1452,6 +1586,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 260,
@@ -1461,6 +1596,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 261,
@@ -1470,6 +1606,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 262,
@@ -1479,6 +1616,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 263,
@@ -1488,6 +1626,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 264,
@@ -1497,6 +1636,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 265,
@@ -1506,6 +1646,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 266,
@@ -1515,6 +1656,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 267,
@@ -1524,6 +1666,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 268,
@@ -1533,6 +1676,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 269,
@@ -1542,6 +1686,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 270,
@@ -1551,6 +1696,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "19:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 271,
@@ -1560,6 +1706,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "20:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 284,
@@ -1569,6 +1716,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 285,
@@ -1578,6 +1726,7 @@ export const EVENTS_DB = {
         startTime: "12:15",
         endTime: "13:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 286,
@@ -1587,6 +1736,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 287,
@@ -1596,6 +1746,7 @@ export const EVENTS_DB = {
         startTime: "15:45",
         endTime: "17:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 288,
@@ -1605,6 +1756,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "19:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 289,
@@ -1614,6 +1766,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "20:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 296,
@@ -1623,6 +1776,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 297,
@@ -1632,6 +1786,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 298,
@@ -1641,6 +1796,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 299,
@@ -1650,6 +1806,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:30",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 300,
@@ -1659,6 +1816,7 @@ export const EVENTS_DB = {
         startTime: "13:40",
         endTime: "14:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 301,
@@ -1668,6 +1826,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "14:50",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 302,
@@ -1677,6 +1836,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 303,
@@ -1686,6 +1846,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 304,
@@ -1695,6 +1856,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 305,
@@ -1704,6 +1866,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "17:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 306,
@@ -1713,6 +1876,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 307,
@@ -1722,6 +1886,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 308,
@@ -1731,6 +1896,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 309,
@@ -1740,6 +1906,7 @@ export const EVENTS_DB = {
         startTime: "20:20",
         endTime: "20:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 325,
@@ -1749,6 +1916,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 326,
@@ -1758,6 +1926,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:00",
         color: "bg-gray-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 327,
@@ -1767,6 +1936,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 328,
@@ -1776,6 +1946,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 329,
@@ -1785,6 +1956,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 330,
@@ -1794,6 +1966,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 331,
@@ -1803,6 +1976,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 332,
@@ -1812,6 +1986,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 333,
@@ -1821,6 +1996,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "17:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 334,
@@ -1830,6 +2006,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 335,
@@ -1839,6 +2016,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 336,
@@ -1848,6 +2026,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:20",
         color: "bg-gray-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 345,
@@ -1857,6 +2036,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 346,
@@ -1866,6 +2046,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:20",
         color: "bg-gray-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 347,
@@ -1875,6 +2056,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "11:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 348,
@@ -1884,6 +2066,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:20",
         color: "bg-gray-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 349,
@@ -1893,6 +2076,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "12:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 350,
@@ -1902,6 +2086,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "13:50",
         color: "bg-gray-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 351,
@@ -1911,6 +2096,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 352,
@@ -1920,6 +2106,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "14:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 353,
@@ -1929,6 +2116,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 354,
@@ -1938,6 +2126,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "15:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 355,
@@ -1947,6 +2136,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "16:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 356,
@@ -1956,6 +2146,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 357,
@@ -1965,6 +2156,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "17:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 358,
@@ -1974,6 +2166,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:20",
         color: "bg-gray-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 359,
@@ -1983,6 +2176,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "18:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 360,
@@ -1992,6 +2186,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 361,
@@ -2001,6 +2196,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "19:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 362,
@@ -2010,6 +2206,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "20:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "1000",
       },
       {
         id: 369,
@@ -2019,6 +2216,7 @@ export const EVENTS_DB = {
         startTime: "9:30",
         endTime: "10:20",
         color: "bg-gray-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 370,
@@ -2028,6 +2226,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 371,
@@ -2037,6 +2236,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 372,
@@ -2046,6 +2246,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 373,
@@ -2055,6 +2256,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 374,
@@ -2064,6 +2266,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:30",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 375,
@@ -2073,6 +2276,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:30",
         color: "bg-gray-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 376,
@@ -2082,6 +2286,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:30",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 377,
@@ -2091,6 +2296,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:30",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 378,
@@ -2100,6 +2306,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:40",
         color: "bg-gray-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 379,
@@ -2109,6 +2316,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 380,
@@ -2118,6 +2326,7 @@ export const EVENTS_DB = {
         startTime: "20:50",
         endTime: "21:40",
         color: "bg-gray-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 393,
@@ -2127,6 +2336,7 @@ export const EVENTS_DB = {
         startTime: "10:00",
         endTime: "10:45",
         color: "bg-gray-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 394,
@@ -2136,6 +2346,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 395,
@@ -2145,6 +2356,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 396,
@@ -2154,6 +2366,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 397,
@@ -2163,6 +2376,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 398,
@@ -2172,6 +2386,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 399,
@@ -2181,6 +2396,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 400,
@@ -2190,6 +2406,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 401,
@@ -2199,6 +2416,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 402,
@@ -2208,6 +2426,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 413,
@@ -2217,6 +2436,7 @@ export const EVENTS_DB = {
         startTime: "9:00",
         endTime: "10:25",
         color: "bg-gray-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 414,
@@ -2226,6 +2446,7 @@ export const EVENTS_DB = {
         startTime: "10:50",
         endTime: "12:15",
         color: "bg-gray-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 415,
@@ -2235,6 +2456,7 @@ export const EVENTS_DB = {
         startTime: "12:40",
         endTime: "14:05",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 416,
@@ -2244,6 +2466,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "16:05",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 417,
@@ -2253,6 +2476,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 418,
@@ -2262,6 +2486,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:45",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 419,
@@ -2271,6 +2496,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "21:35",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 427,
@@ -2280,6 +2506,7 @@ export const EVENTS_DB = {
         startTime: "9:00",
         endTime: "9:45",
         color: "bg-gray-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 428,
@@ -2289,6 +2516,7 @@ export const EVENTS_DB = {
         startTime: "10:00",
         endTime: "10:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 429,
@@ -2298,6 +2526,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 430,
@@ -2307,6 +2536,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 431,
@@ -2316,6 +2546,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 432,
@@ -2325,6 +2556,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 433,
@@ -2334,6 +2566,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 434,
@@ -2343,6 +2576,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 435,
@@ -2352,6 +2586,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 436,
@@ -2361,6 +2596,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 437,
@@ -2370,6 +2606,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 438,
@@ -2379,6 +2616,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "20:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 439,
@@ -2388,6 +2626,7 @@ export const EVENTS_DB = {
         startTime: "21:00",
         endTime: "21:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 448,
@@ -2397,6 +2636,7 @@ export const EVENTS_DB = {
         startTime: "9:40",
         endTime: "10:40",
         color: "bg-gray-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 449,
@@ -2406,6 +2646,7 @@ export const EVENTS_DB = {
         startTime: "10:50",
         endTime: "11:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 450,
@@ -2415,6 +2656,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 451,
@@ -2424,6 +2666,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 452,
@@ -2433,6 +2676,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "15:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 453,
@@ -2442,6 +2686,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 454,
@@ -2451,6 +2696,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:50",
         color: "bg-gray-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 455,
@@ -2460,6 +2706,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:00",
         color: "bg-gray-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 456,
@@ -2469,6 +2716,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "20:10",
         color: "bg-gray-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 457,
@@ -2478,6 +2726,7 @@ export const EVENTS_DB = {
         startTime: "20:20",
         endTime: "21:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 458,
@@ -2487,6 +2736,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 470,
@@ -2496,6 +2746,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:00",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 471,
@@ -2505,6 +2756,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 472,
@@ -2514,6 +2766,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 473,
@@ -2523,6 +2776,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 474,
@@ -2532,6 +2786,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 475,
@@ -2541,6 +2796,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 476,
@@ -2550,6 +2806,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 477,
@@ -2559,6 +2816,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 478,
@@ -2568,6 +2826,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:10",
         color: "bg-gray-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 479,
@@ -2577,6 +2836,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 490,
@@ -2586,6 +2846,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 491,
@@ -2595,6 +2856,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 492,
@@ -2604,6 +2866,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 493,
@@ -2613,6 +2876,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 494,
@@ -2622,6 +2886,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 495,
@@ -2631,6 +2896,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 496,
@@ -2640,6 +2906,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 497,
@@ -2649,6 +2916,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 498,
@@ -2658,6 +2926,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 499,
@@ -2667,6 +2936,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 510,
@@ -2676,6 +2946,7 @@ export const EVENTS_DB = {
         startTime: "9:30",
         endTime: "10:20",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 511,
@@ -2685,6 +2956,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 512,
@@ -2694,6 +2966,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 513,
@@ -2703,6 +2976,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 514,
@@ -2712,6 +2986,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 515,
@@ -2721,6 +2996,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 516,
@@ -2730,6 +3006,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 517,
@@ -2739,6 +3016,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 518,
@@ -2748,6 +3026,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 519,
@@ -2757,6 +3036,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 520,
@@ -2766,6 +3046,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 530,
@@ -2775,6 +3056,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:00",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 531,
@@ -2784,6 +3066,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "12:00",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 532,
@@ -2793,6 +3076,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:50",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 533,
@@ -2802,6 +3086,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 534,
@@ -2811,6 +3096,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:50",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 535,
@@ -2820,6 +3106,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:50",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 536,
@@ -2829,6 +3116,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:50",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 537,
@@ -2838,6 +3126,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:50",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 538,
@@ -2847,6 +3136,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:50",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 539,
@@ -2856,6 +3146,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "21:00",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 548,
@@ -2865,6 +3156,7 @@ export const EVENTS_DB = {
         startTime: "9:50",
         endTime: "10:20",
         color: "bg-gray-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 549,
@@ -2874,6 +3166,7 @@ export const EVENTS_DB = {
         startTime: "10:40",
         endTime: "11:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 550,
@@ -2883,6 +3176,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 551,
@@ -2892,6 +3186,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "12:50",
         color: "bg-gray-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 552,
@@ -2901,6 +3196,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "13:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 553,
@@ -2910,6 +3206,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 554,
@@ -2919,6 +3216,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 555,
@@ -2928,6 +3226,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 556,
@@ -2937,6 +3236,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 557,
@@ -2946,6 +3246,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "17:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 558,
@@ -2955,6 +3256,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "18:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 559,
@@ -2964,6 +3266,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 560,
@@ -2973,6 +3276,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 561,
@@ -2982,6 +3286,7 @@ export const EVENTS_DB = {
         startTime: "20:40",
         endTime: "21:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 562,
@@ -2991,6 +3296,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 575,
@@ -3000,6 +3306,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 576,
@@ -3009,6 +3316,7 @@ export const EVENTS_DB = {
         startTime: "11:25",
         endTime: "12:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 577,
@@ -3018,6 +3326,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "13:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 578,
@@ -3027,6 +3336,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 579,
@@ -3036,6 +3346,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:55",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 580,
@@ -3045,6 +3356,7 @@ export const EVENTS_DB = {
         startTime: "15:05",
         endTime: "15:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 581,
@@ -3054,6 +3366,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 582,
@@ -3063,6 +3376,7 @@ export const EVENTS_DB = {
         startTime: "16:55",
         endTime: "17:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 583,
@@ -3072,6 +3386,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "18:35",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 584,
@@ -3081,6 +3396,7 @@ export const EVENTS_DB = {
         startTime: "18:45",
         endTime: "19:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 585,
@@ -3090,6 +3406,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 586,
@@ -3099,6 +3416,7 @@ export const EVENTS_DB = {
         startTime: "20:35",
         endTime: "21:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 587,
@@ -3108,6 +3426,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 601,
@@ -3117,6 +3436,7 @@ export const EVENTS_DB = {
         startTime: "9:00",
         endTime: "10:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "3000",
       },
       {
         id: 602,
@@ -3126,6 +3446,7 @@ export const EVENTS_DB = {
         startTime: "10:20",
         endTime: "11:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "3000",
       },
       {
         id: 603,
@@ -3135,6 +3456,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "3000",
       },
       {
         id: 604,
@@ -3144,6 +3466,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "14:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "3000",
       },
       {
         id: 605,
@@ -3153,6 +3476,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "3000",
       },
       {
         id: 606,
@@ -3162,6 +3486,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "17:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "3000",
       },
       {
         id: 607,
@@ -3171,6 +3496,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "3000",
       },
       {
         id: 608,
@@ -3180,6 +3506,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "3000",
       },
       {
         id: 609,
@@ -3189,6 +3516,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "21:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "3000",
       },
       {
         id: 630,
@@ -3198,6 +3526,7 @@ export const EVENTS_DB = {
         startTime: "8:00",
         endTime: "8:45",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 631,
@@ -3207,6 +3536,7 @@ export const EVENTS_DB = {
         startTime: "9:00",
         endTime: "9:45",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 632,
@@ -3216,6 +3546,7 @@ export const EVENTS_DB = {
         startTime: "9:55",
         endTime: "10:40",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 633,
@@ -3225,6 +3556,7 @@ export const EVENTS_DB = {
         startTime: "10:50",
         endTime: "11:35",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 634,
@@ -3234,6 +3566,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:55",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 635,
@@ -3243,6 +3576,7 @@ export const EVENTS_DB = {
         startTime: "13:05",
         endTime: "13:50",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 636,
@@ -3252,6 +3586,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 637,
@@ -3261,6 +3596,7 @@ export const EVENTS_DB = {
         startTime: "14:55",
         endTime: "15:40",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 638,
@@ -3270,6 +3606,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:35",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 639,
@@ -3279,6 +3616,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 640,
@@ -3288,6 +3626,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:25",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 641,
@@ -3297,6 +3636,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:35",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 642,
@@ -3306,6 +3646,7 @@ export const EVENTS_DB = {
         startTime: "19:45",
         endTime: "20:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 643,
@@ -3315,6 +3656,7 @@ export const EVENTS_DB = {
         startTime: "20:40",
         endTime: "21:25",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 644,
@@ -3324,6 +3666,7 @@ export const EVENTS_DB = {
         startTime: "21:35",
         endTime: "22:20",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 645,
@@ -3333,6 +3676,7 @@ export const EVENTS_DB = {
         startTime: "22:30",
         endTime: "23:15",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
     ],
   },
@@ -3590,6 +3934,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "13:00",
         color: "bg-red-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 8,
@@ -3599,6 +3944,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "15:00",
         color: "bg-red-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 9,
@@ -3608,6 +3954,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "17:00",
         color: "bg-red-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 10,
@@ -3617,6 +3964,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "19:00",
         color: "bg-red-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 11,
@@ -3626,6 +3974,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "21:00",
         color: "bg-red-100 border-red-300",
+        fee: "2500",
       },
       {
         id: 17,
@@ -3635,6 +3984,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:05",
         color: "bg-gray-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 18,
@@ -3644,6 +3994,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "14:05",
         color: "bg-gray-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 19,
@@ -3653,6 +4004,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "16:05",
         color: "bg-orange-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 20,
@@ -3662,6 +4014,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "18:05",
         color: "bg-gray-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 21,
@@ -3671,6 +4024,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "20:05",
         color: "bg-orange-100 border-orange-300",
+        fee: "4000",
       },
       {
         id: 37,
@@ -3680,6 +4034,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 38,
@@ -3689,6 +4044,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:40",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 39,
@@ -3698,6 +4054,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:20",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 40,
@@ -3707,6 +4064,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:00",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 41,
@@ -3716,6 +4074,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "13:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 42,
@@ -3725,6 +4084,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:20",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 43,
@@ -3734,6 +4094,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:30",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 44,
@@ -3743,6 +4104,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 45,
@@ -3752,6 +4114,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "16:50",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 46,
@@ -3761,6 +4124,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:30",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 47,
@@ -3770,6 +4134,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 48,
@@ -3779,6 +4144,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "18:50",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 49,
@@ -3788,6 +4154,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:30",
         color: "bg-gray-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 50,
@@ -3797,6 +4164,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2000",
       },
       {
         id: 57,
@@ -3806,6 +4174,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:25",
         color: "bg-green-100 border-green-300",
+        fee: "1500",
       },
       {
         id: 58,
@@ -3815,6 +4184,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:45",
         color: "bg-green-100 border-green-300",
+        fee: "1500",
       },
       {
         id: 59,
@@ -3824,6 +4194,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:05",
         color: "bg-green-100 border-green-300",
+        fee: "1500",
       },
       {
         id: 60,
@@ -3833,6 +4204,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:25",
         color: "bg-green-100 border-green-300",
+        fee: "1500",
       },
       {
         id: 61,
@@ -3842,6 +4214,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:45",
         color: "bg-green-100 border-green-300",
+        fee: "1500",
       },
       {
         id: 62,
@@ -3851,6 +4224,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "18:05",
         color: "bg-green-100 border-green-300",
+        fee: "1500",
       },
       {
         id: 63,
@@ -3860,6 +4234,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:25",
         color: "bg-green-100 border-green-300",
+        fee: "1500",
       },
       {
         id: 64,
@@ -3869,6 +4244,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:45",
         color: "bg-green-100 border-green-300",
+        fee: "1500",
       },
       {
         id: 69,
@@ -3878,6 +4254,7 @@ export const EVENTS_DB = {
         startTime: "10:00",
         endTime: "12:20",
         color: "bg-gray-100 border-lime-300",
+        fee: "3500",
       },
       {
         id: 70,
@@ -3887,6 +4264,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "15:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "3500",
       },
       {
         id: 71,
@@ -3896,6 +4274,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "18:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "3500",
       },
       {
         id: 78,
@@ -3905,6 +4284,7 @@ export const EVENTS_DB = {
         startTime: "10:40",
         endTime: "11:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 79,
@@ -3914,6 +4294,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 80,
@@ -3923,6 +4304,7 @@ export const EVENTS_DB = {
         startTime: "12:40",
         endTime: "13:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 81,
@@ -3932,6 +4314,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:10",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 82,
@@ -3941,6 +4324,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "15:00",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 83,
@@ -3950,6 +4334,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "15:50",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 84,
@@ -3959,6 +4344,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 85,
@@ -3968,6 +4354,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:30",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 86,
@@ -3977,6 +4364,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:20",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 87,
@@ -3986,6 +4374,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 88,
@@ -3995,6 +4384,7 @@ export const EVENTS_DB = {
         startTime: "19:20",
         endTime: "20:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 89,
@@ -4004,6 +4394,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "20:50",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1500",
       },
       {
         id: 90,
@@ -4013,6 +4404,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 91,
@@ -4022,6 +4414,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 92,
@@ -4031,6 +4424,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 93,
@@ -4040,6 +4434,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 94,
@@ -4049,6 +4444,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 95,
@@ -4058,6 +4454,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 96,
@@ -4067,6 +4464,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 97,
@@ -4076,6 +4474,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 98,
@@ -4085,6 +4484,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 99,
@@ -4094,6 +4494,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:15",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 108,
@@ -4103,6 +4504,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 109,
@@ -4112,6 +4514,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:20",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 110,
@@ -4121,6 +4524,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 111,
@@ -4130,6 +4534,7 @@ export const EVENTS_DB = {
         startTime: "13:20",
         endTime: "14:00",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 112,
@@ -4139,6 +4544,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:50",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 113,
@@ -4148,6 +4554,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "15:50",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 114,
@@ -4157,6 +4564,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 115,
@@ -4166,6 +4574,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:30",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 116,
@@ -4175,6 +4584,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:20",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 117,
@@ -4184,6 +4594,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:20",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 118,
@@ -4193,6 +4604,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:10",
         color: "bg-gray-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 119,
@@ -4202,6 +4614,7 @@ export const EVENTS_DB = {
         startTime: "20:20",
         endTime: "21:00",
         color: "bg-pink-100 border-pink-300",
+        fee: "2500",
       },
       {
         id: 128,
@@ -4211,6 +4624,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 129,
@@ -4220,6 +4634,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 130,
@@ -4229,6 +4644,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 131,
@@ -4238,6 +4654,7 @@ export const EVENTS_DB = {
         startTime: "14:15",
         endTime: "15:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 132,
@@ -4247,6 +4664,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:15",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 133,
@@ -4256,6 +4674,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 134,
@@ -4265,6 +4684,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 135,
@@ -4274,6 +4694,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "20:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "2500",
       },
       {
         id: 140,
@@ -4283,6 +4704,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "4000",
       },
       {
         id: 141,
@@ -4292,6 +4714,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "4000",
       },
       {
         id: 142,
@@ -4301,6 +4724,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "17:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "4000",
       },
       {
         id: 143,
@@ -4310,6 +4734,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "19:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "4000",
       },
       {
         id: 154,
@@ -4319,6 +4744,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 155,
@@ -4328,6 +4754,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 156,
@@ -4337,6 +4764,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 157,
@@ -4346,6 +4774,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 158,
@@ -4355,6 +4784,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:30",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 159,
@@ -4364,6 +4794,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:30",
         color: "bg-gray-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 160,
@@ -4373,6 +4804,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:30",
         color: "bg-gray-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 179,
@@ -4382,6 +4814,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 180,
@@ -4391,6 +4824,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 181,
@@ -4400,6 +4834,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "11:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 182,
@@ -4409,6 +4844,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 183,
@@ -4418,6 +4854,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 184,
@@ -4427,6 +4864,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "13:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 185,
@@ -4436,6 +4874,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 186,
@@ -4445,6 +4884,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "14:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 187,
@@ -4454,6 +4894,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 188,
@@ -4463,6 +4904,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 189,
@@ -4472,6 +4914,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "16:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 190,
@@ -4481,6 +4924,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "1000",
       },
       {
         id: 205,
@@ -4490,6 +4934,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "20:30",
         color: "bg-green-100 border-green-300",
+        fee: "2500",
       },
       {
         id: 214,
@@ -4499,6 +4944,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 215,
@@ -4508,6 +4954,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 216,
@@ -4517,6 +4964,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 217,
@@ -4526,6 +4974,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 218,
@@ -4535,6 +4984,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 229,
@@ -4544,6 +4994,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 230,
@@ -4553,6 +5004,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 231,
@@ -4562,6 +5014,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 232,
@@ -4571,6 +5024,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 233,
@@ -4580,6 +5034,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:50",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 234,
@@ -4589,6 +5044,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:50",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 235,
@@ -4598,6 +5054,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 236,
@@ -4607,6 +5064,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 237,
@@ -4616,6 +5074,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 251,
@@ -4625,6 +5084,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 252,
@@ -4634,6 +5094,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 253,
@@ -4643,6 +5104,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 254,
@@ -4652,6 +5114,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 255,
@@ -4661,6 +5124,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 256,
@@ -4670,6 +5134,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 257,
@@ -4679,6 +5144,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 258,
@@ -4688,6 +5154,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 259,
@@ -4697,6 +5164,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:40",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 272,
@@ -4706,6 +5174,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 273,
@@ -4715,6 +5184,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 274,
@@ -4724,6 +5194,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 275,
@@ -4733,6 +5204,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 276,
@@ -4742,6 +5214,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:50",
         color: "bg-gray-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 277,
@@ -4751,6 +5224,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 278,
@@ -4760,6 +5234,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 279,
@@ -4769,6 +5244,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:20",
         color: "bg-gray-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 280,
@@ -4778,6 +5254,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 281,
@@ -4787,6 +5264,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 282,
@@ -4796,6 +5274,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "19:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 283,
@@ -4805,6 +5284,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "20:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "1500",
       },
       {
         id: 290,
@@ -4814,6 +5294,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 291,
@@ -4823,6 +5304,7 @@ export const EVENTS_DB = {
         startTime: "12:15",
         endTime: "13:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 292,
@@ -4832,6 +5314,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 293,
@@ -4841,6 +5324,7 @@ export const EVENTS_DB = {
         startTime: "15:45",
         endTime: "17:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 294,
@@ -4850,6 +5334,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "19:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 295,
@@ -4859,6 +5344,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "20:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "4000",
       },
       {
         id: 310,
@@ -4868,6 +5354,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 311,
@@ -4877,6 +5364,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 312,
@@ -4886,6 +5374,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:20",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 313,
@@ -4895,6 +5384,7 @@ export const EVENTS_DB = {
         startTime: "12:35",
         endTime: "13:05",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 314,
@@ -4904,6 +5394,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "13:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 315,
@@ -4913,6 +5404,7 @@ export const EVENTS_DB = {
         startTime: "13:55",
         endTime: "14:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 316,
@@ -4922,6 +5414,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 317,
@@ -4931,6 +5424,7 @@ export const EVENTS_DB = {
         startTime: "15:20",
         endTime: "15:50",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 318,
@@ -4940,6 +5434,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 319,
@@ -4949,6 +5444,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:15",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 320,
@@ -4958,6 +5454,7 @@ export const EVENTS_DB = {
         startTime: "17:25",
         endTime: "17:55",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 321,
@@ -4967,6 +5464,7 @@ export const EVENTS_DB = {
         startTime: "18:05",
         endTime: "18:35",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 322,
@@ -4976,6 +5474,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:20",
         color: "bg-gray-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 323,
@@ -4985,6 +5484,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 324,
@@ -4994,6 +5494,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "20:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 337,
@@ -5003,6 +5504,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2500",
       },
       {
         id: 338,
@@ -5012,6 +5514,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2500",
       },
       {
         id: 339,
@@ -5021,6 +5524,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2500",
       },
       {
         id: 340,
@@ -5030,6 +5534,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2500",
       },
       {
         id: 341,
@@ -5039,6 +5544,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2500",
       },
       {
         id: 342,
@@ -5048,6 +5554,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2500",
       },
       {
         id: 343,
@@ -5057,6 +5564,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2500",
       },
       {
         id: 344,
@@ -5066,6 +5574,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2500",
       },
       {
         id: 381,
@@ -5075,6 +5584,7 @@ export const EVENTS_DB = {
         startTime: "9:30",
         endTime: "10:20",
         color: "bg-gray-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 382,
@@ -5084,6 +5594,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 383,
@@ -5093,6 +5604,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 384,
@@ -5102,6 +5614,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 385,
@@ -5111,6 +5624,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 386,
@@ -5120,6 +5634,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:30",
         color: "bg-gray-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 387,
@@ -5129,6 +5644,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:30",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 388,
@@ -5138,6 +5654,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:30",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 389,
@@ -5147,6 +5664,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:30",
         color: "bg-gray-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 390,
@@ -5156,6 +5674,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 391,
@@ -5165,6 +5684,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 392,
@@ -5174,6 +5694,7 @@ export const EVENTS_DB = {
         startTime: "20:50",
         endTime: "21:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "2500",
       },
       {
         id: 403,
@@ -5183,6 +5704,7 @@ export const EVENTS_DB = {
         startTime: "10:00",
         endTime: "10:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 404,
@@ -5192,6 +5714,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:45",
         color: "bg-gray-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 405,
@@ -5201,6 +5724,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 406,
@@ -5210,6 +5734,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 407,
@@ -5219,6 +5744,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 408,
@@ -5228,6 +5754,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 409,
@@ -5237,6 +5764,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 410,
@@ -5246,6 +5774,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 411,
@@ -5255,6 +5784,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:45",
         color: "bg-gray-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 412,
@@ -5264,6 +5794,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2500",
       },
       {
         id: 420,
@@ -5273,6 +5804,7 @@ export const EVENTS_DB = {
         startTime: "9:00",
         endTime: "10:25",
         color: "bg-gray-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 421,
@@ -5282,6 +5814,7 @@ export const EVENTS_DB = {
         startTime: "10:50",
         endTime: "12:15",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 422,
@@ -5291,6 +5824,7 @@ export const EVENTS_DB = {
         startTime: "12:40",
         endTime: "14:05",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 423,
@@ -5300,6 +5834,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "16:05",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 424,
@@ -5309,6 +5844,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 425,
@@ -5318,6 +5854,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:45",
         color: "bg-pink-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 426,
@@ -5327,6 +5864,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "21:35",
         color: "bg-gray-100 border-pink-300",
+        fee: "3500",
       },
       {
         id: 440,
@@ -5336,6 +5874,7 @@ export const EVENTS_DB = {
         startTime: "9:00",
         endTime: "9:45",
         color: "bg-gray-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 441,
@@ -5345,6 +5884,7 @@ export const EVENTS_DB = {
         startTime: "10:00",
         endTime: "10:45",
         color: "bg-gray-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 442,
@@ -5354,6 +5894,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 443,
@@ -5363,6 +5904,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 444,
@@ -5372,6 +5914,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 445,
@@ -5381,6 +5924,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 446,
@@ -5390,6 +5934,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:45",
         color: "bg-gray-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 447,
@@ -5399,6 +5944,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "2000",
       },
       {
         id: 459,
@@ -5408,6 +5954,7 @@ export const EVENTS_DB = {
         startTime: "9:40",
         endTime: "10:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 460,
@@ -5417,6 +5964,7 @@ export const EVENTS_DB = {
         startTime: "10:50",
         endTime: "11:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 461,
@@ -5426,6 +5974,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-gray-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 462,
@@ -5435,6 +5984,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:10",
         color: "bg-gray-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 463,
@@ -5444,6 +5994,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "15:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 464,
@@ -5453,6 +6004,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:30",
         color: "bg-gray-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 465,
@@ -5462,6 +6014,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 466,
@@ -5471,6 +6024,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:00",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 467,
@@ -5480,6 +6034,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "20:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 468,
@@ -5489,6 +6044,7 @@ export const EVENTS_DB = {
         startTime: "20:20",
         endTime: "21:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 469,
@@ -5498,6 +6054,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "2000",
       },
       {
         id: 480,
@@ -5507,6 +6064,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:00",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 481,
@@ -5516,6 +6074,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 482,
@@ -5525,6 +6084,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 483,
@@ -5534,6 +6094,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 484,
@@ -5543,6 +6104,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 485,
@@ -5552,6 +6114,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 486,
@@ -5561,6 +6124,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-gray-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 487,
@@ -5570,6 +6134,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 488,
@@ -5579,6 +6144,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:10",
         color: "bg-gray-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 489,
@@ -5588,6 +6154,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:10",
         color: "bg-red-100 border-red-300",
+        fee: "2000",
       },
       {
         id: 500,
@@ -5597,6 +6164,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 501,
@@ -5606,6 +6174,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 502,
@@ -5615,6 +6184,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 503,
@@ -5624,6 +6194,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 504,
@@ -5633,6 +6204,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 505,
@@ -5642,6 +6214,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 506,
@@ -5651,6 +6224,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 507,
@@ -5660,6 +6234,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 508,
@@ -5669,6 +6244,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 509,
@@ -5678,6 +6254,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "2500",
       },
       {
         id: 521,
@@ -5687,6 +6264,7 @@ export const EVENTS_DB = {
         startTime: "9:30",
         endTime: "10:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 522,
@@ -5696,6 +6274,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 523,
@@ -5705,6 +6284,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 524,
@@ -5714,6 +6294,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 525,
@@ -5723,6 +6304,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 526,
@@ -5732,6 +6314,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 527,
@@ -5741,6 +6324,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 528,
@@ -5750,6 +6334,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 529,
@@ -5759,6 +6344,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "2500",
       },
       {
         id: 540,
@@ -5768,6 +6354,7 @@ export const EVENTS_DB = {
         startTime: "9:40",
         endTime: "10:30",
         color: "bg-gray-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 541,
@@ -5777,6 +6364,7 @@ export const EVENTS_DB = {
         startTime: "10:40",
         endTime: "11:30",
         color: "bg-gray-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 542,
@@ -5786,6 +6374,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:30",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 543,
@@ -5795,6 +6384,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:20",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 544,
@@ -5804,6 +6394,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:20",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 545,
@@ -5813,6 +6404,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:20",
         color: "bg-gray-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 546,
@@ -5822,6 +6414,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:20",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 547,
@@ -5831,6 +6424,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-green-100 border-green-300",
+        fee: "2700",
       },
       {
         id: 563,
@@ -5840,6 +6434,7 @@ export const EVENTS_DB = {
         startTime: "9:50",
         endTime: "10:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 564,
@@ -5849,6 +6444,7 @@ export const EVENTS_DB = {
         startTime: "10:40",
         endTime: "11:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 565,
@@ -5858,6 +6454,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 566,
@@ -5867,6 +6464,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "12:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 567,
@@ -5876,6 +6474,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "13:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 568,
@@ -5885,6 +6484,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:30",
         color: "bg-gray-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 569,
@@ -5894,6 +6494,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 570,
@@ -5903,6 +6504,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 571,
@@ -5912,6 +6514,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 572,
@@ -5921,6 +6524,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "17:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 573,
@@ -5930,6 +6534,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "18:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 574,
@@ -5939,6 +6544,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "1500",
       },
       {
         id: 588,
@@ -5948,6 +6554,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 589,
@@ -5957,6 +6564,7 @@ export const EVENTS_DB = {
         startTime: "11:25",
         endTime: "12:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 590,
@@ -5966,6 +6574,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "13:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 591,
@@ -5975,6 +6584,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 592,
@@ -5984,6 +6594,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:55",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 593,
@@ -5993,6 +6604,7 @@ export const EVENTS_DB = {
         startTime: "15:05",
         endTime: "15:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 594,
@@ -6002,6 +6614,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 595,
@@ -6011,6 +6624,7 @@ export const EVENTS_DB = {
         startTime: "16:55",
         endTime: "17:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 596,
@@ -6020,6 +6634,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "18:35",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 597,
@@ -6029,6 +6644,7 @@ export const EVENTS_DB = {
         startTime: "18:45",
         endTime: "19:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 598,
@@ -6038,6 +6654,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 599,
@@ -6047,6 +6664,7 @@ export const EVENTS_DB = {
         startTime: "20:35",
         endTime: "21:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 600,
@@ -6056,6 +6674,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "2000",
       },
       {
         id: 610,
@@ -6065,6 +6684,7 @@ export const EVENTS_DB = {
         startTime: "9:30",
         endTime: "9:55",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 611,
@@ -6074,6 +6694,7 @@ export const EVENTS_DB = {
         startTime: "10:00",
         endTime: "10:25",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 612,
@@ -6083,6 +6704,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:55",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 613,
@@ -6092,6 +6714,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:25",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 614,
@@ -6101,6 +6724,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "11:55",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 615,
@@ -6110,6 +6734,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "12:45",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 616,
@@ -6119,6 +6744,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:15",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 617,
@@ -6128,6 +6754,7 @@ export const EVENTS_DB = {
         startTime: "13:20",
         endTime: "13:45",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 618,
@@ -6137,6 +6764,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:15",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 619,
@@ -6146,6 +6774,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "14:45",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 620,
@@ -6155,6 +6784,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "15:55",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 621,
@@ -6164,6 +6794,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:25",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 622,
@@ -6173,6 +6804,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "16:55",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 623,
@@ -6182,6 +6814,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:25",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 624,
@@ -6191,6 +6824,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "17:55",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 625,
@@ -6200,6 +6834,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "18:45",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 626,
@@ -6209,6 +6844,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:15",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 627,
@@ -6218,6 +6854,7 @@ export const EVENTS_DB = {
         startTime: "19:20",
         endTime: "19:45",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 628,
@@ -6227,6 +6864,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:15",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 629,
@@ -6236,6 +6874,7 @@ export const EVENTS_DB = {
         startTime: "20:20",
         endTime: "20:45",
         color: "bg-gray-100 border-cyan-300",
+        fee: "1000",
       },
       {
         id: 646,
@@ -6245,6 +6884,7 @@ export const EVENTS_DB = {
         startTime: "8:00",
         endTime: "8:45",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 647,
@@ -6254,6 +6894,7 @@ export const EVENTS_DB = {
         startTime: "8:55",
         endTime: "9:40",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 648,
@@ -6263,6 +6904,7 @@ export const EVENTS_DB = {
         startTime: "9:50",
         endTime: "10:35",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 649,
@@ -6272,6 +6914,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 650,
@@ -6281,6 +6924,7 @@ export const EVENTS_DB = {
         startTime: "11:55",
         endTime: "12:40",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 651,
@@ -6290,6 +6934,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:35",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 652,
@@ -6299,6 +6944,7 @@ export const EVENTS_DB = {
         startTime: "13:45",
         endTime: "14:30",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 653,
@@ -6308,6 +6954,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:25",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 654,
@@ -6317,6 +6964,7 @@ export const EVENTS_DB = {
         startTime: "15:35",
         endTime: "16:20",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 655,
@@ -6326,6 +6974,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 656,
@@ -6335,6 +6984,7 @@ export const EVENTS_DB = {
         startTime: "17:25",
         endTime: "18:10",
         color: "bg-amber-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 657,
@@ -6344,6 +6994,7 @@ export const EVENTS_DB = {
         startTime: "20:45",
         endTime: "21:30",
         color: "bg-gray-100 border-amber-300",
+        fee: "2000",
       },
       {
         id: 691,
@@ -6353,6 +7004,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "12:00",
         color: "bg-gray-100 border-yellow-300",
+        fee: "500",
       },
       {
         id: 692,
@@ -6362,6 +7014,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "500",
       },
       {
         id: 693,
@@ -6371,6 +7024,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "14:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "500",
       },
       {
         id: 694,
@@ -6380,6 +7034,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "500",
       },
       {
         id: 695,
@@ -6389,6 +7044,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "500",
       },
       {
         id: 696,
@@ -6398,6 +7054,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "17:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "500",
       },
     ],
   },
@@ -6606,6 +7263,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1002,
@@ -6615,6 +7273,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1003,
@@ -6624,6 +7283,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1004,
@@ -6633,6 +7293,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "15:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1005,
@@ -6642,6 +7303,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1006,
@@ -6651,6 +7313,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "17:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1007,
@@ -6660,6 +7323,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "18:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1008,
@@ -6669,6 +7333,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "19:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1009,
@@ -6678,6 +7343,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "20:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 101,
@@ -6687,6 +7353,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 102,
@@ -6696,6 +7363,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "14:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 103,
@@ -6705,6 +7373,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "17:10",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 104,
@@ -6714,6 +7383,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1101,
@@ -6723,6 +7393,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1102,
@@ -6732,6 +7403,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1103,
@@ -6741,6 +7413,7 @@ export const EVENTS_DB = {
         startTime: "13:20",
         endTime: "14:10",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1104,
@@ -6750,6 +7423,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1105,
@@ -6759,6 +7433,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:50",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1106,
@@ -6768,6 +7443,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:10",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1107,
@@ -6777,6 +7453,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1201,
@@ -6786,6 +7463,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1202,
@@ -6795,6 +7473,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "13:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1203,
@@ -6804,6 +7483,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:50",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1204,
@@ -6813,6 +7493,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:20",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1205,
@@ -6822,6 +7503,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:50",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1206,
@@ -6831,6 +7513,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:20",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1301,
@@ -6840,6 +7523,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "10:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1302,
@@ -6849,6 +7533,7 @@ export const EVENTS_DB = {
         startTime: "11:05",
         endTime: "11:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1303,
@@ -6858,6 +7543,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1304,
@@ -6867,6 +7553,7 @@ export const EVENTS_DB = {
         startTime: "12:55",
         endTime: "13:35",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1305,
@@ -6876,6 +7563,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1306,
@@ -6885,6 +7573,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1307,
@@ -6894,6 +7583,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1308,
@@ -6903,6 +7593,7 @@ export const EVENTS_DB = {
         startTime: "16:35",
         endTime: "17:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1309,
@@ -6912,6 +7603,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1310,
@@ -6921,6 +7613,7 @@ export const EVENTS_DB = {
         startTime: "18:25",
         endTime: "19:05",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1311,
@@ -6930,6 +7623,7 @@ export const EVENTS_DB = {
         startTime: "19:20",
         endTime: "20:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1401,
@@ -6939,6 +7633,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1402,
@@ -6948,6 +7643,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "12:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1403,
@@ -6957,6 +7653,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "13:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1404,
@@ -6966,6 +7663,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1405,
@@ -6975,6 +7673,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "15:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1406,
@@ -6984,6 +7683,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1407,
@@ -6993,6 +7693,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "17:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1408,
@@ -7002,6 +7703,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "18:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1409,
@@ -7011,6 +7713,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "19:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1410,
@@ -7020,6 +7723,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "20:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1501,
@@ -7029,6 +7733,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "10:55",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1502,
@@ -7038,6 +7743,7 @@ export const EVENTS_DB = {
         startTime: "11:05",
         endTime: "11:50",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1503,
@@ -7047,6 +7753,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1504,
@@ -7056,6 +7763,7 @@ export const EVENTS_DB = {
         startTime: "12:55",
         endTime: "13:40",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1505,
@@ -7065,6 +7773,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:35",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1506,
@@ -7074,6 +7783,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1507,
@@ -7083,6 +7793,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:25",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1601,
@@ -7092,6 +7803,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1602,
@@ -7101,6 +7813,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1603,
@@ -7110,6 +7823,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1604,
@@ -7119,6 +7833,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1605,
@@ -7128,6 +7843,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "17:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1606,
@@ -7137,6 +7853,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1701,
@@ -7146,6 +7863,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:40",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1702,
@@ -7155,6 +7873,7 @@ export const EVENTS_DB = {
         startTime: "12:05",
         endTime: "13:35",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1703,
@@ -7164,6 +7883,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1704,
@@ -7173,6 +7893,7 @@ export const EVENTS_DB = {
         startTime: "15:55",
         endTime: "17:25",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1705,
@@ -7182,6 +7903,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "19:20",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1801,
@@ -7191,6 +7913,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "10:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1802,
@@ -7200,6 +7923,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1803,
@@ -7209,6 +7933,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1804,
@@ -7218,6 +7943,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1805,
@@ -7227,6 +7953,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1806,
@@ -7236,6 +7963,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1807,
@@ -7245,6 +7973,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1808,
@@ -7254,6 +7983,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1809,
@@ -7263,6 +7993,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1810,
@@ -7272,6 +8003,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1811,
@@ -7281,6 +8013,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "19:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1901,
@@ -7290,6 +8023,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1902,
@@ -7299,6 +8033,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1903,
@@ -7308,6 +8043,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1904,
@@ -7317,6 +8053,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1905,
@@ -7326,6 +8063,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1906,
@@ -7335,6 +8073,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1907,
@@ -7344,6 +8083,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1908,
@@ -7353,6 +8093,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2001,
@@ -7362,6 +8103,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "10:55",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2002,
@@ -7371,6 +8113,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:05",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2003,
@@ -7380,6 +8123,7 @@ export const EVENTS_DB = {
         startTime: "12:25",
         endTime: "13:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2004,
@@ -7389,6 +8133,7 @@ export const EVENTS_DB = {
         startTime: "13:40",
         endTime: "14:25",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2005,
@@ -7398,6 +8143,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2006,
@@ -7407,6 +8153,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:35",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2007,
@@ -7416,6 +8163,7 @@ export const EVENTS_DB = {
         startTime: "17:05",
         endTime: "17:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2008,
@@ -7425,6 +8173,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "18:55",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2009,
@@ -7434,6 +8183,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "20:00",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 201,
@@ -7443,6 +8193,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:50",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 202,
@@ -7452,6 +8203,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "14:40",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 203,
@@ -7461,6 +8213,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "17:10",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 204,
@@ -7470,6 +8223,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:40",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2101,
@@ -7479,6 +8233,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:05",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2102,
@@ -7488,6 +8243,7 @@ export const EVENTS_DB = {
         startTime: "11:25",
         endTime: "12:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2103,
@@ -7497,6 +8253,7 @@ export const EVENTS_DB = {
         startTime: "12:40",
         endTime: "13:35",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2104,
@@ -7506,6 +8263,7 @@ export const EVENTS_DB = {
         startTime: "13:55",
         endTime: "14:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2105,
@@ -7515,6 +8273,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:05",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2106,
@@ -7524,6 +8283,7 @@ export const EVENTS_DB = {
         startTime: "16:25",
         endTime: "17:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2107,
@@ -7533,6 +8293,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:35",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2108,
@@ -7542,6 +8303,7 @@ export const EVENTS_DB = {
         startTime: "18:55",
         endTime: "19:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2201,
@@ -7551,6 +8313,7 @@ export const EVENTS_DB = {
         startTime: "10:15",
         endTime: "11:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2202,
@@ -7560,6 +8323,7 @@ export const EVENTS_DB = {
         startTime: "11:15",
         endTime: "12:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2203,
@@ -7569,6 +8333,7 @@ export const EVENTS_DB = {
         startTime: "12:15",
         endTime: "13:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2204,
@@ -7578,6 +8343,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2205,
@@ -7587,6 +8353,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2206,
@@ -7596,6 +8363,7 @@ export const EVENTS_DB = {
         startTime: "15:45",
         endTime: "16:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2207,
@@ -7605,6 +8373,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2208,
@@ -7614,6 +8383,7 @@ export const EVENTS_DB = {
         startTime: "17:45",
         endTime: "18:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2209,
@@ -7623,6 +8393,7 @@ export const EVENTS_DB = {
         startTime: "18:45",
         endTime: "19:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2301,
@@ -7632,6 +8403,7 @@ export const EVENTS_DB = {
         startTime: "10:20",
         endTime: "11:10",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2302,
@@ -7641,6 +8413,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:50",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2303,
@@ -7650,6 +8423,7 @@ export const EVENTS_DB = {
         startTime: "13:20",
         endTime: "14:10",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2304,
@@ -7659,6 +8433,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:30",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2305,
@@ -7668,6 +8443,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:10",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2306,
@@ -7677,6 +8453,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:30",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2307,
@@ -7686,6 +8463,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:50",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2401,
@@ -7695,6 +8473,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:10",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2402,
@@ -7704,6 +8483,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2403,
@@ -7713,6 +8493,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:10",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2404,
@@ -7722,6 +8503,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "15:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2405,
@@ -7731,6 +8513,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2406,
@@ -7740,6 +8523,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:40",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2407,
@@ -7749,6 +8533,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "18:50",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2408,
@@ -7758,6 +8543,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "20:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2501,
@@ -7767,6 +8553,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2502,
@@ -7776,6 +8563,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "13:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2503,
@@ -7785,6 +8573,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2504,
@@ -7794,6 +8583,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2505,
@@ -7803,6 +8593,7 @@ export const EVENTS_DB = {
         startTime: "17:15",
         endTime: "18:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2506,
@@ -7812,6 +8603,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "20:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2601,
@@ -7821,6 +8613,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2602,
@@ -7830,6 +8623,7 @@ export const EVENTS_DB = {
         startTime: "11:15",
         endTime: "12:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2603,
@@ -7839,6 +8633,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "13:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2604,
@@ -7848,6 +8643,7 @@ export const EVENTS_DB = {
         startTime: "13:25",
         endTime: "14:25",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2605,
@@ -7857,6 +8653,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2606,
@@ -7866,6 +8663,7 @@ export const EVENTS_DB = {
         startTime: "15:35",
         endTime: "16:35",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2607,
@@ -7875,6 +8673,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2608,
@@ -7884,6 +8683,7 @@ export const EVENTS_DB = {
         startTime: "17:45",
         endTime: "18:45",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2701,
@@ -7893,6 +8693,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2702,
@@ -7902,6 +8703,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2703,
@@ -7911,6 +8713,7 @@ export const EVENTS_DB = {
         startTime: "13:20",
         endTime: "14:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2704,
@@ -7920,6 +8723,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "16:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2705,
@@ -7929,6 +8733,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2706,
@@ -7938,6 +8743,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "19:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 301,
@@ -7947,6 +8753,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 302,
@@ -7956,6 +8763,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 303,
@@ -7965,6 +8773,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 304,
@@ -7974,6 +8783,7 @@ export const EVENTS_DB = {
         startTime: "13:40",
         endTime: "14:35",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 305,
@@ -7983,6 +8793,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 306,
@@ -7992,6 +8803,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:55",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 307,
@@ -8001,6 +8813,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "18:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 308,
@@ -8010,6 +8823,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 401,
@@ -8019,6 +8833,7 @@ export const EVENTS_DB = {
         startTime: "10:15",
         endTime: "11:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 402,
@@ -8028,6 +8843,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:25",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 403,
@@ -8037,6 +8853,7 @@ export const EVENTS_DB = {
         startTime: "12:45",
         endTime: "13:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 404,
@@ -8046,6 +8863,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:55",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 405,
@@ -8055,6 +8873,7 @@ export const EVENTS_DB = {
         startTime: "15:15",
         endTime: "16:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 406,
@@ -8064,6 +8883,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:25",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 407,
@@ -8073,6 +8893,7 @@ export const EVENTS_DB = {
         startTime: "17:45",
         endTime: "18:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 408,
@@ -8082,6 +8903,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:55",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 501,
@@ -8091,6 +8913,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 502,
@@ -8100,6 +8923,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 503,
@@ -8109,6 +8933,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 504,
@@ -8118,6 +8943,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 505,
@@ -8127,6 +8953,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "17:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 506,
@@ -8136,6 +8963,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 507,
@@ -8145,6 +8973,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 601,
@@ -8154,6 +8983,7 @@ export const EVENTS_DB = {
         startTime: "10:15",
         endTime: "10:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 602,
@@ -8163,6 +8993,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 603,
@@ -8172,6 +9003,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 604,
@@ -8181,6 +9013,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 605,
@@ -8190,6 +9023,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "13:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 606,
@@ -8199,6 +9033,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 607,
@@ -8208,6 +9043,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 608,
@@ -8217,6 +9053,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 609,
@@ -8226,6 +9063,7 @@ export const EVENTS_DB = {
         startTime: "16:15",
         endTime: "16:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 610,
@@ -8235,6 +9073,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 611,
@@ -8244,6 +9083,7 @@ export const EVENTS_DB = {
         startTime: "17:45",
         endTime: "18:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 612,
@@ -8253,6 +9093,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 613,
@@ -8262,6 +9103,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "19:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 701,
@@ -8271,6 +9113,7 @@ export const EVENTS_DB = {
         startTime: "10:15",
         endTime: "11:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 702,
@@ -8280,6 +9123,7 @@ export const EVENTS_DB = {
         startTime: "11:15",
         endTime: "12:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 703,
@@ -8289,6 +9133,7 @@ export const EVENTS_DB = {
         startTime: "12:15",
         endTime: "13:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 704,
@@ -8298,6 +9143,7 @@ export const EVENTS_DB = {
         startTime: "13:45",
         endTime: "14:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 705,
@@ -8307,6 +9153,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 706,
@@ -8316,6 +9163,7 @@ export const EVENTS_DB = {
         startTime: "15:45",
         endTime: "16:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 707,
@@ -8325,6 +9173,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 708,
@@ -8334,6 +9183,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 709,
@@ -8343,6 +9193,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 801,
@@ -8352,6 +9203,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 802,
@@ -8361,6 +9213,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 803,
@@ -8370,6 +9223,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "11:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 804,
@@ -8379,6 +9233,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 805,
@@ -8388,6 +9243,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "12:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 806,
@@ -8397,6 +9253,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 807,
@@ -8406,6 +9263,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "13:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 808,
@@ -8415,6 +9273,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 809,
@@ -8424,6 +9283,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "14:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 810,
@@ -8433,6 +9293,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 811,
@@ -8442,6 +9303,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "15:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 812,
@@ -8451,6 +9313,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 813,
@@ -8460,6 +9323,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "16:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 814,
@@ -8469,6 +9333,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 815,
@@ -8478,6 +9343,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "17:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 816,
@@ -8487,6 +9353,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 817,
@@ -8496,6 +9363,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "18:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 901,
@@ -8505,6 +9373,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 902,
@@ -8514,6 +9383,7 @@ export const EVENTS_DB = {
         startTime: "11:15",
         endTime: "12:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 903,
@@ -8523,6 +9393,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "13:10",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 904,
@@ -8532,6 +9403,7 @@ export const EVENTS_DB = {
         startTime: "13:45",
         endTime: "14:35",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 905,
@@ -8541,6 +9413,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 906,
@@ -8550,6 +9423,7 @@ export const EVENTS_DB = {
         startTime: "15:55",
         endTime: "16:45",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 907,
@@ -8559,6 +9433,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:50",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 908,
@@ -8568,6 +9443,7 @@ export const EVENTS_DB = {
         startTime: "18:05",
         endTime: "18:55",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 909,
@@ -8577,6 +9453,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "20:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
     ],
   },
@@ -8778,6 +9655,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1002,
@@ -8787,6 +9665,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1003,
@@ -8796,6 +9675,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1004,
@@ -8805,6 +9685,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1005,
@@ -8814,6 +9695,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1006,
@@ -8823,6 +9705,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1007,
@@ -8832,6 +9715,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1008,
@@ -8841,6 +9725,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 101,
@@ -8850,6 +9735,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 102,
@@ -8859,6 +9745,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "14:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 103,
@@ -8868,6 +9755,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "17:10",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 104,
@@ -8877,6 +9765,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1101,
@@ -8886,6 +9775,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1102,
@@ -8895,6 +9785,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1103,
@@ -8904,6 +9795,7 @@ export const EVENTS_DB = {
         startTime: "13:20",
         endTime: "14:10",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1104,
@@ -8913,6 +9805,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1105,
@@ -8922,6 +9815,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:50",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1106,
@@ -8931,6 +9825,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:10",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1107,
@@ -8940,6 +9835,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1201,
@@ -8949,6 +9845,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1202,
@@ -8958,6 +9855,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "13:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1203,
@@ -8967,6 +9865,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:50",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1204,
@@ -8976,6 +9875,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:20",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1205,
@@ -8985,6 +9885,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:50",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1301,
@@ -8994,6 +9895,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "10:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1302,
@@ -9003,6 +9905,7 @@ export const EVENTS_DB = {
         startTime: "11:05",
         endTime: "11:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1303,
@@ -9012,6 +9915,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1304,
@@ -9021,6 +9925,7 @@ export const EVENTS_DB = {
         startTime: "12:55",
         endTime: "13:35",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1305,
@@ -9030,6 +9935,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1306,
@@ -9039,6 +9945,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1307,
@@ -9048,6 +9955,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1308,
@@ -9057,6 +9965,7 @@ export const EVENTS_DB = {
         startTime: "16:35",
         endTime: "17:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1309,
@@ -9066,6 +9975,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1310,
@@ -9075,6 +9985,7 @@ export const EVENTS_DB = {
         startTime: "18:25",
         endTime: "19:05",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1401,
@@ -9084,6 +9995,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1402,
@@ -9093,6 +10005,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "12:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1403,
@@ -9102,6 +10015,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "13:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1404,
@@ -9111,6 +10025,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1405,
@@ -9120,6 +10035,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "15:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1406,
@@ -9129,6 +10045,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1407,
@@ -9138,6 +10055,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "17:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1408,
@@ -9147,6 +10065,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "18:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1409,
@@ -9156,6 +10075,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "19:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 1501,
@@ -9165,6 +10085,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "10:55",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1502,
@@ -9174,6 +10095,7 @@ export const EVENTS_DB = {
         startTime: "11:05",
         endTime: "11:50",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1503,
@@ -9183,6 +10105,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1504,
@@ -9192,6 +10115,7 @@ export const EVENTS_DB = {
         startTime: "12:55",
         endTime: "13:40",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1505,
@@ -9201,6 +10125,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:35",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1506,
@@ -9210,6 +10135,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1507,
@@ -9219,6 +10145,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:25",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1601,
@@ -9228,6 +10155,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1602,
@@ -9237,6 +10165,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1603,
@@ -9246,6 +10175,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1604,
@@ -9255,6 +10185,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1605,
@@ -9264,6 +10195,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "17:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1606,
@@ -9273,6 +10205,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1701,
@@ -9282,6 +10215,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:40",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1702,
@@ -9291,6 +10225,7 @@ export const EVENTS_DB = {
         startTime: "12:05",
         endTime: "13:35",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1703,
@@ -9300,6 +10235,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1704,
@@ -9309,6 +10245,7 @@ export const EVENTS_DB = {
         startTime: "15:55",
         endTime: "17:25",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1705,
@@ -9318,6 +10255,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "19:20",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1801,
@@ -9327,6 +10265,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "10:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1802,
@@ -9336,6 +10275,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1803,
@@ -9345,6 +10285,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1804,
@@ -9354,6 +10295,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1805,
@@ -9363,6 +10305,7 @@ export const EVENTS_DB = {
         startTime: "13:40",
         endTime: "14:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1806,
@@ -9372,6 +10315,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1807,
@@ -9381,6 +10325,7 @@ export const EVENTS_DB = {
         startTime: "15:20",
         endTime: "16:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1808,
@@ -9390,6 +10335,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "16:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1809,
@@ -9399,6 +10345,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1810,
@@ -9408,6 +10355,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1811,
@@ -9417,6 +10365,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1901,
@@ -9426,6 +10375,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1902,
@@ -9435,6 +10385,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1903,
@@ -9444,6 +10395,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1904,
@@ -9453,6 +10405,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1905,
@@ -9462,6 +10415,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1906,
@@ -9471,6 +10425,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1907,
@@ -9480,6 +10435,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1908,
@@ -9489,6 +10445,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2001,
@@ -9498,6 +10455,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "10:55",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2002,
@@ -9507,6 +10465,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:55",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2003,
@@ -9516,6 +10475,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:55",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2004,
@@ -9525,6 +10485,7 @@ export const EVENTS_DB = {
         startTime: "13:25",
         endTime: "14:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2005,
@@ -9534,6 +10495,7 @@ export const EVENTS_DB = {
         startTime: "14:25",
         endTime: "15:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2006,
@@ -9543,6 +10505,7 @@ export const EVENTS_DB = {
         startTime: "15:25",
         endTime: "16:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2007,
@@ -9552,6 +10515,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:25",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2008,
@@ -9561,6 +10525,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:25",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2009,
@@ -9570,6 +10535,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:25",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 201,
@@ -9579,6 +10545,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:50",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 202,
@@ -9588,6 +10555,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "14:40",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 203,
@@ -9597,6 +10565,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "17:10",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 204,
@@ -9606,6 +10575,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:40",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 2101,
@@ -9615,6 +10585,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:05",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2102,
@@ -9624,6 +10595,7 @@ export const EVENTS_DB = {
         startTime: "11:25",
         endTime: "12:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2103,
@@ -9633,6 +10605,7 @@ export const EVENTS_DB = {
         startTime: "12:40",
         endTime: "13:35",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2104,
@@ -9642,6 +10615,7 @@ export const EVENTS_DB = {
         startTime: "13:55",
         endTime: "14:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2105,
@@ -9651,6 +10625,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:05",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2106,
@@ -9660,6 +10635,7 @@ export const EVENTS_DB = {
         startTime: "16:25",
         endTime: "17:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2107,
@@ -9669,6 +10645,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:35",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 2201,
@@ -9678,6 +10655,7 @@ export const EVENTS_DB = {
         startTime: "10:15",
         endTime: "11:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2202,
@@ -9687,6 +10665,7 @@ export const EVENTS_DB = {
         startTime: "11:15",
         endTime: "12:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2203,
@@ -9696,6 +10675,7 @@ export const EVENTS_DB = {
         startTime: "12:15",
         endTime: "13:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2204,
@@ -9705,6 +10685,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:00",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2205,
@@ -9714,6 +10695,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2206,
@@ -9723,6 +10705,7 @@ export const EVENTS_DB = {
         startTime: "15:45",
         endTime: "16:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2207,
@@ -9732,6 +10715,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2208,
@@ -9741,6 +10725,7 @@ export const EVENTS_DB = {
         startTime: "17:45",
         endTime: "18:30",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 2301,
@@ -9750,6 +10735,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2302,
@@ -9759,6 +10745,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2303,
@@ -9768,6 +10755,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2304,
@@ -9777,6 +10765,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2305,
@@ -9786,6 +10775,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:40",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2306,
@@ -9795,6 +10785,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "18:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2307,
@@ -9804,6 +10795,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 2501,
@@ -9813,6 +10805,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2502,
@@ -9822,6 +10815,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "13:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2503,
@@ -9831,6 +10825,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2504,
@@ -9840,6 +10835,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2505,
@@ -9849,6 +10845,7 @@ export const EVENTS_DB = {
         startTime: "17:15",
         endTime: "18:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2601,
@@ -9858,6 +10855,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2602,
@@ -9867,6 +10865,7 @@ export const EVENTS_DB = {
         startTime: "11:15",
         endTime: "12:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2603,
@@ -9876,6 +10875,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "13:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2604,
@@ -9885,6 +10885,7 @@ export const EVENTS_DB = {
         startTime: "13:25",
         endTime: "14:25",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2605,
@@ -9894,6 +10895,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2606,
@@ -9903,6 +10905,7 @@ export const EVENTS_DB = {
         startTime: "15:35",
         endTime: "16:35",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2607,
@@ -9912,6 +10915,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2608,
@@ -9921,6 +10925,7 @@ export const EVENTS_DB = {
         startTime: "17:45",
         endTime: "18:45",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2701,
@@ -9930,6 +10935,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2702,
@@ -9939,6 +10945,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2703,
@@ -9948,6 +10955,7 @@ export const EVENTS_DB = {
         startTime: "13:20",
         endTime: "14:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2704,
@@ -9957,6 +10965,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "16:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2705,
@@ -9966,6 +10975,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2706,
@@ -9975,6 +10985,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "19:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 301,
@@ -9984,6 +10995,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 302,
@@ -9993,6 +11005,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 303,
@@ -10002,6 +11015,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 304,
@@ -10011,6 +11025,7 @@ export const EVENTS_DB = {
         startTime: "13:40",
         endTime: "14:35",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 305,
@@ -10020,6 +11035,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 306,
@@ -10029,6 +11045,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:55",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 307,
@@ -10038,6 +11055,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "18:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 308,
@@ -10047,6 +11065,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 401,
@@ -10056,6 +11075,7 @@ export const EVENTS_DB = {
         startTime: "10:15",
         endTime: "11:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 402,
@@ -10065,6 +11085,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:25",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 403,
@@ -10074,6 +11095,7 @@ export const EVENTS_DB = {
         startTime: "12:45",
         endTime: "13:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 404,
@@ -10083,6 +11105,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:55",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 405,
@@ -10092,6 +11115,7 @@ export const EVENTS_DB = {
         startTime: "15:15",
         endTime: "16:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 406,
@@ -10101,6 +11125,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:25",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 407,
@@ -10110,6 +11135,7 @@ export const EVENTS_DB = {
         startTime: "17:45",
         endTime: "18:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 501,
@@ -10119,6 +11145,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 502,
@@ -10128,6 +11155,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 503,
@@ -10137,6 +11165,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "14:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 504,
@@ -10146,6 +11175,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "15:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 505,
@@ -10155,6 +11185,7 @@ export const EVENTS_DB = {
         startTime: "15:40",
         endTime: "16:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 506,
@@ -10164,6 +11195,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "18:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 507,
@@ -10173,6 +11205,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 601,
@@ -10182,6 +11215,7 @@ export const EVENTS_DB = {
         startTime: "10:15",
         endTime: "10:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 602,
@@ -10191,6 +11225,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 603,
@@ -10200,6 +11235,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 604,
@@ -10209,6 +11245,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 605,
@@ -10218,6 +11255,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "13:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 606,
@@ -10227,6 +11265,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 607,
@@ -10236,6 +11275,7 @@ export const EVENTS_DB = {
         startTime: "14:45",
         endTime: "15:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 608,
@@ -10245,6 +11285,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 609,
@@ -10254,6 +11295,7 @@ export const EVENTS_DB = {
         startTime: "16:15",
         endTime: "16:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 610,
@@ -10263,6 +11305,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 611,
@@ -10272,6 +11315,7 @@ export const EVENTS_DB = {
         startTime: "17:45",
         endTime: "18:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 612,
@@ -10281,6 +11325,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 701,
@@ -10290,6 +11335,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 702,
@@ -10299,6 +11345,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 703,
@@ -10308,6 +11355,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 704,
@@ -10317,6 +11365,7 @@ export const EVENTS_DB = {
         startTime: "14:15",
         endTime: "15:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 705,
@@ -10326,6 +11375,7 @@ export const EVENTS_DB = {
         startTime: "15:15",
         endTime: "16:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 706,
@@ -10335,6 +11385,7 @@ export const EVENTS_DB = {
         startTime: "16:15",
         endTime: "17:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 707,
@@ -10344,6 +11395,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 708,
@@ -10353,6 +11405,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 801,
@@ -10362,6 +11415,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 802,
@@ -10371,6 +11425,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 803,
@@ -10380,6 +11435,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "11:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 804,
@@ -10389,6 +11445,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 805,
@@ -10398,6 +11455,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "12:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 806,
@@ -10407,6 +11465,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 807,
@@ -10416,6 +11475,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "13:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 808,
@@ -10425,6 +11485,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 809,
@@ -10434,6 +11495,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "14:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 810,
@@ -10443,6 +11505,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 811,
@@ -10452,6 +11515,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "15:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 812,
@@ -10461,6 +11525,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 813,
@@ -10470,6 +11535,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "16:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 814,
@@ -10479,6 +11545,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "17:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 815,
@@ -10488,6 +11555,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "17:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 816,
@@ -10497,6 +11565,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 817,
@@ -10506,6 +11575,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "18:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 901,
@@ -10515,6 +11585,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:00",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 902,
@@ -10524,6 +11595,7 @@ export const EVENTS_DB = {
         startTime: "11:15",
         endTime: "12:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 903,
@@ -10533,6 +11605,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "13:10",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 904,
@@ -10542,6 +11615,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "15:10",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 905,
@@ -10551,6 +11625,7 @@ export const EVENTS_DB = {
         startTime: "15:25",
         endTime: "16:15",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 906,
@@ -10560,6 +11635,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:20",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 907,
@@ -10569,6 +11645,7 @@ export const EVENTS_DB = {
         startTime: "17:35",
         endTime: "18:25",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 908,
@@ -10578,6 +11655,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
     ],
   },
@@ -10751,6 +11829,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1002,
@@ -10760,6 +11839,7 @@ export const EVENTS_DB = {
         startTime: "12:05",
         endTime: "13:15",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1003,
@@ -10769,6 +11849,7 @@ export const EVENTS_DB = {
         startTime: "13:40",
         endTime: "14:50",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1004,
@@ -10778,6 +11859,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:20",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1005,
@@ -10787,6 +11869,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1006,
@@ -10796,6 +11879,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:30",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1007,
@@ -10805,6 +11889,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "21:00",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 101,
@@ -10814,6 +11899,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 102,
@@ -10823,6 +11909,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 103,
@@ -10832,6 +11919,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 104,
@@ -10841,6 +11929,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 105,
@@ -10850,6 +11939,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "13:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 106,
@@ -10859,6 +11949,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 107,
@@ -10868,6 +11959,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 108,
@@ -10877,6 +11969,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 109,
@@ -10886,6 +11979,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 110,
@@ -10895,6 +11989,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "15:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1101,
@@ -10904,6 +11999,7 @@ export const EVENTS_DB = {
         startTime: "10:35",
         endTime: "11:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1102,
@@ -10913,6 +12009,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:25",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1103,
@@ -10922,6 +12019,7 @@ export const EVENTS_DB = {
         startTime: "15:55",
         endTime: "17:05",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1104,
@@ -10931,6 +12029,7 @@ export const EVENTS_DB = {
         startTime: "18:35",
         endTime: "19:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1105,
@@ -10940,6 +12039,7 @@ export const EVENTS_DB = {
         startTime: "21:15",
         endTime: "22:25",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 111,
@@ -10949,6 +12049,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 112,
@@ -10958,6 +12059,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 113,
@@ -10967,6 +12069,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "16:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 114,
@@ -10976,6 +12079,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 115,
@@ -10985,6 +12089,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 116,
@@ -10994,6 +12099,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 117,
@@ -11003,6 +12109,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "18:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 118,
@@ -11012,6 +12119,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 119,
@@ -11021,6 +12129,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 120,
@@ -11030,6 +12139,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "20:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1201,
@@ -11039,6 +12149,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1202,
@@ -11048,6 +12159,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1203,
@@ -11057,6 +12169,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:40",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1204,
@@ -11066,6 +12179,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1205,
@@ -11075,6 +12189,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "21:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1301,
@@ -11084,6 +12199,7 @@ export const EVENTS_DB = {
         startTime: "9:00",
         endTime: "9:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1302,
@@ -11093,6 +12209,7 @@ export const EVENTS_DB = {
         startTime: "10:10",
         endTime: "11:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1303,
@@ -11102,6 +12219,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1304,
@@ -11111,6 +12229,7 @@ export const EVENTS_DB = {
         startTime: "12:40",
         endTime: "13:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1305,
@@ -11120,6 +12239,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1306,
@@ -11129,6 +12249,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1307,
@@ -11138,6 +12259,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "17:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1308,
@@ -11147,6 +12269,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1309,
@@ -11156,6 +12279,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1310,
@@ -11165,6 +12289,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1311,
@@ -11174,6 +12299,7 @@ export const EVENTS_DB = {
         startTime: "21:00",
         endTime: "21:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1312,
@@ -11183,6 +12309,7 @@ export const EVENTS_DB = {
         startTime: "22:10",
         endTime: "23:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1401,
@@ -11192,6 +12319,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1402,
@@ -11201,6 +12329,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1403,
@@ -11210,6 +12339,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1404,
@@ -11219,6 +12349,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1405,
@@ -11228,6 +12359,7 @@ export const EVENTS_DB = {
         startTime: "15:45",
         endTime: "16:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1406,
@@ -11237,6 +12369,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "18:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1407,
@@ -11246,6 +12379,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1408,
@@ -11255,6 +12389,7 @@ export const EVENTS_DB = {
         startTime: "19:45",
         endTime: "20:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1501,
@@ -11264,6 +12399,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:05",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1502,
@@ -11273,6 +12409,7 @@ export const EVENTS_DB = {
         startTime: "10:15",
         endTime: "11:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1503,
@@ -11282,6 +12419,7 @@ export const EVENTS_DB = {
         startTime: "11:15",
         endTime: "12:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1504,
@@ -11291,6 +12429,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1505,
@@ -11300,6 +12439,7 @@ export const EVENTS_DB = {
         startTime: "13:05",
         endTime: "13:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1506,
@@ -11309,6 +12449,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1507,
@@ -11318,6 +12459,7 @@ export const EVENTS_DB = {
         startTime: "14:55",
         endTime: "15:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1508,
@@ -11327,6 +12469,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:35",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1509,
@@ -11336,6 +12479,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1510,
@@ -11345,6 +12489,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1511,
@@ -11354,6 +12499,7 @@ export const EVENTS_DB = {
         startTime: "18:35",
         endTime: "19:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1512,
@@ -11363,6 +12509,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1513,
@@ -11372,6 +12519,7 @@ export const EVENTS_DB = {
         startTime: "20:25",
         endTime: "21:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1601,
@@ -11381,6 +12529,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:05",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1602,
@@ -11390,6 +12539,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1603,
@@ -11399,6 +12549,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1604,
@@ -11408,6 +12559,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1605,
@@ -11417,6 +12569,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1606,
@@ -11426,6 +12579,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1607,
@@ -11435,6 +12589,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1608,
@@ -11444,6 +12599,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1609,
@@ -11453,6 +12609,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1610,
@@ -11462,6 +12619,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1611,
@@ -11471,6 +12629,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1612,
@@ -11480,6 +12639,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1701,
@@ -11489,6 +12649,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1702,
@@ -11498,6 +12659,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1703,
@@ -11507,6 +12669,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1704,
@@ -11516,6 +12679,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1705,
@@ -11525,6 +12689,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1706,
@@ -11534,6 +12699,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1707,
@@ -11543,6 +12709,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1708,
@@ -11552,6 +12719,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1709,
@@ -11561,6 +12729,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1710,
@@ -11570,6 +12739,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1711,
@@ -11579,6 +12749,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1712,
@@ -11588,6 +12759,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1801,
@@ -11597,6 +12769,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1802,
@@ -11606,6 +12779,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1803,
@@ -11615,6 +12789,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1804,
@@ -11624,6 +12799,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1805,
@@ -11633,6 +12809,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1806,
@@ -11642,6 +12819,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1807,
@@ -11651,6 +12829,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1901,
@@ -11660,6 +12839,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1902,
@@ -11669,6 +12849,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1903,
@@ -11678,6 +12859,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "15:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1904,
@@ -11687,6 +12869,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1905,
@@ -11696,6 +12879,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "18:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1906,
@@ -11705,6 +12889,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1907,
@@ -11714,6 +12899,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "21:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 2001,
@@ -11723,6 +12909,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2002,
@@ -11732,6 +12919,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2003,
@@ -11741,6 +12929,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2004,
@@ -11750,6 +12939,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2005,
@@ -11759,6 +12949,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2006,
@@ -11768,6 +12959,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2007,
@@ -11777,6 +12969,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2008,
@@ -11786,6 +12979,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2009,
@@ -11795,6 +12989,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 201,
@@ -11804,6 +12999,7 @@ export const EVENTS_DB = {
         startTime: "10:45",
         endTime: "11:25",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 202,
@@ -11813,6 +13009,7 @@ export const EVENTS_DB = {
         startTime: "11:35",
         endTime: "12:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 203,
@@ -11822,6 +13019,7 @@ export const EVENTS_DB = {
         startTime: "12:25",
         endTime: "13:05",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 204,
@@ -11831,6 +13029,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "13:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 205,
@@ -11840,6 +13039,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 206,
@@ -11849,6 +13049,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 207,
@@ -11858,6 +13059,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 208,
@@ -11867,6 +13069,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 209,
@@ -11876,6 +13079,7 @@ export const EVENTS_DB = {
         startTime: "17:35",
         endTime: "18:15",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 210,
@@ -11885,6 +13089,7 @@ export const EVENTS_DB = {
         startTime: "18:25",
         endTime: "19:05",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 2101,
@@ -11894,6 +13099,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2102,
@@ -11903,6 +13109,7 @@ export const EVENTS_DB = {
         startTime: "10:55",
         endTime: "11:15",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2103,
@@ -11912,6 +13119,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "11:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2104,
@@ -11921,6 +13129,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:05",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2105,
@@ -11930,6 +13139,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2106,
@@ -11939,6 +13149,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2107,
@@ -11948,6 +13159,7 @@ export const EVENTS_DB = {
         startTime: "13:25",
         endTime: "13:45",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2108,
@@ -11957,6 +13169,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2109,
@@ -11966,6 +13179,7 @@ export const EVENTS_DB = {
         startTime: "14:15",
         endTime: "14:35",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 211,
@@ -11975,6 +13189,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "19:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 2110,
@@ -11984,6 +13199,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:00",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2111,
@@ -11993,6 +13209,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "15:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2112,
@@ -12002,6 +13219,7 @@ export const EVENTS_DB = {
         startTime: "15:55",
         endTime: "16:15",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2113,
@@ -12011,6 +13229,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "16:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2114,
@@ -12020,6 +13239,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:05",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2115,
@@ -12029,6 +13249,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "17:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2116,
@@ -12038,6 +13259,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2117,
@@ -12047,6 +13269,7 @@ export const EVENTS_DB = {
         startTime: "18:25",
         endTime: "18:45",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2118,
@@ -12056,6 +13279,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2119,
@@ -12065,6 +13289,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "19:35",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 212,
@@ -12074,6 +13299,7 @@ export const EVENTS_DB = {
         startTime: "20:05",
         endTime: "20:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 2120,
@@ -12083,6 +13309,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:00",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 301,
@@ -12092,6 +13319,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 302,
@@ -12101,6 +13329,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 303,
@@ -12110,6 +13339,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 304,
@@ -12119,6 +13349,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 305,
@@ -12128,6 +13359,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 306,
@@ -12137,6 +13369,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 307,
@@ -12146,6 +13379,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 308,
@@ -12155,6 +13389,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:15",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 401,
@@ -12164,6 +13399,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 402,
@@ -12173,6 +13409,7 @@ export const EVENTS_DB = {
         startTime: "12:40",
         endTime: "14:10",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 403,
@@ -12182,6 +13419,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "16:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 404,
@@ -12191,6 +13429,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "18:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 405,
@@ -12200,6 +13439,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "20:40",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 501,
@@ -12209,6 +13449,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 502,
@@ -12218,6 +13459,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "15:15",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 503,
@@ -12227,6 +13469,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "18:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 504,
@@ -12236,6 +13479,7 @@ export const EVENTS_DB = {
         startTime: "18:45",
         endTime: "20:45",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 601,
@@ -12245,6 +13489,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 602,
@@ -12254,6 +13499,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 603,
@@ -12263,6 +13509,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 604,
@@ -12272,6 +13519,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 605,
@@ -12281,6 +13529,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 606,
@@ -12290,6 +13539,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 607,
@@ -12299,6 +13549,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 701,
@@ -12308,6 +13559,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 702,
@@ -12317,6 +13569,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "14:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 703,
@@ -12326,6 +13579,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "16:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 704,
@@ -12335,6 +13589,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "18:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 705,
@@ -12344,6 +13599,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "20:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 801,
@@ -12353,6 +13609,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 802,
@@ -12362,6 +13619,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 803,
@@ -12371,6 +13629,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 804,
@@ -12380,6 +13639,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 805,
@@ -12389,6 +13649,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:10",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 806,
@@ -12398,6 +13659,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 807,
@@ -12407,6 +13669,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:30",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 808,
@@ -12416,6 +13679,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 809,
@@ -12425,6 +13689,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 901,
@@ -12434,6 +13699,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 902,
@@ -12443,6 +13709,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 903,
@@ -12452,6 +13719,7 @@ export const EVENTS_DB = {
         startTime: "13:20",
         endTime: "14:20",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 904,
@@ -12461,6 +13729,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:40",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 905,
@@ -12470,6 +13739,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "17:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 906,
@@ -12479,6 +13749,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:20",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 907,
@@ -12488,6 +13759,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:40",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 908,
@@ -12497,6 +13769,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "21:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
     ],
   },
@@ -12698,6 +13971,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1002,
@@ -12707,6 +13981,7 @@ export const EVENTS_DB = {
         startTime: "11:25",
         endTime: "12:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1003,
@@ -12716,6 +13991,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "13:05",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1004,
@@ -12725,6 +14001,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:00",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1005,
@@ -12734,6 +14011,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1006,
@@ -12743,6 +14021,7 @@ export const EVENTS_DB = {
         startTime: "15:05",
         endTime: "15:50",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1007,
@@ -12752,6 +14031,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:45",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1008,
@@ -12761,6 +14041,7 @@ export const EVENTS_DB = {
         startTime: "16:55",
         endTime: "17:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1009,
@@ -12770,6 +14051,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "18:35",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 101,
@@ -12779,6 +14061,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1010,
@@ -12788,6 +14071,7 @@ export const EVENTS_DB = {
         startTime: "18:45",
         endTime: "19:30",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1011,
@@ -12797,6 +14081,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 102,
@@ -12806,6 +14091,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 103,
@@ -12815,6 +14101,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 104,
@@ -12824,6 +14111,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 105,
@@ -12833,6 +14121,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "13:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 106,
@@ -12842,6 +14131,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 107,
@@ -12851,6 +14141,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 108,
@@ -12860,6 +14151,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 109,
@@ -12869,6 +14161,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 110,
@@ -12878,6 +14171,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "15:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1101,
@@ -12887,6 +14181,7 @@ export const EVENTS_DB = {
         startTime: "10:35",
         endTime: "11:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1102,
@@ -12896,6 +14191,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:25",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1103,
@@ -12905,6 +14201,7 @@ export const EVENTS_DB = {
         startTime: "15:55",
         endTime: "17:05",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1104,
@@ -12914,6 +14211,7 @@ export const EVENTS_DB = {
         startTime: "18:35",
         endTime: "19:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1105,
@@ -12923,6 +14221,7 @@ export const EVENTS_DB = {
         startTime: "21:15",
         endTime: "22:25",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 111,
@@ -12932,6 +14231,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 112,
@@ -12941,6 +14241,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 113,
@@ -12950,6 +14251,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "16:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 114,
@@ -12959,6 +14261,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 115,
@@ -12968,6 +14271,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 116,
@@ -12977,6 +14281,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 117,
@@ -12986,6 +14291,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "18:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 118,
@@ -12995,6 +14301,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 119,
@@ -13004,6 +14311,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 120,
@@ -13013,6 +14321,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "20:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1201,
@@ -13022,6 +14331,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1202,
@@ -13031,6 +14341,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1203,
@@ -13040,6 +14351,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:40",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1204,
@@ -13049,6 +14361,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1205,
@@ -13058,6 +14371,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "21:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1301,
@@ -13067,6 +14381,7 @@ export const EVENTS_DB = {
         startTime: "9:00",
         endTime: "9:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1302,
@@ -13076,6 +14391,7 @@ export const EVENTS_DB = {
         startTime: "10:00",
         endTime: "10:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1303,
@@ -13085,6 +14401,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1304,
@@ -13094,6 +14411,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1305,
@@ -13103,6 +14421,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "15:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1306,
@@ -13112,6 +14431,7 @@ export const EVENTS_DB = {
         startTime: "15:20",
         endTime: "16:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1307,
@@ -13121,6 +14441,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1308,
@@ -13130,6 +14451,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1309,
@@ -13139,6 +14461,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1310,
@@ -13148,6 +14471,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "20:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1311,
@@ -13157,6 +14481,7 @@ export const EVENTS_DB = {
         startTime: "21:00",
         endTime: "21:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1312,
@@ -13166,6 +14491,7 @@ export const EVENTS_DB = {
         startTime: "22:00",
         endTime: "22:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1401,
@@ -13175,6 +14501,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1402,
@@ -13184,6 +14511,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1403,
@@ -13193,6 +14521,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1404,
@@ -13202,6 +14531,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1405,
@@ -13211,6 +14541,7 @@ export const EVENTS_DB = {
         startTime: "15:45",
         endTime: "16:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1406,
@@ -13220,6 +14551,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "18:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1407,
@@ -13229,6 +14561,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1408,
@@ -13238,6 +14571,7 @@ export const EVENTS_DB = {
         startTime: "19:45",
         endTime: "20:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1501,
@@ -13247,6 +14581,7 @@ export const EVENTS_DB = {
         startTime: "10:00",
         endTime: "10:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1502,
@@ -13256,6 +14591,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1503,
@@ -13265,6 +14601,7 @@ export const EVENTS_DB = {
         startTime: "11:55",
         endTime: "12:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1504,
@@ -13274,6 +14611,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1505,
@@ -13283,6 +14621,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1506,
@@ -13292,6 +14631,7 @@ export const EVENTS_DB = {
         startTime: "15:05",
         endTime: "15:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1507,
@@ -13301,6 +14641,7 @@ export const EVENTS_DB = {
         startTime: "16:15",
         endTime: "17:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1508,
@@ -13310,6 +14651,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "17:55",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1509,
@@ -13319,6 +14661,7 @@ export const EVENTS_DB = {
         startTime: "18:05",
         endTime: "18:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1510,
@@ -13328,6 +14671,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:45",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1601,
@@ -13337,6 +14681,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:05",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1602,
@@ -13346,6 +14691,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1603,
@@ -13355,6 +14701,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1604,
@@ -13364,6 +14711,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1605,
@@ -13373,6 +14721,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1606,
@@ -13382,6 +14731,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1607,
@@ -13391,6 +14741,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1608,
@@ -13400,6 +14751,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1609,
@@ -13409,6 +14761,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1610,
@@ -13418,6 +14771,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1611,
@@ -13427,6 +14781,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1612,
@@ -13436,6 +14791,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:15",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1701,
@@ -13445,6 +14801,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1702,
@@ -13454,6 +14811,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1703,
@@ -13463,6 +14821,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1704,
@@ -13472,6 +14831,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1705,
@@ -13481,6 +14841,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1706,
@@ -13490,6 +14851,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1707,
@@ -13499,6 +14861,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1708,
@@ -13508,6 +14871,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1709,
@@ -13517,6 +14881,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1710,
@@ -13526,6 +14891,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1711,
@@ -13535,6 +14901,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1712,
@@ -13544,6 +14911,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1801,
@@ -13553,6 +14921,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1802,
@@ -13562,6 +14931,7 @@ export const EVENTS_DB = {
         startTime: "10:50",
         endTime: "11:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1803,
@@ -13571,6 +14941,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1804,
@@ -13580,6 +14951,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "11:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1805,
@@ -13589,6 +14961,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1806,
@@ -13598,6 +14971,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1807,
@@ -13607,6 +14981,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "12:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1808,
@@ -13616,6 +14991,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1809,
@@ -13625,6 +15001,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "13:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1810,
@@ -13634,6 +15011,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "13:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1811,
@@ -13643,6 +15021,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1812,
@@ -13652,6 +15031,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1813,
@@ -13661,6 +15041,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "14:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1814,
@@ -13670,6 +15051,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1815,
@@ -13679,6 +15061,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "15:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1816,
@@ -13688,6 +15071,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "15:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1817,
@@ -13697,6 +15081,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1818,
@@ -13706,6 +15091,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "16:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1819,
@@ -13715,6 +15101,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "16:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1820,
@@ -13724,6 +15111,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1821,
@@ -13733,6 +15121,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "17:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1822,
@@ -13742,6 +15131,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "17:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1823,
@@ -13751,6 +15141,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "18:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1824,
@@ -13760,6 +15151,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "18:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1825,
@@ -13769,6 +15161,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "18:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1826,
@@ -13778,6 +15171,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1827,
@@ -13787,6 +15181,7 @@ export const EVENTS_DB = {
         startTime: "19:10",
         endTime: "19:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1828,
@@ -13796,6 +15191,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "19:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1829,
@@ -13805,6 +15201,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1830,
@@ -13814,6 +15211,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "20:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1901,
@@ -13823,6 +15221,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1902,
@@ -13832,6 +15231,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1903,
@@ -13841,6 +15241,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "15:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1904,
@@ -13850,6 +15251,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1905,
@@ -13859,6 +15261,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "18:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1906,
@@ -13868,6 +15271,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1907,
@@ -13877,6 +15281,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "21:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 2001,
@@ -13886,6 +15291,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2002,
@@ -13895,6 +15301,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2003,
@@ -13904,6 +15311,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2004,
@@ -13913,6 +15321,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2005,
@@ -13922,6 +15331,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2006,
@@ -13931,6 +15341,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2007,
@@ -13940,6 +15351,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2008,
@@ -13949,6 +15361,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 201,
@@ -13958,6 +15371,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 202,
@@ -13967,6 +15381,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 203,
@@ -13976,6 +15391,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 204,
@@ -13985,6 +15401,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 205,
@@ -13994,6 +15411,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 206,
@@ -14003,6 +15421,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 207,
@@ -14012,6 +15431,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 208,
@@ -14021,6 +15441,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 209,
@@ -14030,6 +15451,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 2101,
@@ -14039,6 +15461,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2102,
@@ -14048,6 +15471,7 @@ export const EVENTS_DB = {
         startTime: "10:55",
         endTime: "11:15",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2103,
@@ -14057,6 +15481,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "11:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2104,
@@ -14066,6 +15491,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:05",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2105,
@@ -14075,6 +15501,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2106,
@@ -14084,6 +15511,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2107,
@@ -14093,6 +15521,7 @@ export const EVENTS_DB = {
         startTime: "13:25",
         endTime: "13:45",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2108,
@@ -14102,6 +15531,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2109,
@@ -14111,6 +15541,7 @@ export const EVENTS_DB = {
         startTime: "14:15",
         endTime: "14:35",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2110,
@@ -14120,6 +15551,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:00",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2111,
@@ -14129,6 +15561,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "15:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2112,
@@ -14138,6 +15571,7 @@ export const EVENTS_DB = {
         startTime: "15:55",
         endTime: "16:15",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2113,
@@ -14147,6 +15581,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "16:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2114,
@@ -14156,6 +15591,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:05",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2115,
@@ -14165,6 +15601,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "17:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2116,
@@ -14174,6 +15611,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2117,
@@ -14183,6 +15621,7 @@ export const EVENTS_DB = {
         startTime: "18:25",
         endTime: "18:45",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2118,
@@ -14192,6 +15631,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2119,
@@ -14201,6 +15641,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "19:35",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2120,
@@ -14210,6 +15651,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:00",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2201,
@@ -14219,6 +15661,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2202,
@@ -14228,6 +15671,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2203,
@@ -14237,6 +15681,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2204,
@@ -14246,6 +15691,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2205,
@@ -14255,6 +15701,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2206,
@@ -14264,6 +15711,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2207,
@@ -14273,6 +15721,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2208,
@@ -14282,6 +15731,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2209,
@@ -14291,6 +15741,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2210,
@@ -14300,6 +15751,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2211,
@@ -14309,6 +15761,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2301,
@@ -14318,6 +15771,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2302,
@@ -14327,6 +15781,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2303,
@@ -14336,6 +15791,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2304,
@@ -14345,6 +15801,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2305,
@@ -14354,6 +15811,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2306,
@@ -14363,6 +15821,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2307,
@@ -14372,6 +15831,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2401,
@@ -14381,6 +15841,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2402,
@@ -14390,6 +15851,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2403,
@@ -14399,6 +15861,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2404,
@@ -14408,6 +15871,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2405,
@@ -14417,6 +15881,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2406,
@@ -14426,6 +15891,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2407,
@@ -14435,6 +15901,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2408,
@@ -14444,6 +15911,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2409,
@@ -14453,6 +15921,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2501,
@@ -14462,6 +15931,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2502,
@@ -14471,6 +15941,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2503,
@@ -14480,6 +15951,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2504,
@@ -14489,6 +15961,7 @@ export const EVENTS_DB = {
         startTime: "12:35",
         endTime: "13:05",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2505,
@@ -14498,6 +15971,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "13:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2506,
@@ -14507,6 +15981,7 @@ export const EVENTS_DB = {
         startTime: "13:55",
         endTime: "14:25",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2507,
@@ -14516,6 +15991,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2508,
@@ -14525,6 +16001,7 @@ export const EVENTS_DB = {
         startTime: "15:20",
         endTime: "15:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2509,
@@ -14534,6 +16011,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2510,
@@ -14543,6 +16021,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2511,
@@ -14552,6 +16031,7 @@ export const EVENTS_DB = {
         startTime: "17:25",
         endTime: "17:55",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2512,
@@ -14561,6 +16041,7 @@ export const EVENTS_DB = {
         startTime: "18:05",
         endTime: "18:35",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2513,
@@ -14570,6 +16051,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2514,
@@ -14579,6 +16061,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2515,
@@ -14588,6 +16071,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "20:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 301,
@@ -14597,6 +16081,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 302,
@@ -14606,6 +16091,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 303,
@@ -14615,6 +16101,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 304,
@@ -14624,6 +16111,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 305,
@@ -14633,6 +16121,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 306,
@@ -14642,6 +16131,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 307,
@@ -14651,6 +16141,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 308,
@@ -14660,6 +16151,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 309,
@@ -14669,6 +16161,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 310,
@@ -14678,6 +16171,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 401,
@@ -14687,6 +16181,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "12:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 402,
@@ -14696,6 +16191,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "15:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 403,
@@ -14705,6 +16201,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "17:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 404,
@@ -14714,6 +16211,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "20:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 501,
@@ -14723,6 +16221,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "12:05",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 502,
@@ -14732,6 +16231,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:35",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 503,
@@ -14741,6 +16241,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:05",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 504,
@@ -14750,6 +16251,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:35",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 505,
@@ -14759,6 +16261,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "18:05",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 506,
@@ -14768,6 +16271,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:35",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 601,
@@ -14777,6 +16281,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 602,
@@ -14786,6 +16291,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "13:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 603,
@@ -14795,6 +16301,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 604,
@@ -14804,6 +16311,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 605,
@@ -14813,6 +16321,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 606,
@@ -14822,6 +16331,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "18:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 607,
@@ -14831,6 +16341,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "20:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 701,
@@ -14840,6 +16351,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 702,
@@ -14849,6 +16361,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "14:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 703,
@@ -14858,6 +16371,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "16:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 704,
@@ -14867,6 +16381,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "18:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 705,
@@ -14876,6 +16391,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "20:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 801,
@@ -14885,6 +16401,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 802,
@@ -14894,6 +16411,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 803,
@@ -14903,6 +16421,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 804,
@@ -14912,6 +16431,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 805,
@@ -14921,6 +16441,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:10",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 806,
@@ -14930,6 +16451,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 807,
@@ -14939,6 +16461,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:30",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 808,
@@ -14948,6 +16471,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 809,
@@ -14957,6 +16481,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 901,
@@ -14966,6 +16491,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 902,
@@ -14975,6 +16501,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:50",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 903,
@@ -14984,6 +16511,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:10",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 904,
@@ -14993,6 +16521,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 905,
@@ -15002,6 +16531,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:50",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 906,
@@ -15011,6 +16541,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "18:10",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 907,
@@ -15020,6 +16551,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
     ],
   },
@@ -15214,6 +16746,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:15",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1002,
@@ -15223,6 +16756,7 @@ export const EVENTS_DB = {
         startTime: "11:25",
         endTime: "12:10",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1003,
@@ -15232,6 +16766,7 @@ export const EVENTS_DB = {
         startTime: "12:20",
         endTime: "13:05",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1004,
@@ -15241,6 +16776,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:00",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1005,
@@ -15250,6 +16786,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:55",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1006,
@@ -15259,6 +16796,7 @@ export const EVENTS_DB = {
         startTime: "15:05",
         endTime: "15:50",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1007,
@@ -15268,6 +16806,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:45",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1008,
@@ -15277,6 +16816,7 @@ export const EVENTS_DB = {
         startTime: "16:55",
         endTime: "17:40",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1009,
@@ -15286,6 +16826,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "18:35",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 101,
@@ -15295,6 +16836,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1010,
@@ -15304,6 +16846,7 @@ export const EVENTS_DB = {
         startTime: "18:45",
         endTime: "19:30",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 1011,
@@ -15313,6 +16856,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:25",
         color: "bg-pink-100 border-pink-300",
+        fee: "",
       },
       {
         id: 102,
@@ -15322,6 +16866,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 103,
@@ -15331,6 +16876,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 104,
@@ -15340,6 +16886,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 105,
@@ -15349,6 +16896,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 106,
@@ -15358,6 +16906,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 107,
@@ -15367,6 +16916,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "13:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 108,
@@ -15376,6 +16926,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 109,
@@ -15385,6 +16936,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 110,
@@ -15394,6 +16946,7 @@ export const EVENTS_DB = {
         startTime: "14:10",
         endTime: "14:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1101,
@@ -15403,6 +16956,7 @@ export const EVENTS_DB = {
         startTime: "10:35",
         endTime: "11:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1102,
@@ -15412,6 +16966,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:25",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1103,
@@ -15421,6 +16976,7 @@ export const EVENTS_DB = {
         startTime: "15:55",
         endTime: "17:05",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 1104,
@@ -15430,6 +16986,7 @@ export const EVENTS_DB = {
         startTime: "18:35",
         endTime: "19:45",
         color: "bg-blue-100 border-blue-300",
+        fee: "",
       },
       {
         id: 111,
@@ -15439,6 +16996,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 112,
@@ -15448,6 +17006,7 @@ export const EVENTS_DB = {
         startTime: "14:50",
         endTime: "15:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 113,
@@ -15457,6 +17016,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "15:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 114,
@@ -15466,6 +17026,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 115,
@@ -15475,6 +17036,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 116,
@@ -15484,6 +17046,7 @@ export const EVENTS_DB = {
         startTime: "16:10",
         endTime: "16:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 117,
@@ -15493,6 +17056,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 118,
@@ -15502,6 +17066,7 @@ export const EVENTS_DB = {
         startTime: "16:50",
         endTime: "17:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 119,
@@ -15511,6 +17076,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 120,
@@ -15520,6 +17086,7 @@ export const EVENTS_DB = {
         startTime: "18:10",
         endTime: "18:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 1201,
@@ -15529,6 +17096,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1202,
@@ -15538,6 +17106,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1203,
@@ -15547,6 +17116,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:40",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1204,
@@ -15556,6 +17126,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:20",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1205,
@@ -15565,6 +17136,7 @@ export const EVENTS_DB = {
         startTime: "20:00",
         endTime: "21:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1301,
@@ -15574,6 +17146,7 @@ export const EVENTS_DB = {
         startTime: "9:00",
         endTime: "9:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1302,
@@ -15583,6 +17156,7 @@ export const EVENTS_DB = {
         startTime: "10:00",
         endTime: "10:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1303,
@@ -15592,6 +17166,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "11:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1304,
@@ -15601,6 +17176,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "12:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1305,
@@ -15610,6 +17186,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "15:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1306,
@@ -15619,6 +17196,7 @@ export const EVENTS_DB = {
         startTime: "15:20",
         endTime: "16:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1307,
@@ -15628,6 +17206,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1308,
@@ -15637,6 +17216,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "18:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1309,
@@ -15646,6 +17226,7 @@ export const EVENTS_DB = {
         startTime: "18:20",
         endTime: "19:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1310,
@@ -15655,6 +17236,7 @@ export const EVENTS_DB = {
         startTime: "19:20",
         endTime: "20:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1311,
@@ -15664,6 +17246,7 @@ export const EVENTS_DB = {
         startTime: "20:20",
         endTime: "21:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1401,
@@ -15673,6 +17256,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1402,
@@ -15682,6 +17266,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1403,
@@ -15691,6 +17276,7 @@ export const EVENTS_DB = {
         startTime: "13:15",
         endTime: "14:15",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1404,
@@ -15700,6 +17286,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1405,
@@ -15709,6 +17296,7 @@ export const EVENTS_DB = {
         startTime: "15:45",
         endTime: "16:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1406,
@@ -15718,6 +17306,7 @@ export const EVENTS_DB = {
         startTime: "17:00",
         endTime: "18:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1407,
@@ -15727,6 +17316,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1408,
@@ -15736,6 +17326,7 @@ export const EVENTS_DB = {
         startTime: "19:45",
         endTime: "20:45",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1501,
@@ -15745,6 +17336,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1502,
@@ -15754,6 +17346,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1503,
@@ -15763,6 +17356,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1504,
@@ -15772,6 +17366,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1505,
@@ -15781,6 +17376,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1506,
@@ -15790,6 +17386,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1507,
@@ -15799,6 +17396,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1508,
@@ -15808,6 +17406,7 @@ export const EVENTS_DB = {
         startTime: "17:50",
         endTime: "18:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1509,
@@ -15817,6 +17416,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1510,
@@ -15826,6 +17426,7 @@ export const EVENTS_DB = {
         startTime: "20:10",
         endTime: "21:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 1601,
@@ -15835,6 +17436,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1602,
@@ -15844,6 +17446,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1603,
@@ -15853,6 +17456,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1604,
@@ -15862,6 +17466,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1605,
@@ -15871,6 +17476,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1606,
@@ -15880,6 +17486,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1607,
@@ -15889,6 +17496,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 1701,
@@ -15898,6 +17506,7 @@ export const EVENTS_DB = {
         startTime: "9:20",
         endTime: "10:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1702,
@@ -15907,6 +17516,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1703,
@@ -15916,6 +17526,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1704,
@@ -15925,6 +17536,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1705,
@@ -15934,6 +17546,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1706,
@@ -15943,6 +17556,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1707,
@@ -15952,6 +17566,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1708,
@@ -15961,6 +17576,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1709,
@@ -15970,6 +17586,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1710,
@@ -15979,6 +17596,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1711,
@@ -15988,6 +17606,7 @@ export const EVENTS_DB = {
         startTime: "20:30",
         endTime: "21:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1712,
@@ -15997,6 +17616,7 @@ export const EVENTS_DB = {
         startTime: "21:30",
         endTime: "22:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 1801,
@@ -16006,6 +17626,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1802,
@@ -16015,6 +17636,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1803,
@@ -16024,6 +17646,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1804,
@@ -16033,6 +17656,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1805,
@@ -16042,6 +17666,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1806,
@@ -16051,6 +17676,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:15",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1807,
@@ -16060,6 +17686,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "20:45",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 1901,
@@ -16069,6 +17696,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1902,
@@ -16078,6 +17706,7 @@ export const EVENTS_DB = {
         startTime: "12:00",
         endTime: "13:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1903,
@@ -16087,6 +17716,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "15:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1904,
@@ -16096,6 +17726,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "16:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1905,
@@ -16105,6 +17736,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "18:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1906,
@@ -16114,6 +17746,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "19:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 1907,
@@ -16123,6 +17756,7 @@ export const EVENTS_DB = {
         startTime: "19:30",
         endTime: "21:00",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 2001,
@@ -16132,6 +17766,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2002,
@@ -16141,6 +17776,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "12:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2003,
@@ -16150,6 +17786,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2004,
@@ -16159,6 +17796,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2005,
@@ -16168,6 +17806,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2006,
@@ -16177,6 +17816,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2007,
@@ -16186,6 +17826,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2008,
@@ -16195,6 +17836,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2009,
@@ -16204,6 +17846,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "17:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 201,
@@ -16213,6 +17856,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 2010,
@@ -16222,6 +17866,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2011,
@@ -16231,6 +17876,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2012,
@@ -16240,6 +17886,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 202,
@@ -16249,6 +17896,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 203,
@@ -16258,6 +17906,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 204,
@@ -16267,6 +17916,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 205,
@@ -16276,6 +17926,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 206,
@@ -16285,6 +17936,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:10",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 207,
@@ -16294,6 +17946,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 208,
@@ -16303,6 +17956,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 209,
@@ -16312,6 +17966,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:40",
         color: "bg-orange-100 border-orange-300",
+        fee: "",
       },
       {
         id: 2101,
@@ -16321,6 +17976,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "10:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2102,
@@ -16330,6 +17986,7 @@ export const EVENTS_DB = {
         startTime: "10:55",
         endTime: "11:15",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2103,
@@ -16339,6 +17996,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "11:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2104,
@@ -16348,6 +18006,7 @@ export const EVENTS_DB = {
         startTime: "11:45",
         endTime: "12:05",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2105,
@@ -16357,6 +18016,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2106,
@@ -16366,6 +18026,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2107,
@@ -16375,6 +18036,7 @@ export const EVENTS_DB = {
         startTime: "13:25",
         endTime: "13:45",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2108,
@@ -16384,6 +18046,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2109,
@@ -16393,6 +18056,7 @@ export const EVENTS_DB = {
         startTime: "14:15",
         endTime: "14:35",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2110,
@@ -16402,6 +18066,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:00",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2111,
@@ -16411,6 +18076,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "15:50",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2112,
@@ -16420,6 +18086,7 @@ export const EVENTS_DB = {
         startTime: "15:55",
         endTime: "16:15",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2113,
@@ -16429,6 +18096,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "16:40",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2114,
@@ -16438,6 +18106,7 @@ export const EVENTS_DB = {
         startTime: "16:45",
         endTime: "17:05",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2115,
@@ -16447,6 +18116,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "17:30",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2116,
@@ -16456,6 +18126,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:20",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2117,
@@ -16465,6 +18136,7 @@ export const EVENTS_DB = {
         startTime: "18:25",
         endTime: "18:45",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2118,
@@ -16474,6 +18146,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:10",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2119,
@@ -16483,6 +18156,7 @@ export const EVENTS_DB = {
         startTime: "19:15",
         endTime: "19:35",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2120,
@@ -16492,6 +18166,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:00",
         color: "bg-indigo-100 border-indigo-300",
+        fee: "",
       },
       {
         id: 2301,
@@ -16501,6 +18176,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2302,
@@ -16510,6 +18186,7 @@ export const EVENTS_DB = {
         startTime: "11:20",
         endTime: "11:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2303,
@@ -16519,6 +18196,7 @@ export const EVENTS_DB = {
         startTime: "12:10",
         endTime: "12:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2304,
@@ -16528,6 +18206,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2305,
@@ -16537,6 +18216,7 @@ export const EVENTS_DB = {
         startTime: "13:50",
         endTime: "14:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2306,
@@ -16546,6 +18226,7 @@ export const EVENTS_DB = {
         startTime: "14:40",
         endTime: "15:10",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2307,
@@ -16555,6 +18236,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:00",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2308,
@@ -16564,6 +18246,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "16:50",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2309,
@@ -16573,6 +18256,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "17:40",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2310,
@@ -16582,6 +18266,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:30",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2311,
@@ -16591,6 +18276,7 @@ export const EVENTS_DB = {
         startTime: "18:50",
         endTime: "19:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 2401,
@@ -16600,6 +18286,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2402,
@@ -16609,6 +18296,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2403,
@@ -16618,6 +18306,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2404,
@@ -16627,6 +18316,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "14:50",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2405,
@@ -16636,6 +18326,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2406,
@@ -16645,6 +18336,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:10",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2407,
@@ -16654,6 +18346,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2408,
@@ -16663,6 +18356,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:30",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2409,
@@ -16672,6 +18366,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 2501,
@@ -16681,6 +18376,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:00",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2502,
@@ -16690,6 +18386,7 @@ export const EVENTS_DB = {
         startTime: "11:10",
         endTime: "11:40",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2503,
@@ -16699,6 +18396,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:20",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2504,
@@ -16708,6 +18406,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "13:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2505,
@@ -16717,6 +18416,7 @@ export const EVENTS_DB = {
         startTime: "13:40",
         endTime: "14:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2506,
@@ -16726,6 +18426,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "14:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2507,
@@ -16735,6 +18436,7 @@ export const EVENTS_DB = {
         startTime: "15:00",
         endTime: "15:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2508,
@@ -16744,6 +18446,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "16:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2509,
@@ -16753,6 +18456,7 @@ export const EVENTS_DB = {
         startTime: "16:40",
         endTime: "17:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2510,
@@ -16762,6 +18466,7 @@ export const EVENTS_DB = {
         startTime: "17:20",
         endTime: "17:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2511,
@@ -16771,6 +18476,7 @@ export const EVENTS_DB = {
         startTime: "18:00",
         endTime: "18:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2512,
@@ -16780,6 +18486,7 @@ export const EVENTS_DB = {
         startTime: "19:00",
         endTime: "19:30",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2513,
@@ -16789,6 +18496,7 @@ export const EVENTS_DB = {
         startTime: "19:40",
         endTime: "20:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 2514,
@@ -16798,6 +18506,7 @@ export const EVENTS_DB = {
         startTime: "20:20",
         endTime: "20:50",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 301,
@@ -16807,6 +18516,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 302,
@@ -16816,6 +18526,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 303,
@@ -16825,6 +18536,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 304,
@@ -16834,6 +18546,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 305,
@@ -16843,6 +18556,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 306,
@@ -16852,6 +18566,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 307,
@@ -16861,6 +18576,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 308,
@@ -16870,6 +18586,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 309,
@@ -16879,6 +18596,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:20",
         color: "bg-yellow-100 border-yellow-300",
+        fee: "",
       },
       {
         id: 401,
@@ -16888,6 +18606,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:00",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 402,
@@ -16897,6 +18616,7 @@ export const EVENTS_DB = {
         startTime: "13:00",
         endTime: "14:30",
         color: "bg-green-100 border-green-300",
+        fee: "",
       },
       {
         id: 451,
@@ -16906,6 +18626,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "17:45",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 452,
@@ -16915,6 +18636,7 @@ export const EVENTS_DB = {
         startTime: "18:45",
         endTime: "20:30",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 501,
@@ -16924,6 +18646,7 @@ export const EVENTS_DB = {
         startTime: "11:00",
         endTime: "12:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 502,
@@ -16933,6 +18656,7 @@ export const EVENTS_DB = {
         startTime: "12:40",
         endTime: "14:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 503,
@@ -16942,6 +18666,7 @@ export const EVENTS_DB = {
         startTime: "14:20",
         endTime: "15:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 504,
@@ -16951,6 +18676,7 @@ export const EVENTS_DB = {
         startTime: "16:00",
         endTime: "17:20",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 505,
@@ -16960,6 +18686,7 @@ export const EVENTS_DB = {
         startTime: "17:40",
         endTime: "19:00",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 506,
@@ -16969,6 +18696,7 @@ export const EVENTS_DB = {
         startTime: "19:20",
         endTime: "20:40",
         color: "bg-lime-100 border-lime-300",
+        fee: "",
       },
       {
         id: 601,
@@ -16978,6 +18706,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 602,
@@ -16987,6 +18716,7 @@ export const EVENTS_DB = {
         startTime: "11:30",
         endTime: "12:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 603,
@@ -16996,6 +18726,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "13:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 604,
@@ -17005,6 +18736,7 @@ export const EVENTS_DB = {
         startTime: "13:30",
         endTime: "14:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 605,
@@ -17014,6 +18746,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 606,
@@ -17023,6 +18756,7 @@ export const EVENTS_DB = {
         startTime: "15:30",
         endTime: "16:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 607,
@@ -17032,6 +18766,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "17:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 608,
@@ -17041,6 +18776,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 609,
@@ -17050,6 +18786,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:10",
         color: "bg-teal-100 border-teal-300",
+        fee: "",
       },
       {
         id: 701,
@@ -17059,6 +18796,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "12:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 702,
@@ -17068,6 +18806,7 @@ export const EVENTS_DB = {
         startTime: "12:30",
         endTime: "14:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 703,
@@ -17077,6 +18816,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "16:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 704,
@@ -17086,6 +18826,7 @@ export const EVENTS_DB = {
         startTime: "16:30",
         endTime: "18:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 705,
@@ -17095,6 +18836,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "20:05",
         color: "bg-cyan-100 border-cyan-300",
+        fee: "",
       },
       {
         id: 801,
@@ -17104,6 +18846,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 802,
@@ -17113,6 +18856,7 @@ export const EVENTS_DB = {
         startTime: "11:40",
         endTime: "12:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 803,
@@ -17122,6 +18866,7 @@ export const EVENTS_DB = {
         startTime: "12:50",
         endTime: "13:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 804,
@@ -17131,6 +18876,7 @@ export const EVENTS_DB = {
         startTime: "14:00",
         endTime: "15:00",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 805,
@@ -17140,6 +18886,7 @@ export const EVENTS_DB = {
         startTime: "15:10",
         endTime: "16:10",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 806,
@@ -17149,6 +18896,7 @@ export const EVENTS_DB = {
         startTime: "16:20",
         endTime: "17:20",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 807,
@@ -17158,6 +18906,7 @@ export const EVENTS_DB = {
         startTime: "17:30",
         endTime: "18:30",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 808,
@@ -17167,6 +18916,7 @@ export const EVENTS_DB = {
         startTime: "18:40",
         endTime: "19:40",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 809,
@@ -17176,6 +18926,7 @@ export const EVENTS_DB = {
         startTime: "19:50",
         endTime: "20:50",
         color: "bg-red-100 border-red-300",
+        fee: "",
       },
       {
         id: 901,
@@ -17185,6 +18936,7 @@ export const EVENTS_DB = {
         startTime: "10:30",
         endTime: "11:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 902,
@@ -17194,6 +18946,7 @@ export const EVENTS_DB = {
         startTime: "11:50",
         endTime: "12:50",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 903,
@@ -17203,6 +18956,7 @@ export const EVENTS_DB = {
         startTime: "13:10",
         endTime: "14:10",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 904,
@@ -17212,6 +18966,7 @@ export const EVENTS_DB = {
         startTime: "14:30",
         endTime: "15:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 905,
@@ -17221,6 +18976,7 @@ export const EVENTS_DB = {
         startTime: "15:50",
         endTime: "16:50",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 906,
@@ -17230,6 +18986,7 @@ export const EVENTS_DB = {
         startTime: "17:10",
         endTime: "18:10",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
       {
         id: 907,
@@ -17239,6 +18996,7 @@ export const EVENTS_DB = {
         startTime: "18:30",
         endTime: "19:30",
         color: "bg-amber-100 border-amber-300",
+        fee: "",
       },
     ],
   },
