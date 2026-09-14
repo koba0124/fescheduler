@@ -1,0 +1,182 @@
+/**
+ * メニューを追加する関数
+ */
+function onOpen() {
+  const ui = SpreadsheetApp.getUi();
+  ui.createMenu('開発メニュー')
+    .addItem('TypeScript形式で出力（イベント別ファイル）', 'exportToTypeScript')
+    .addToUi();
+}
+
+/**
+ * データを読み込んで、イベントごとに分割したTS形式で出力する関数
+ *
+ * fescheduler 側は src/events/ 配下が
+ *   - <event_key>.ts   … イベント1件分の本体データ（export default）
+ *   - manifest.ts      … 一覧画面用の軽量な目次（id → title のみ）
+ *   - index.ts         … 固定のローダーコード（このスクリプトの出力対象外）
+ * という構成になっているため、EVENTS_DB 1本ではなく、
+ * イベントごとのファイル + manifest.ts をまとめて生成する。
+ */
+function exportToTypeScript() {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+
+  // 1. 各シートのデータを「表示されている文字列のまま」取得
+  const eventsData = getSheetData(ss, 'Events');
+  const stagesData = getSheetData(ss, 'Stages');
+  const schedulesData = getSheetData(ss, 'Schedules');
+
+  // 2. イベントごとのデータ構造を構築
+  const eventObjects = {}; // key -> { title, startHour, endHour, blockMargin, stages, schedules }
+  const manifestObj = {};  // key -> { title }（一覧画面用の軽量な目次。events.tsとは別ファイルに出す）
+
+  eventsData.forEach(row => {
+    const key = row.key;
+    if (!key) return;
+
+    eventObjects[key] = {
+      title: row.title,
+      // ★ 開始時間・終了時間・ブロック余白を数値に変換して設定
+      // スプレッドシート側で空欄の場合は undefined となり、JSON出力には含まれません
+      // （フロント側の `eventData.value?.startHour ?? 10` 等のデフォルト値が使われる）
+      startHour: row.startHour ? Number(row.startHour) : undefined,
+      endHour: row.endHour ? Number(row.endHour) : undefined,
+      blockMargin: row.blockMargin ? Number(row.blockMargin) : undefined,
+      stages: [],
+      schedules: []
+    };
+
+    manifestObj[key] = { title: row.title };
+  });
+
+  // ステージデータの割り当て
+  stagesData.forEach(row => {
+    const key = row.event_key;
+    if (eventObjects[key]) {
+      eventObjects[key].stages.push({
+        id: row.id,
+        name: row.name,
+        group: row.group,
+        allowMultiple: row.allowMultiple,
+        allowOverlap: row.allowOverlap
+      });
+    }
+  });
+
+  // スケジュールデータの割り当て
+  schedulesData.forEach(row => {
+    const key = row.event_key;
+    if (eventObjects[key]) {
+      eventObjects[key].schedules.push({
+        id: Number(row.id), // IDは数値に変換
+        stageId: row.stageId,
+        title: row.title,
+        artist: row.artist,
+        startTime: row.startTime,
+        endTime: row.endTime,
+        color: row.color,
+        fee: row.fee
+      });
+    }
+  });
+
+  // 3. ファイルごとの中身を組み立てる（src/events/<ファイル名> に対応）
+  const files = {};
+
+  // manifest.ts を先頭に（一覧画面用の軽量な目次）
+  const manifestJson = JSON.stringify(manifestObj, null, 2);
+  files['manifest.ts'] =
+    '// イベント一覧画面で使う軽量な目次。\n' +
+    '// 重い本体データ（ステージ・タイムテーブル）は読み込まず、タイトルのみ保持する。\n' +
+    '// ★このファイルはスプレッドシートから自動生成されます。手動編集は次回の出力で上書きされるので注意。\n' +
+    `export const EVENTS_MANIFEST = ${manifestJson};\n`;
+
+  // イベントごとの本体データ（Eventsシートの行の並び順）
+  Object.keys(eventObjects).forEach(key => {
+    const jsonString = JSON.stringify(eventObjects[key], null, 2);
+    files[`${key}.ts`] =
+      '// ★このファイルはスプレッドシートから自動生成されます。手動編集は次回の出力で上書きされるので注意。\n' +
+      `export default ${jsonString};\n`;
+  });
+
+  // 4. ダイアログで表示（ファイルを選んで中身をコピーする）
+  showModal(files);
+}
+
+/**
+ * シートのデータをオブジェクト配列として取得するヘルパー関数
+ */
+function getSheetData(ss, sheetName) {
+  const sheet = ss.getSheetByName(sheetName);
+  if (!sheet) return [];
+
+  // getDataRange().getDisplayValues() で、セルに表示されている通りの文字列を取得
+  const values = sheet.getDataRange().getDisplayValues();
+  if (values.length === 0) return [];
+
+  const headers = values[0];
+  const data = [];
+
+  for (let i = 1; i < values.length; i++) {
+    const row = values[i];
+    const obj = {};
+    let hasData = false;
+    for (let j = 0; j < headers.length; j++) {
+      // ヘッダー名をキーにして値を格納（前後の空白を削除）
+      obj[headers[j]] = String(row[j]).trim();
+      if (row[j] !== "") hasData = true;
+    }
+    if (hasData) data.push(obj);
+  }
+  return data;
+}
+
+/**
+ * 出力結果をモーダルウィンドウで表示
+ * ドロップダウンでファイルを選ぶと、対応する src/events/<ファイル名> の中身が
+ * テキストエリアに表示される。全選択してコピーし、同名のファイルに貼り付けて使う。
+ * （src/events/index.ts は固定コードなので出力対象に含まれない）
+ */
+function showModal(files) {
+  const fileNames = Object.keys(files);
+  // HTMLへ埋め込むためJSON文字列化。</script> による意図しないタグ終了を防ぐためエスケープ
+  const filesJson = JSON.stringify(files).replace(/<\/script/gi, '<\\/script');
+
+  const optionsHtml = fileNames
+    .map(name => `<option value="${name}">${name}</option>`)
+    .join('');
+
+  const html = `
+    <div style="font-family:sans-serif; font-size:13px;">
+      <div style="margin-bottom:8px;">
+        貼り付け先ファイルを選択してください（<code>src/events/&lt;ファイル名&gt;</code>）
+      </div>
+      <select id="fileSelect" style="margin-bottom:8px; width:100%; padding:4px;">
+        ${optionsHtml}
+      </select>
+      <textarea id="content" style="width:100%; height:380px; font-family:monospace;" readonly></textarea>
+      <div style="margin-top:6px; color:#666;">
+        テキストエリアを全選択（Ctrl+A / Cmd+A）してコピーし、同名の src/events/ 配下のファイルに貼り付けてください。<br>
+        ※ src/events/index.ts は固定コードのため、この出力には含まれません。
+      </div>
+    </div>
+    <script>
+      const files = ${filesJson};
+      const select = document.getElementById('fileSelect');
+      const textarea = document.getElementById('content');
+      function render() {
+        textarea.value = files[select.value];
+        textarea.focus();
+        textarea.select();
+      }
+      select.addEventListener('change', render);
+      render();
+    </script>
+  `;
+
+  const htmlOutput = HtmlService.createHtmlOutput(html)
+    .setWidth(700)
+    .setHeight(560);
+
+  SpreadsheetApp.getUi().showModalDialog(htmlOutput, 'src/events/ 貼り付け用コード');
+}
