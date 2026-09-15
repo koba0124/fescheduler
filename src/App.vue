@@ -69,6 +69,7 @@ const copied = ref(false);
 const viewMode = ref("grid");
 const isMenuOpen = ref(false);
 const isSharedMode = ref(false);
+const eventLoadComplete = ref(false);
 
 // スリム幅モードのステート管理
 const isNarrowMode = ref(false);
@@ -93,10 +94,14 @@ watch(
   eventId,
   async (id) => {
     eventData.value = null;
+    eventLoadComplete.value = false;
     if (!eventExists(id)) return;
     const data = await loadEventData(id);
     // 読み込み中に別のイベントへ遷移していた場合は結果を捨てる
-    if (eventId.value === id) eventData.value = data;
+    if (eventId.value === id) {
+      eventData.value = data;
+      eventLoadComplete.value = true;
+    }
   },
   { immediate: true },
 );
@@ -184,7 +189,7 @@ const loadFavorites = () => {
 };
 
 watch(
-  eventId,
+  eventLoadComplete,
   () => {
     favorites.value = [];
     hiddenStageIds.value = [];
