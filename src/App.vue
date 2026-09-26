@@ -447,9 +447,9 @@ const withCloseMenu = (fn) => {
           <div class="border border-blue-400 p-4">
             <ul>
               <li>
-                大阪最宴祭15については、
+                大阪最宴祭16については、
                 <a
-                  href="https://nazotoki-timetable.github.io/saienfes15/"
+                  href="https://nazotoki-timetable.github.io/saienfes16/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="text-indigo-600 hover:underline"
