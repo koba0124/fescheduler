@@ -2177,11 +2177,11 @@ export default {
     {
       id: 199,
       stageId: "stage-21",
-      title: "1000億ローゼを盗み出せ！",
+      title: "＜EX前売り切れ＞1000億ローゼを盗み出せ！",
       artist: "0001（ゼロイチ）",
       startTime: "18:10",
       endTime: "18:40",
-      color: "bg-orange-100 border-orange-300",
+      color: "bg-gray-100 border-orange-300",
       fee: "2000",
     },
     {
