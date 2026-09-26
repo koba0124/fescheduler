@@ -148,7 +148,8 @@ const toggleStageVisibility = (stageId) => {
 
 // --- お気に入り管理 ---
 const loadFavorites = () => {
-  if (!eventData.value) return;
+  // eventData は動的importで遅れて届くため、ここではID存在チェックだけで判定する
+  if (!eventExists(eventId.value)) return;
 
   let queryString = "";
   if (window.location.hash.includes("?")) {
